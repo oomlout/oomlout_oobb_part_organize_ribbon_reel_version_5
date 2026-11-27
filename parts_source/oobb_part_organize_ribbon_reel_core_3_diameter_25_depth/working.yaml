@@ -1,0 +1,32 @@
+depth: 25
+diameter: 3
+oobb_details:
+  depth: 25
+  diameter: 3
+  oobb_type: core
+  run_scad: true
+  run_solidcraft: false
+  taxonomy_1: oobb
+  taxonomy_2: part
+  taxonomy_3: organize
+  taxonomy_4: ribbon
+  taxonomy_5: reel
+  taxonomy_6: core
+  taxonomy_7: 3_diameter
+  taxonomy_8: 25_depth
+oobb_type: core
+taxonomy_1: oobb
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: part
+taxonomy_3: organize
+taxonomy_4: ribbon
+taxonomy_5: reel
+taxonomy_6: core
+taxonomy_7: 3_diameter
+taxonomy_8: 25_depth
+taxonomy_9: ''

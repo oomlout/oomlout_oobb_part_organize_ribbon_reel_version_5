@@ -1,0 +1,2683 @@
+bip_39_2_word_array:
+- salt
+- subject
+bip_39_2_word_no_space: saltsubject
+bip_39_2_word_space: salt subject
+bip_39_2_word_underscore: salt_subject
+bip_39_3_word_array:
+- salt
+- subject
+- mad
+bip_39_3_word_no_space: saltsubjectmad
+bip_39_3_word_space: salt subject mad
+bip_39_3_word_underscore: salt_subject_mad
+bip_39_full_array:
+- salt
+- subject
+- mad
+- such
+- silver
+- script
+- flash
+- burst
+- bracket
+- oxygen
+- involve
+- brisk
+bip_39_full_no_space: saltsubjectmadsuchsilverscriptflashburstbracketoxygeninvolvebrisk
+bip_39_full_space: salt subject mad such silver script flash burst bracket oxygen
+  involve brisk
+bip_39_full_underscore: salt_subject_mad_such_silver_script_flash_burst_bracket_oxygen_involve_brisk
+depth: 25
+diameter: 3
+directory: parts/oobb_part_organize_ribbon_reel_core_3_diameter_25_depth
+id: oobb_part_organize_ribbon_reel_core_3_diameter_25_depth
+id_no_class: oobb_part_organize_ribbon_reel_core_3_diameter_25_depth
+id_no_size: oobb_part_organize_ribbon_reel_core_3_diameter_25_depth
+id_no_type: oobb_part_organize_ribbon_reel_core_3_diameter_25_depth
+id_oobb: oobb_part_organize_ribbon_reel_core_3_diameter_25_depth
+kwargs:
+  depth: 25
+  diameter: 3
+  filter: ''
+  modes:
+  - 3dpr
+  navigation: true
+  oomp_mode: project
+  oomp_run: true
+  overwrite: true
+  taxonomy_1: oobb
+  taxonomy_2: part
+  taxonomy_3: organize
+  taxonomy_4: ribbon
+  taxonomy_5: reel
+  taxonomy_6: core
+  taxonomy_7: 3_diameter
+  taxonomy_8: 25_depth
+  typ: all
+  wait_for_completion: true
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_organize_ribbon_reel_core_3_diameter_25_depth
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_organize_ribbon_reel_core_3_diameter_25_depth
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_organize_ribbon_reel_core_3_diameter_25_depth
+md5: bebafe16ec3c8d835618f61ad3c9d88e
+md5_10: bebafe16ec
+md5_10_upper: BEBAFE16EC
+md5_5: bebaf
+md5_5_upper: BEBAF
+md5_6: bebafe
+md5_6_alpha: 7fwu6
+md5_6_alpha_upper: 7FWU6
+md5_6_upper: BEBAFE
+name: Oobb Part Organize Ribbon Reel Core 3 Diameter 25 Depth
+name_no_class: Oobb Part Organize Ribbon Reel Core 3 Diameter 25 Depth
+name_no_size: Oobb Part Organize Ribbon Reel Core 3 Diameter 25 Depth
+name_no_type: Oobb Part Organize Ribbon Reel Core 3 Diameter 25 Depth
+name_proper: Oobb Part Organize Ribbon Reel Core 3 Diameter 25 Depth
+name_space: oobb part organize ribbon reel core 3 diameter 25 depth
+name_upper: OOBB PART ORGANIZE RIBBON REEL CORE 3 DIAMETER 25 DEPTH
+oobb_details:
+  depth: 25
+  diameter: 3
+  oobb_type: core
+  run_scad: true
+  run_solidcraft: false
+  taxonomy_1: oobb
+  taxonomy_2: part
+  taxonomy_3: organize
+  taxonomy_4: ribbon
+  taxonomy_5: reel
+  taxonomy_6: core
+  taxonomy_7: 3_diameter
+  taxonomy_8: 25_depth
+oobb_name: core
+oobb_type: core
+oomlout_ai_roboclick_1:
+  action_name: step_0_jinja_template_label_oomp.svg
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      depth: 25
+      diameter: 3
+      directory: parts\oobb_part_organize_ribbon_reel_core_3_diameter_25_depth
+      name: oobb_part_organize_ribbon_reel_core_3_diameter_25_depth
+      name_proper: Oobb Part Organize Ribbon Reel Core 3 Diameter 25 Depth
+      name_space: oobb part organize ribbon reel core 3 diameter 25 depth
+      name_upper: OOBB PART ORGANIZE RIBBON REEL CORE 3 DIAMETER 25 DEPTH
+      oobb_details:
+        depth: 25
+        diameter: 3
+        oobb_type: core
+        run_scad: true
+        run_solidcraft: false
+        taxonomy_1: oobb
+        taxonomy_2: part
+        taxonomy_3: organize
+        taxonomy_4: ribbon
+        taxonomy_5: reel
+        taxonomy_6: core
+        taxonomy_7: 3_diameter
+        taxonomy_8: 25_depth
+      oobb_type: core
+      taxonomy_1: oobb
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: part
+      taxonomy_3: organize
+      taxonomy_4: ribbon
+      taxonomy_5: reel
+      taxonomy_6: core
+      taxonomy_7: 3_diameter
+      taxonomy_8: 25_depth
+      taxonomy_9: ''
+      url_chat: ''
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_oomp.svg
+    file_template: C:\gh\oomlout_oobb_part_organize_ribbon_reel\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_oomp.pdf
+  retries_until_complete: 0
+oomp_key: oomp_oobb_part_organize_ribbon_reel_core_3_diameter_25_depth
+project_name: C:\gh\oomlout_oobb_part_organize_ribbon_reel
+taxonomy_1: oobb
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Oobb
+taxonomy_1_first_letter: o
+taxonomy_1_first_letter_upper: O
+taxonomy_1_length_1: o
+taxonomy_1_length_2: oo
+taxonomy_1_length_3: oob
+taxonomy_1_length_4: oobb
+taxonomy_1_length_5: oobb
+taxonomy_1_upper: OOBB
+taxonomy_1_upper_length_1: O
+taxonomy_1_upper_length_2: OO
+taxonomy_1_upper_length_3: OOB
+taxonomy_1_upper_length_4: OOBB
+taxonomy_1_upper_length_5: OOBB
+taxonomy_2: part
+taxonomy_2_capital: Part
+taxonomy_2_first_letter: p
+taxonomy_2_first_letter_upper: P
+taxonomy_2_length_1: p
+taxonomy_2_length_2: pa
+taxonomy_2_length_3: par
+taxonomy_2_length_4: part
+taxonomy_2_length_5: part
+taxonomy_2_upper: PART
+taxonomy_2_upper_length_1: P
+taxonomy_2_upper_length_2: PA
+taxonomy_2_upper_length_3: PAR
+taxonomy_2_upper_length_4: PART
+taxonomy_2_upper_length_5: PART
+taxonomy_3: organize
+taxonomy_3_capital: Organize
+taxonomy_3_first_letter: o
+taxonomy_3_first_letter_upper: O
+taxonomy_3_length_1: o
+taxonomy_3_length_2: or
+taxonomy_3_length_3: org
+taxonomy_3_length_4: orga
+taxonomy_3_length_5: organ
+taxonomy_3_upper: ORGANIZE
+taxonomy_3_upper_length_1: O
+taxonomy_3_upper_length_2: OR
+taxonomy_3_upper_length_3: ORG
+taxonomy_3_upper_length_4: ORGA
+taxonomy_3_upper_length_5: ORGAN
+taxonomy_4: ribbon
+taxonomy_4_capital: Ribbon
+taxonomy_4_first_letter: r
+taxonomy_4_first_letter_upper: R
+taxonomy_4_length_1: r
+taxonomy_4_length_2: ri
+taxonomy_4_length_3: rib
+taxonomy_4_length_4: ribb
+taxonomy_4_length_5: ribbo
+taxonomy_4_upper: RIBBON
+taxonomy_4_upper_length_1: R
+taxonomy_4_upper_length_2: RI
+taxonomy_4_upper_length_3: RIB
+taxonomy_4_upper_length_4: RIBB
+taxonomy_4_upper_length_5: RIBBO
+taxonomy_5: reel
+taxonomy_5_capital: Reel
+taxonomy_5_first_letter: r
+taxonomy_5_first_letter_upper: R
+taxonomy_5_length_1: r
+taxonomy_5_length_2: re
+taxonomy_5_length_3: ree
+taxonomy_5_length_4: reel
+taxonomy_5_length_5: reel
+taxonomy_5_upper: REEL
+taxonomy_5_upper_length_1: R
+taxonomy_5_upper_length_2: RE
+taxonomy_5_upper_length_3: REE
+taxonomy_5_upper_length_4: REEL
+taxonomy_5_upper_length_5: REEL
+taxonomy_6: core
+taxonomy_6_capital: Core
+taxonomy_6_first_letter: c
+taxonomy_6_first_letter_upper: C
+taxonomy_6_length_1: c
+taxonomy_6_length_2: co
+taxonomy_6_length_3: cor
+taxonomy_6_length_4: core
+taxonomy_6_length_5: core
+taxonomy_6_upper: CORE
+taxonomy_6_upper_length_1: C
+taxonomy_6_upper_length_2: CO
+taxonomy_6_upper_length_3: COR
+taxonomy_6_upper_length_4: CORE
+taxonomy_6_upper_length_5: CORE
+taxonomy_7: 3_diameter
+taxonomy_7_capital: 3 Diameter
+taxonomy_7_first_letter: '3'
+taxonomy_7_first_letter_upper: '3'
+taxonomy_7_length_1: '3'
+taxonomy_7_length_2: '3_'
+taxonomy_7_length_3: 3_d
+taxonomy_7_length_4: 3_di
+taxonomy_7_length_5: 3_dia
+taxonomy_7_upper: 3_DIAMETER
+taxonomy_7_upper_length_1: '3'
+taxonomy_7_upper_length_2: '3_'
+taxonomy_7_upper_length_3: 3_D
+taxonomy_7_upper_length_4: 3_DI
+taxonomy_7_upper_length_5: 3_DIA
+taxonomy_8: 25_depth
+taxonomy_8_capital: 25 Depth
+taxonomy_8_first_letter: '2'
+taxonomy_8_first_letter_upper: '2'
+taxonomy_8_length_1: '2'
+taxonomy_8_length_2: '25'
+taxonomy_8_length_3: '25_'
+taxonomy_8_length_4: 25_d
+taxonomy_8_length_5: 25_de
+taxonomy_8_upper: 25_DEPTH
+taxonomy_8_upper_length_1: '2'
+taxonomy_8_upper_length_2: '25'
+taxonomy_8_upper_length_3: '25_'
+taxonomy_8_upper_length_4: 25_D
+taxonomy_8_upper_length_5: 25_DE
+taxonomy_9: ''
+thing:
+  bip_39_2_word_array:
+  - salt
+  - subject
+  bip_39_2_word_no_space: saltsubject
+  bip_39_2_word_space: salt subject
+  bip_39_2_word_underscore: salt_subject
+  bip_39_3_word_array:
+  - salt
+  - subject
+  - mad
+  bip_39_3_word_no_space: saltsubjectmad
+  bip_39_3_word_space: salt subject mad
+  bip_39_3_word_underscore: salt_subject_mad
+  bip_39_full_array:
+  - salt
+  - subject
+  - mad
+  - such
+  - silver
+  - script
+  - flash
+  - burst
+  - bracket
+  - oxygen
+  - involve
+  - brisk
+  bip_39_full_no_space: saltsubjectmadsuchsilverscriptflashburstbracketoxygeninvolvebrisk
+  bip_39_full_space: salt subject mad such silver script flash burst bracket oxygen
+    involve brisk
+  bip_39_full_underscore: salt_subject_mad_such_silver_script_flash_burst_bracket_oxygen_involve_brisk
+  classification: oobb
+  color: ''
+  components:
+  - objects:
+    - - depth: 25.0
+        h: 25.0
+        inclusion: laser
+        pos: &id001
+        - 0
+        - 0
+        - 0.0
+        r: 22.0
+        radius: 22.0
+        shape: cylinder
+        type: positive
+      - depth: 25.0
+        h: 25.0
+        inclusion: 3dpr
+        pos: *id001
+        r: 22.0
+        shape: cylinder
+        type: positive
+      - depth: 25.0
+        h: 25.0
+        inclusion: 'true'
+        pos: *id001
+        r: 22.0
+        radius: 22.0
+        shape: cylinder
+        type: positive
+    - - depth: 5.9
+        h: 5.9
+        inclusion: laser
+        pos: &id002
+        - 0
+        - 0
+        - -0.10000000000000009
+        r: 19.4
+        radius: 19.4
+        shape: cylinder
+        type: negative
+      - depth: 5.9
+        h: 5.9
+        inclusion: 3dpr
+        pos: *id002
+        r: 19.4
+        shape: cylinder
+        type: negative
+      - depth: 5.9
+        h: 5.9
+        inclusion: 'true'
+        pos: *id002
+        r: 19.4
+        radius: 19.4
+        shape: cylinder
+        type: negative
+    - - depth: 1
+        h: 1
+        inclusion: laser
+        pos: &id003
+        - 0
+        - 0
+        - 5.8
+        r1: 19.4
+        r2: 20.4
+        radius_1: 19.4
+        radius_2: 20.4
+        shape: cylinder
+        type: negative
+      - depth: 1
+        h: 1
+        inclusion: 3dpr
+        pos: *id003
+        r1: 19.4
+        r2: 20.4
+        radius_1: 19.4
+        radius_2: 20.4
+        shape: cylinder
+        type: negative
+      - depth: 1
+        h: 1
+        inclusion: 'true'
+        pos: *id003
+        r1: 19.4
+        r2: 20.4
+        radius_1: 19.4
+        radius_2: 20.4
+        shape: cylinder
+        type: negative
+    - - depth: 11.4
+        h: 11.4
+        inclusion: laser
+        pos: &id004
+        - 0
+        - 0
+        - 6.8
+        r: 20.4
+        radius: 20.4
+        shape: cylinder
+        type: negative
+      - depth: 11.4
+        h: 11.4
+        inclusion: 3dpr
+        pos: *id004
+        r: 20.4
+        shape: cylinder
+        type: negative
+      - depth: 11.4
+        h: 11.4
+        inclusion: 'true'
+        pos: *id004
+        r: 20.4
+        radius: 20.4
+        shape: cylinder
+        type: negative
+    - - depth: 1
+        h: 1
+        inclusion: laser
+        pos: &id005
+        - 0
+        - 0
+        - 18.2
+        r1: 20.4
+        r2: 19.4
+        radius_1: 20.4
+        radius_2: 19.4
+        shape: cylinder
+        type: negative
+      - depth: 1
+        h: 1
+        inclusion: 3dpr
+        pos: *id005
+        r1: 20.4
+        r2: 19.4
+        radius_1: 20.4
+        radius_2: 19.4
+        shape: cylinder
+        type: negative
+      - depth: 1
+        h: 1
+        inclusion: 'true'
+        pos: *id005
+        r1: 20.4
+        r2: 19.4
+        radius_1: 20.4
+        radius_2: 19.4
+        shape: cylinder
+        type: negative
+    - - depth: 5.9
+        h: 5.9
+        inclusion: laser
+        pos: &id006
+        - 0
+        - 0
+        - 19.2
+        r: 19.4
+        radius: 19.4
+        shape: cylinder
+        type: negative
+      - depth: 5.9
+        h: 5.9
+        inclusion: 3dpr
+        pos: *id006
+        r: 19.4
+        shape: cylinder
+        type: negative
+      - depth: 5.9
+        h: 5.9
+        inclusion: 'true'
+        pos: *id006
+        r: 19.4
+        radius: 19.4
+        shape: cylinder
+        type: negative
+    pos:
+    - 0
+    - 0
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    type: rotation
+    typetype: positive
+  - objects:
+    - - depth: 25.0
+        h: 25.0
+        inclusion: laser
+        pos: &id007
+        - -15
+        - -7.5
+        - 0.0
+        r: 5.2
+        radius: 5.2
+        shape: cylinder
+        type: positive
+      - depth: 25.0
+        h: 25.0
+        inclusion: 3dpr
+        pos: *id007
+        r: 5.2
+        shape: cylinder
+        type: positive
+      - depth: 25.0
+        h: 25.0
+        inclusion: 'true'
+        pos: *id007
+        r: 5.2
+        radius: 5.2
+        shape: cylinder
+        type: positive
+    - - depth: 25.0
+        h: 25.0
+        inclusion: laser
+        pos: &id008
+        - -15
+        - 7.5
+        - 0.0
+        r: 5.2
+        radius: 5.2
+        shape: cylinder
+        type: positive
+      - depth: 25.0
+        h: 25.0
+        inclusion: 3dpr
+        pos: *id008
+        r: 5.2
+        shape: cylinder
+        type: positive
+      - depth: 25.0
+        h: 25.0
+        inclusion: 'true'
+        pos: *id008
+        r: 5.2
+        radius: 5.2
+        shape: cylinder
+        type: positive
+    - - depth: 25.0
+        h: 25.0
+        inclusion: laser
+        pos: &id009
+        - 15
+        - -7.5
+        - 0.0
+        r: 5.2
+        radius: 5.2
+        shape: cylinder
+        type: positive
+      - depth: 25.0
+        h: 25.0
+        inclusion: 3dpr
+        pos: *id009
+        r: 5.2
+        shape: cylinder
+        type: positive
+      - depth: 25.0
+        h: 25.0
+        inclusion: 'true'
+        pos: *id009
+        r: 5.2
+        radius: 5.2
+        shape: cylinder
+        type: positive
+    - - depth: 25.0
+        h: 25.0
+        inclusion: laser
+        pos: &id010
+        - 15
+        - 7.5
+        - 0.0
+        r: 5.2
+        radius: 5.2
+        shape: cylinder
+        type: positive
+      - depth: 25.0
+        h: 25.0
+        inclusion: 3dpr
+        pos: *id010
+        r: 5.2
+        shape: cylinder
+        type: positive
+      - depth: 25.0
+        h: 25.0
+        inclusion: 'true'
+        pos: *id010
+        r: 5.2
+        radius: 5.2
+        shape: cylinder
+        type: positive
+    - - depth: 5.9
+        h: 5.9
+        inclusion: laser
+        pos: &id011
+        - 0
+        - 0
+        - -0.10000000000000009
+        r: 11.6
+        radius: 11.6
+        shape: cylinder
+        type: negative
+      - depth: 5.9
+        h: 5.9
+        inclusion: 3dpr
+        pos: *id011
+        r: 11.6
+        shape: cylinder
+        type: negative
+      - depth: 5.9
+        h: 5.9
+        inclusion: 'true'
+        pos: *id011
+        r: 11.6
+        radius: 11.6
+        shape: cylinder
+        type: negative
+    - - depth: 6.7
+        h: 6.7
+        inclusion: laser
+        pos: &id012
+        - 0
+        - 0
+        - 5.8
+        r1: 11.6
+        r2: 18.3
+        radius_1: 11.6
+        radius_2: 18.3
+        shape: cylinder
+        type: negative
+      - depth: 6.7
+        h: 6.7
+        inclusion: 3dpr
+        pos: *id012
+        r1: 11.6
+        r2: 18.3
+        radius_1: 11.6
+        radius_2: 18.3
+        shape: cylinder
+        type: negative
+      - depth: 6.7
+        h: 6.7
+        inclusion: 'true'
+        pos: *id012
+        r1: 11.6
+        r2: 18.3
+        radius_1: 11.6
+        radius_2: 18.3
+        shape: cylinder
+        type: negative
+    - - depth: 6.7
+        h: 6.7
+        inclusion: laser
+        pos: &id013
+        - 0
+        - 0
+        - 12.5
+        r1: 18.3
+        r2: 11.6
+        radius_1: 18.3
+        radius_2: 11.6
+        shape: cylinder
+        type: negative
+      - depth: 6.7
+        h: 6.7
+        inclusion: 3dpr
+        pos: *id013
+        r1: 18.3
+        r2: 11.6
+        radius_1: 18.3
+        radius_2: 11.6
+        shape: cylinder
+        type: negative
+      - depth: 6.7
+        h: 6.7
+        inclusion: 'true'
+        pos: *id013
+        r1: 18.3
+        r2: 11.6
+        radius_1: 18.3
+        radius_2: 11.6
+        shape: cylinder
+        type: negative
+    - - depth: 5.9
+        h: 5.9
+        inclusion: laser
+        pos: &id014
+        - 0
+        - 0
+        - 19.2
+        r: 11.6
+        radius: 11.6
+        shape: cylinder
+        type: negative
+      - depth: 5.9
+        h: 5.9
+        inclusion: 3dpr
+        pos: *id014
+        r: 11.6
+        shape: cylinder
+        type: negative
+      - depth: 5.9
+        h: 5.9
+        inclusion: 'true'
+        pos: *id014
+        r: 11.6
+        radius: 11.6
+        shape: cylinder
+        type: negative
+    pos:
+    - 0
+    - 0
+    - 0
+    rot:
+    - 0
+    - 0
+    - 0
+    type: rotation
+    typetype: positive
+  - - objects:
+      - - - clearance: left
+            depth: 3
+            extra_clearance: -1.0711779494186455
+            inclusion: 3dpr
+            pos:
+            - 0.0
+            - -2.9981799479017264
+            - 0
+            shape: cube
+            sides: 6
+            size:
+            - 20
+            - 5.996359895803453
+            - 3
+            type: positive
+      - clearance: left
+        depth: 3
+        extra_clearance: -1.0711779494186455
+        height: 3
+        inclusion: 3dpr
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.4619999999999997
+        shape: polyg
+        sides: 6
+        type: positive
+      pos:
+      - -15
+      - -7.5
+      - 1.4
+      rot:
+      - 0
+      - 0
+      - 180
+      type: rotation
+      typetype: negative
+  - - objects:
+      - - - clearance: left
+            depth: 3
+            extra_clearance: -1.0711779494186455
+            inclusion: 3dpr
+            pos:
+            - 0.0
+            - -2.9981799479017264
+            - 0
+            shape: cube
+            sides: 6
+            size:
+            - 20
+            - 5.996359895803453
+            - 3
+            type: positive
+      - clearance: left
+        depth: 3
+        extra_clearance: -1.0711779494186455
+        height: 3
+        inclusion: 3dpr
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.4619999999999997
+        shape: polyg
+        sides: 6
+        type: positive
+      pos:
+      - -15
+      - -7.5
+      - 20.6
+      rot:
+      - 0
+      - 0
+      - 180
+      type: rotation
+      typetype: negative
+  - - objects:
+      - - - clearance: left
+            depth: 2.5
+            extra_clearance: -0.9819131203004252
+            inclusion: 'true'
+            pos:
+            - 0.0
+            - -2.7483316189099156
+            - 0
+            shape: cube
+            sides: 6
+            size:
+            - 20
+            - 5.496663237819831
+            - 2.5
+            type: positive
+      - clearance: left
+        depth: 2.5
+        extra_clearance: -0.9819131203004252
+        height: 2.5
+        inclusion: 'true'
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+      pos:
+      - -15
+      - -7.5
+      - 1.4
+      rot:
+      - 0
+      - 0
+      - 180
+      type: rotation
+      typetype: negative
+  - - objects:
+      - - - clearance: left
+            depth: 2.5
+            extra_clearance: -0.9819131203004252
+            inclusion: 'true'
+            pos:
+            - 0.0
+            - -2.7483316189099156
+            - 0
+            shape: cube
+            sides: 6
+            size:
+            - 20
+            - 5.496663237819831
+            - 2.5
+            type: positive
+      - clearance: left
+        depth: 2.5
+        extra_clearance: -0.9819131203004252
+        height: 2.5
+        inclusion: 'true'
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+      pos:
+      - -15
+      - -7.5
+      - 21.1
+      rot:
+      - 0
+      - 0
+      - 180
+      type: rotation
+      typetype: negative
+  - - objects:
+      - - - clearance: left
+            depth: 2.5
+            extra_clearance: -0.9819131203004252
+            inclusion: laser
+            pos:
+            - 0.0
+            - -2.7483316189099156
+            - 0
+            shape: cube
+            sides: 6
+            size:
+            - 20
+            - 5.496663237819831
+            - 2.5
+            type: positive
+      - clearance: left
+        depth: 2.5
+        extra_clearance: -0.9819131203004252
+        height: 2.5
+        inclusion: laser
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+      pos:
+      - -15
+      - -7.5
+      - 1.4
+      rot:
+      - 0
+      - 0
+      - 180
+      type: rotation
+      typetype: negative
+  - - objects:
+      - - - clearance: left
+            depth: 2.5
+            extra_clearance: -0.9819131203004252
+            inclusion: laser
+            pos:
+            - 0.0
+            - -2.7483316189099156
+            - 0
+            shape: cube
+            sides: 6
+            size:
+            - 20
+            - 5.496663237819831
+            - 2.5
+            type: positive
+      - clearance: left
+        depth: 2.5
+        extra_clearance: -0.9819131203004252
+        height: 2.5
+        inclusion: laser
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+      pos:
+      - -15
+      - -7.5
+      - 21.1
+      rot:
+      - 0
+      - 0
+      - 180
+      type: rotation
+      typetype: negative
+  - - depth: 5.6
+      h: 5.6
+      inclusion: laser
+      pos:
+      - -15
+      - -7.5
+      - -0.1
+      r: 1.5
+      shape: cylinder
+      type: negative
+    - depth: 5.6
+      h: 5.6
+      inclusion: 3dpr
+      pos:
+      - -15
+      - -7.5
+      - -0.1
+      r: 1.8
+      shape: cylinder
+      type: negative
+    - depth: 5.6
+      h: 5.6
+      inclusion: 'true'
+      pos:
+      - -15
+      - -7.5
+      - -0.1
+      r: 1.5
+      shape: cylinder
+      type: negative
+  - - depth: 5.6
+      h: 5.6
+      inclusion: laser
+      pos:
+      - -15
+      - -7.5
+      - 19.5
+      r: 1.5
+      shape: cylinder
+      type: negative
+    - depth: 5.6
+      h: 5.6
+      inclusion: 3dpr
+      pos:
+      - -15
+      - -7.5
+      - 19.5
+      r: 1.8
+      shape: cylinder
+      type: negative
+    - depth: 5.6
+      h: 5.6
+      inclusion: 'true'
+      pos:
+      - -15
+      - -7.5
+      - 19.5
+      r: 1.5
+      shape: cylinder
+      type: negative
+  - - objects:
+      - - - clearance: left
+            depth: 3
+            extra_clearance: -1.0711779494186455
+            inclusion: 3dpr
+            pos:
+            - 0.0
+            - -2.9981799479017264
+            - 0
+            shape: cube
+            sides: 6
+            size:
+            - 20
+            - 5.996359895803453
+            - 3
+            type: positive
+      - clearance: left
+        depth: 3
+        extra_clearance: -1.0711779494186455
+        height: 3
+        inclusion: 3dpr
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.4619999999999997
+        shape: polyg
+        sides: 6
+        type: positive
+      pos:
+      - -15
+      - 7.5
+      - 1.4
+      rot:
+      - 0
+      - 0
+      - 180
+      type: rotation
+      typetype: negative
+  - - objects:
+      - - - clearance: left
+            depth: 3
+            extra_clearance: -1.0711779494186455
+            inclusion: 3dpr
+            pos:
+            - 0.0
+            - -2.9981799479017264
+            - 0
+            shape: cube
+            sides: 6
+            size:
+            - 20
+            - 5.996359895803453
+            - 3
+            type: positive
+      - clearance: left
+        depth: 3
+        extra_clearance: -1.0711779494186455
+        height: 3
+        inclusion: 3dpr
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.4619999999999997
+        shape: polyg
+        sides: 6
+        type: positive
+      pos:
+      - -15
+      - 7.5
+      - 20.6
+      rot:
+      - 0
+      - 0
+      - 180
+      type: rotation
+      typetype: negative
+  - - objects:
+      - - - clearance: left
+            depth: 2.5
+            extra_clearance: -0.9819131203004252
+            inclusion: 'true'
+            pos:
+            - 0.0
+            - -2.7483316189099156
+            - 0
+            shape: cube
+            sides: 6
+            size:
+            - 20
+            - 5.496663237819831
+            - 2.5
+            type: positive
+      - clearance: left
+        depth: 2.5
+        extra_clearance: -0.9819131203004252
+        height: 2.5
+        inclusion: 'true'
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+      pos:
+      - -15
+      - 7.5
+      - 1.4
+      rot:
+      - 0
+      - 0
+      - 180
+      type: rotation
+      typetype: negative
+  - - objects:
+      - - - clearance: left
+            depth: 2.5
+            extra_clearance: -0.9819131203004252
+            inclusion: 'true'
+            pos:
+            - 0.0
+            - -2.7483316189099156
+            - 0
+            shape: cube
+            sides: 6
+            size:
+            - 20
+            - 5.496663237819831
+            - 2.5
+            type: positive
+      - clearance: left
+        depth: 2.5
+        extra_clearance: -0.9819131203004252
+        height: 2.5
+        inclusion: 'true'
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+      pos:
+      - -15
+      - 7.5
+      - 21.1
+      rot:
+      - 0
+      - 0
+      - 180
+      type: rotation
+      typetype: negative
+  - - objects:
+      - - - clearance: left
+            depth: 2.5
+            extra_clearance: -0.9819131203004252
+            inclusion: laser
+            pos:
+            - 0.0
+            - -2.7483316189099156
+            - 0
+            shape: cube
+            sides: 6
+            size:
+            - 20
+            - 5.496663237819831
+            - 2.5
+            type: positive
+      - clearance: left
+        depth: 2.5
+        extra_clearance: -0.9819131203004252
+        height: 2.5
+        inclusion: laser
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+      pos:
+      - -15
+      - 7.5
+      - 1.4
+      rot:
+      - 0
+      - 0
+      - 180
+      type: rotation
+      typetype: negative
+  - - objects:
+      - - - clearance: left
+            depth: 2.5
+            extra_clearance: -0.9819131203004252
+            inclusion: laser
+            pos:
+            - 0.0
+            - -2.7483316189099156
+            - 0
+            shape: cube
+            sides: 6
+            size:
+            - 20
+            - 5.496663237819831
+            - 2.5
+            type: positive
+      - clearance: left
+        depth: 2.5
+        extra_clearance: -0.9819131203004252
+        height: 2.5
+        inclusion: laser
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+      pos:
+      - -15
+      - 7.5
+      - 21.1
+      rot:
+      - 0
+      - 0
+      - 180
+      type: rotation
+      typetype: negative
+  - - depth: 5.6
+      h: 5.6
+      inclusion: laser
+      pos:
+      - -15
+      - 7.5
+      - -0.1
+      r: 1.5
+      shape: cylinder
+      type: negative
+    - depth: 5.6
+      h: 5.6
+      inclusion: 3dpr
+      pos:
+      - -15
+      - 7.5
+      - -0.1
+      r: 1.8
+      shape: cylinder
+      type: negative
+    - depth: 5.6
+      h: 5.6
+      inclusion: 'true'
+      pos:
+      - -15
+      - 7.5
+      - -0.1
+      r: 1.5
+      shape: cylinder
+      type: negative
+  - - depth: 5.6
+      h: 5.6
+      inclusion: laser
+      pos:
+      - -15
+      - 7.5
+      - 19.5
+      r: 1.5
+      shape: cylinder
+      type: negative
+    - depth: 5.6
+      h: 5.6
+      inclusion: 3dpr
+      pos:
+      - -15
+      - 7.5
+      - 19.5
+      r: 1.8
+      shape: cylinder
+      type: negative
+    - depth: 5.6
+      h: 5.6
+      inclusion: 'true'
+      pos:
+      - -15
+      - 7.5
+      - 19.5
+      r: 1.5
+      shape: cylinder
+      type: negative
+  - - objects:
+      - - - clearance: left
+            depth: 3
+            extra_clearance: -1.0711779494186455
+            inclusion: 3dpr
+            pos:
+            - 0.0
+            - -2.9981799479017264
+            - 0
+            shape: cube
+            sides: 6
+            size:
+            - 20
+            - 5.996359895803453
+            - 3
+            type: positive
+      - clearance: left
+        depth: 3
+        extra_clearance: -1.0711779494186455
+        height: 3
+        inclusion: 3dpr
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.4619999999999997
+        shape: polyg
+        sides: 6
+        type: positive
+      pos:
+      - 15
+      - -7.5
+      - 1.4
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - objects:
+      - - - clearance: left
+            depth: 3
+            extra_clearance: -1.0711779494186455
+            inclusion: 3dpr
+            pos:
+            - 0.0
+            - -2.9981799479017264
+            - 0
+            shape: cube
+            sides: 6
+            size:
+            - 20
+            - 5.996359895803453
+            - 3
+            type: positive
+      - clearance: left
+        depth: 3
+        extra_clearance: -1.0711779494186455
+        height: 3
+        inclusion: 3dpr
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.4619999999999997
+        shape: polyg
+        sides: 6
+        type: positive
+      pos:
+      - 15
+      - -7.5
+      - 20.6
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - objects:
+      - - - clearance: left
+            depth: 2.5
+            extra_clearance: -0.9819131203004252
+            inclusion: 'true'
+            pos:
+            - 0.0
+            - -2.7483316189099156
+            - 0
+            shape: cube
+            sides: 6
+            size:
+            - 20
+            - 5.496663237819831
+            - 2.5
+            type: positive
+      - clearance: left
+        depth: 2.5
+        extra_clearance: -0.9819131203004252
+        height: 2.5
+        inclusion: 'true'
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+      pos:
+      - 15
+      - -7.5
+      - 1.4
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - objects:
+      - - - clearance: left
+            depth: 2.5
+            extra_clearance: -0.9819131203004252
+            inclusion: 'true'
+            pos:
+            - 0.0
+            - -2.7483316189099156
+            - 0
+            shape: cube
+            sides: 6
+            size:
+            - 20
+            - 5.496663237819831
+            - 2.5
+            type: positive
+      - clearance: left
+        depth: 2.5
+        extra_clearance: -0.9819131203004252
+        height: 2.5
+        inclusion: 'true'
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+      pos:
+      - 15
+      - -7.5
+      - 21.1
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - objects:
+      - - - clearance: left
+            depth: 2.5
+            extra_clearance: -0.9819131203004252
+            inclusion: laser
+            pos:
+            - 0.0
+            - -2.7483316189099156
+            - 0
+            shape: cube
+            sides: 6
+            size:
+            - 20
+            - 5.496663237819831
+            - 2.5
+            type: positive
+      - clearance: left
+        depth: 2.5
+        extra_clearance: -0.9819131203004252
+        height: 2.5
+        inclusion: laser
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+      pos:
+      - 15
+      - -7.5
+      - 1.4
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - objects:
+      - - - clearance: left
+            depth: 2.5
+            extra_clearance: -0.9819131203004252
+            inclusion: laser
+            pos:
+            - 0.0
+            - -2.7483316189099156
+            - 0
+            shape: cube
+            sides: 6
+            size:
+            - 20
+            - 5.496663237819831
+            - 2.5
+            type: positive
+      - clearance: left
+        depth: 2.5
+        extra_clearance: -0.9819131203004252
+        height: 2.5
+        inclusion: laser
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+      pos:
+      - 15
+      - -7.5
+      - 21.1
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - depth: 5.6
+      h: 5.6
+      inclusion: laser
+      pos:
+      - 15
+      - -7.5
+      - -0.1
+      r: 1.5
+      shape: cylinder
+      type: negative
+    - depth: 5.6
+      h: 5.6
+      inclusion: 3dpr
+      pos:
+      - 15
+      - -7.5
+      - -0.1
+      r: 1.8
+      shape: cylinder
+      type: negative
+    - depth: 5.6
+      h: 5.6
+      inclusion: 'true'
+      pos:
+      - 15
+      - -7.5
+      - -0.1
+      r: 1.5
+      shape: cylinder
+      type: negative
+  - - depth: 5.6
+      h: 5.6
+      inclusion: laser
+      pos:
+      - 15
+      - -7.5
+      - 19.5
+      r: 1.5
+      shape: cylinder
+      type: negative
+    - depth: 5.6
+      h: 5.6
+      inclusion: 3dpr
+      pos:
+      - 15
+      - -7.5
+      - 19.5
+      r: 1.8
+      shape: cylinder
+      type: negative
+    - depth: 5.6
+      h: 5.6
+      inclusion: 'true'
+      pos:
+      - 15
+      - -7.5
+      - 19.5
+      r: 1.5
+      shape: cylinder
+      type: negative
+  - - objects:
+      - - - clearance: left
+            depth: 3
+            extra_clearance: -1.0711779494186455
+            inclusion: 3dpr
+            pos:
+            - 0.0
+            - -2.9981799479017264
+            - 0
+            shape: cube
+            sides: 6
+            size:
+            - 20
+            - 5.996359895803453
+            - 3
+            type: positive
+      - clearance: left
+        depth: 3
+        extra_clearance: -1.0711779494186455
+        height: 3
+        inclusion: 3dpr
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.4619999999999997
+        shape: polyg
+        sides: 6
+        type: positive
+      pos:
+      - 15
+      - 7.5
+      - 1.4
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - objects:
+      - - - clearance: left
+            depth: 3
+            extra_clearance: -1.0711779494186455
+            inclusion: 3dpr
+            pos:
+            - 0.0
+            - -2.9981799479017264
+            - 0
+            shape: cube
+            sides: 6
+            size:
+            - 20
+            - 5.996359895803453
+            - 3
+            type: positive
+      - clearance: left
+        depth: 3
+        extra_clearance: -1.0711779494186455
+        height: 3
+        inclusion: 3dpr
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.4619999999999997
+        shape: polyg
+        sides: 6
+        type: positive
+      pos:
+      - 15
+      - 7.5
+      - 20.6
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - objects:
+      - - - clearance: left
+            depth: 2.5
+            extra_clearance: -0.9819131203004252
+            inclusion: 'true'
+            pos:
+            - 0.0
+            - -2.7483316189099156
+            - 0
+            shape: cube
+            sides: 6
+            size:
+            - 20
+            - 5.496663237819831
+            - 2.5
+            type: positive
+      - clearance: left
+        depth: 2.5
+        extra_clearance: -0.9819131203004252
+        height: 2.5
+        inclusion: 'true'
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+      pos:
+      - 15
+      - 7.5
+      - 1.4
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - objects:
+      - - - clearance: left
+            depth: 2.5
+            extra_clearance: -0.9819131203004252
+            inclusion: 'true'
+            pos:
+            - 0.0
+            - -2.7483316189099156
+            - 0
+            shape: cube
+            sides: 6
+            size:
+            - 20
+            - 5.496663237819831
+            - 2.5
+            type: positive
+      - clearance: left
+        depth: 2.5
+        extra_clearance: -0.9819131203004252
+        height: 2.5
+        inclusion: 'true'
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+      pos:
+      - 15
+      - 7.5
+      - 21.1
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - objects:
+      - - - clearance: left
+            depth: 2.5
+            extra_clearance: -0.9819131203004252
+            inclusion: laser
+            pos:
+            - 0.0
+            - -2.7483316189099156
+            - 0
+            shape: cube
+            sides: 6
+            size:
+            - 20
+            - 5.496663237819831
+            - 2.5
+            type: positive
+      - clearance: left
+        depth: 2.5
+        extra_clearance: -0.9819131203004252
+        height: 2.5
+        inclusion: laser
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+      pos:
+      - 15
+      - 7.5
+      - 1.4
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - objects:
+      - - - clearance: left
+            depth: 2.5
+            extra_clearance: -0.9819131203004252
+            inclusion: laser
+            pos:
+            - 0.0
+            - -2.7483316189099156
+            - 0
+            shape: cube
+            sides: 6
+            size:
+            - 20
+            - 5.496663237819831
+            - 2.5
+            type: positive
+      - clearance: left
+        depth: 2.5
+        extra_clearance: -0.9819131203004252
+        height: 2.5
+        inclusion: laser
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 3.1734999999999998
+        shape: polyg
+        sides: 6
+        type: positive
+      pos:
+      - 15
+      - 7.5
+      - 21.1
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - depth: 5.6
+      h: 5.6
+      inclusion: laser
+      pos:
+      - 15
+      - 7.5
+      - -0.1
+      r: 1.5
+      shape: cylinder
+      type: negative
+    - depth: 5.6
+      h: 5.6
+      inclusion: 3dpr
+      pos:
+      - 15
+      - 7.5
+      - -0.1
+      r: 1.8
+      shape: cylinder
+      type: negative
+    - depth: 5.6
+      h: 5.6
+      inclusion: 'true'
+      pos:
+      - 15
+      - 7.5
+      - -0.1
+      r: 1.5
+      shape: cylinder
+      type: negative
+  - - depth: 5.6
+      h: 5.6
+      inclusion: laser
+      pos:
+      - 15
+      - 7.5
+      - 19.5
+      r: 1.5
+      shape: cylinder
+      type: negative
+    - depth: 5.6
+      h: 5.6
+      inclusion: 3dpr
+      pos:
+      - 15
+      - 7.5
+      - 19.5
+      r: 1.8
+      shape: cylinder
+      type: negative
+    - depth: 5.6
+      h: 5.6
+      inclusion: 'true'
+      pos:
+      - 15
+      - 7.5
+      - 19.5
+      r: 1.5
+      shape: cylinder
+      type: negative
+  components_objects:
+  - clearance: left
+    depth: 3
+    extra_clearance: -1.0711779494186455
+    hole: false
+    mode: 3dpr
+    overhang: false
+    pos:
+    - -15
+    - -7.5
+    - 1.4
+    radius_name: m3
+    rot:
+    - 0
+    - 0
+    - 180
+    shape: oobb_nut
+    type: negative
+    zz: bottom
+  - clearance: left
+    depth: 3
+    extra_clearance: -1.0711779494186455
+    hole: false
+    mode: 3dpr
+    overhang: false
+    pos:
+    - -15
+    - -7.5
+    - 20.6
+    radius_name: m3
+    rot:
+    - 0
+    - 0
+    - 180
+    shape: oobb_nut
+    type: negative
+    zz: bottom
+  - clearance: left
+    depth: 2.5
+    extra_clearance: -0.9819131203004252
+    hole: false
+    mode: 'true'
+    overhang: false
+    pos:
+    - -15
+    - -7.5
+    - 1.4
+    radius_name: m3
+    rot:
+    - 0
+    - 0
+    - 180
+    shape: oobb_nut
+    type: negative
+    zz: bottom
+  - clearance: left
+    depth: 2.5
+    extra_clearance: -0.9819131203004252
+    hole: false
+    mode: 'true'
+    overhang: false
+    pos:
+    - -15
+    - -7.5
+    - 21.1
+    radius_name: m3
+    rot:
+    - 0
+    - 0
+    - 180
+    shape: oobb_nut
+    type: negative
+    zz: bottom
+  - clearance: left
+    depth: 2.5
+    extra_clearance: -0.9819131203004252
+    hole: false
+    mode: laser
+    overhang: false
+    pos:
+    - -15
+    - -7.5
+    - 1.4
+    radius_name: m3
+    rot:
+    - 0
+    - 0
+    - 180
+    shape: oobb_nut
+    type: negative
+    zz: bottom
+  - clearance: left
+    depth: 2.5
+    extra_clearance: -0.9819131203004252
+    hole: false
+    mode: laser
+    overhang: false
+    pos:
+    - -15
+    - -7.5
+    - 21.1
+    radius_name: m3
+    rot:
+    - 0
+    - 0
+    - 180
+    shape: oobb_nut
+    type: negative
+    zz: bottom
+  - depth: 5.6
+    pos:
+    - -15
+    - -7.5
+    - -0.1
+    radius_name: m3
+    shape: oobb_hole
+    type: negative
+  - depth: 5.6
+    pos:
+    - -15
+    - -7.5
+    - 19.5
+    radius_name: m3
+    shape: oobb_hole
+    type: negative
+  - clearance: left
+    depth: 3
+    extra_clearance: -1.0711779494186455
+    hole: false
+    mode: 3dpr
+    overhang: false
+    pos:
+    - -15
+    - 7.5
+    - 1.4
+    radius_name: m3
+    rot:
+    - 0
+    - 0
+    - 180
+    shape: oobb_nut
+    type: negative
+    zz: bottom
+  - clearance: left
+    depth: 3
+    extra_clearance: -1.0711779494186455
+    hole: false
+    mode: 3dpr
+    overhang: false
+    pos:
+    - -15
+    - 7.5
+    - 20.6
+    radius_name: m3
+    rot:
+    - 0
+    - 0
+    - 180
+    shape: oobb_nut
+    type: negative
+    zz: bottom
+  - clearance: left
+    depth: 2.5
+    extra_clearance: -0.9819131203004252
+    hole: false
+    mode: 'true'
+    overhang: false
+    pos:
+    - -15
+    - 7.5
+    - 1.4
+    radius_name: m3
+    rot:
+    - 0
+    - 0
+    - 180
+    shape: oobb_nut
+    type: negative
+    zz: bottom
+  - clearance: left
+    depth: 2.5
+    extra_clearance: -0.9819131203004252
+    hole: false
+    mode: 'true'
+    overhang: false
+    pos:
+    - -15
+    - 7.5
+    - 21.1
+    radius_name: m3
+    rot:
+    - 0
+    - 0
+    - 180
+    shape: oobb_nut
+    type: negative
+    zz: bottom
+  - clearance: left
+    depth: 2.5
+    extra_clearance: -0.9819131203004252
+    hole: false
+    mode: laser
+    overhang: false
+    pos:
+    - -15
+    - 7.5
+    - 1.4
+    radius_name: m3
+    rot:
+    - 0
+    - 0
+    - 180
+    shape: oobb_nut
+    type: negative
+    zz: bottom
+  - clearance: left
+    depth: 2.5
+    extra_clearance: -0.9819131203004252
+    hole: false
+    mode: laser
+    overhang: false
+    pos:
+    - -15
+    - 7.5
+    - 21.1
+    radius_name: m3
+    rot:
+    - 0
+    - 0
+    - 180
+    shape: oobb_nut
+    type: negative
+    zz: bottom
+  - depth: 5.6
+    pos:
+    - -15
+    - 7.5
+    - -0.1
+    radius_name: m3
+    shape: oobb_hole
+    type: negative
+  - depth: 5.6
+    pos:
+    - -15
+    - 7.5
+    - 19.5
+    radius_name: m3
+    shape: oobb_hole
+    type: negative
+  - clearance: left
+    depth: 3
+    extra_clearance: -1.0711779494186455
+    hole: false
+    mode: 3dpr
+    overhang: false
+    pos:
+    - 15
+    - -7.5
+    - 1.4
+    radius_name: m3
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: oobb_nut
+    type: negative
+    zz: bottom
+  - clearance: left
+    depth: 3
+    extra_clearance: -1.0711779494186455
+    hole: false
+    mode: 3dpr
+    overhang: false
+    pos:
+    - 15
+    - -7.5
+    - 20.6
+    radius_name: m3
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: oobb_nut
+    type: negative
+    zz: bottom
+  - clearance: left
+    depth: 2.5
+    extra_clearance: -0.9819131203004252
+    hole: false
+    mode: 'true'
+    overhang: false
+    pos:
+    - 15
+    - -7.5
+    - 1.4
+    radius_name: m3
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: oobb_nut
+    type: negative
+    zz: bottom
+  - clearance: left
+    depth: 2.5
+    extra_clearance: -0.9819131203004252
+    hole: false
+    mode: 'true'
+    overhang: false
+    pos:
+    - 15
+    - -7.5
+    - 21.1
+    radius_name: m3
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: oobb_nut
+    type: negative
+    zz: bottom
+  - clearance: left
+    depth: 2.5
+    extra_clearance: -0.9819131203004252
+    hole: false
+    mode: laser
+    overhang: false
+    pos:
+    - 15
+    - -7.5
+    - 1.4
+    radius_name: m3
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: oobb_nut
+    type: negative
+    zz: bottom
+  - clearance: left
+    depth: 2.5
+    extra_clearance: -0.9819131203004252
+    hole: false
+    mode: laser
+    overhang: false
+    pos:
+    - 15
+    - -7.5
+    - 21.1
+    radius_name: m3
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: oobb_nut
+    type: negative
+    zz: bottom
+  - depth: 5.6
+    pos:
+    - 15
+    - -7.5
+    - -0.1
+    radius_name: m3
+    shape: oobb_hole
+    type: negative
+  - depth: 5.6
+    pos:
+    - 15
+    - -7.5
+    - 19.5
+    radius_name: m3
+    shape: oobb_hole
+    type: negative
+  - clearance: left
+    depth: 3
+    extra_clearance: -1.0711779494186455
+    hole: false
+    mode: 3dpr
+    overhang: false
+    pos:
+    - 15
+    - 7.5
+    - 1.4
+    radius_name: m3
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: oobb_nut
+    type: negative
+    zz: bottom
+  - clearance: left
+    depth: 3
+    extra_clearance: -1.0711779494186455
+    hole: false
+    mode: 3dpr
+    overhang: false
+    pos:
+    - 15
+    - 7.5
+    - 20.6
+    radius_name: m3
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: oobb_nut
+    type: negative
+    zz: bottom
+  - clearance: left
+    depth: 2.5
+    extra_clearance: -0.9819131203004252
+    hole: false
+    mode: 'true'
+    overhang: false
+    pos:
+    - 15
+    - 7.5
+    - 1.4
+    radius_name: m3
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: oobb_nut
+    type: negative
+    zz: bottom
+  - clearance: left
+    depth: 2.5
+    extra_clearance: -0.9819131203004252
+    hole: false
+    mode: 'true'
+    overhang: false
+    pos:
+    - 15
+    - 7.5
+    - 21.1
+    radius_name: m3
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: oobb_nut
+    type: negative
+    zz: bottom
+  - clearance: left
+    depth: 2.5
+    extra_clearance: -0.9819131203004252
+    hole: false
+    mode: laser
+    overhang: false
+    pos:
+    - 15
+    - 7.5
+    - 1.4
+    radius_name: m3
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: oobb_nut
+    type: negative
+    zz: bottom
+  - clearance: left
+    depth: 2.5
+    extra_clearance: -0.9819131203004252
+    hole: false
+    mode: laser
+    overhang: false
+    pos:
+    - 15
+    - 7.5
+    - 21.1
+    radius_name: m3
+    rot:
+    - 0
+    - 0
+    - 0
+    shape: oobb_nut
+    type: negative
+    zz: bottom
+  - depth: 5.6
+    pos:
+    - 15
+    - 7.5
+    - -0.1
+    radius_name: m3
+    shape: oobb_hole
+    type: negative
+  - depth: 5.6
+    pos:
+    - 15
+    - 7.5
+    - 19.5
+    radius_name: m3
+    shape: oobb_hole
+    type: negative
+  components_string:
+  - oobb_nut_shape_negative_type_m3_radius_name_3_depth_-15_-7.5_1.4_pos_0_0_180_rot_3dpr_mode_bottom_zz_left_clearance_-1.0711779494186455_extra_clearance_false_hole_false_overhang
+  - oobb_nut_shape_negative_type_m3_radius_name_3_depth_-15_-7.5_20.6_pos_0_0_180_rot_3dpr_mode_bottom_zz_left_clearance_-1.0711779494186455_extra_clearance_false_hole_false_overhang
+  - oobb_nut_shape_negative_type_m3_radius_name_2.5_depth_-15_-7.5_1.4_pos_0_0_180_rot_true_mode_bottom_zz_left_clearance_-0.9819131203004252_extra_clearance_false_hole_false_overhang
+  - oobb_nut_shape_negative_type_m3_radius_name_2.5_depth_-15_-7.5_21.1_pos_0_0_180_rot_true_mode_bottom_zz_left_clearance_-0.9819131203004252_extra_clearance_false_hole_false_overhang
+  - oobb_nut_shape_negative_type_m3_radius_name_2.5_depth_-15_-7.5_1.4_pos_0_0_180_rot_laser_mode_bottom_zz_left_clearance_-0.9819131203004252_extra_clearance_false_hole_false_overhang
+  - oobb_nut_shape_negative_type_m3_radius_name_2.5_depth_-15_-7.5_21.1_pos_0_0_180_rot_laser_mode_bottom_zz_left_clearance_-0.9819131203004252_extra_clearance_false_hole_false_overhang
+  - oobb_hole_shape_negative_type_m3_radius_name_5.6_depth_-15_-7.5_-0.1_pos
+  - oobb_hole_shape_negative_type_m3_radius_name_5.6_depth_-15_-7.5_19.5_pos
+  - oobb_nut_shape_negative_type_m3_radius_name_3_depth_-15_7.5_1.4_pos_0_0_180_rot_3dpr_mode_bottom_zz_left_clearance_-1.0711779494186455_extra_clearance_false_hole_false_overhang
+  - oobb_nut_shape_negative_type_m3_radius_name_3_depth_-15_7.5_20.6_pos_0_0_180_rot_3dpr_mode_bottom_zz_left_clearance_-1.0711779494186455_extra_clearance_false_hole_false_overhang
+  - oobb_nut_shape_negative_type_m3_radius_name_2.5_depth_-15_7.5_1.4_pos_0_0_180_rot_true_mode_bottom_zz_left_clearance_-0.9819131203004252_extra_clearance_false_hole_false_overhang
+  - oobb_nut_shape_negative_type_m3_radius_name_2.5_depth_-15_7.5_21.1_pos_0_0_180_rot_true_mode_bottom_zz_left_clearance_-0.9819131203004252_extra_clearance_false_hole_false_overhang
+  - oobb_nut_shape_negative_type_m3_radius_name_2.5_depth_-15_7.5_1.4_pos_0_0_180_rot_laser_mode_bottom_zz_left_clearance_-0.9819131203004252_extra_clearance_false_hole_false_overhang
+  - oobb_nut_shape_negative_type_m3_radius_name_2.5_depth_-15_7.5_21.1_pos_0_0_180_rot_laser_mode_bottom_zz_left_clearance_-0.9819131203004252_extra_clearance_false_hole_false_overhang
+  - oobb_hole_shape_negative_type_m3_radius_name_5.6_depth_-15_7.5_-0.1_pos
+  - oobb_hole_shape_negative_type_m3_radius_name_5.6_depth_-15_7.5_19.5_pos
+  - oobb_nut_shape_negative_type_m3_radius_name_3_depth_15_-7.5_1.4_pos_0_0_0_rot_3dpr_mode_bottom_zz_left_clearance_-1.0711779494186455_extra_clearance_false_hole_false_overhang
+  - oobb_nut_shape_negative_type_m3_radius_name_3_depth_15_-7.5_20.6_pos_0_0_0_rot_3dpr_mode_bottom_zz_left_clearance_-1.0711779494186455_extra_clearance_false_hole_false_overhang
+  - oobb_nut_shape_negative_type_m3_radius_name_2.5_depth_15_-7.5_1.4_pos_0_0_0_rot_true_mode_bottom_zz_left_clearance_-0.9819131203004252_extra_clearance_false_hole_false_overhang
+  - oobb_nut_shape_negative_type_m3_radius_name_2.5_depth_15_-7.5_21.1_pos_0_0_0_rot_true_mode_bottom_zz_left_clearance_-0.9819131203004252_extra_clearance_false_hole_false_overhang
+  - oobb_nut_shape_negative_type_m3_radius_name_2.5_depth_15_-7.5_1.4_pos_0_0_0_rot_laser_mode_bottom_zz_left_clearance_-0.9819131203004252_extra_clearance_false_hole_false_overhang
+  - oobb_nut_shape_negative_type_m3_radius_name_2.5_depth_15_-7.5_21.1_pos_0_0_0_rot_laser_mode_bottom_zz_left_clearance_-0.9819131203004252_extra_clearance_false_hole_false_overhang
+  - oobb_hole_shape_negative_type_m3_radius_name_5.6_depth_15_-7.5_-0.1_pos
+  - oobb_hole_shape_negative_type_m3_radius_name_5.6_depth_15_-7.5_19.5_pos
+  - oobb_nut_shape_negative_type_m3_radius_name_3_depth_15_7.5_1.4_pos_0_0_0_rot_3dpr_mode_bottom_zz_left_clearance_-1.0711779494186455_extra_clearance_false_hole_false_overhang
+  - oobb_nut_shape_negative_type_m3_radius_name_3_depth_15_7.5_20.6_pos_0_0_0_rot_3dpr_mode_bottom_zz_left_clearance_-1.0711779494186455_extra_clearance_false_hole_false_overhang
+  - oobb_nut_shape_negative_type_m3_radius_name_2.5_depth_15_7.5_1.4_pos_0_0_0_rot_true_mode_bottom_zz_left_clearance_-0.9819131203004252_extra_clearance_false_hole_false_overhang
+  - oobb_nut_shape_negative_type_m3_radius_name_2.5_depth_15_7.5_21.1_pos_0_0_0_rot_true_mode_bottom_zz_left_clearance_-0.9819131203004252_extra_clearance_false_hole_false_overhang
+  - oobb_nut_shape_negative_type_m3_radius_name_2.5_depth_15_7.5_1.4_pos_0_0_0_rot_laser_mode_bottom_zz_left_clearance_-0.9819131203004252_extra_clearance_false_hole_false_overhang
+  - oobb_nut_shape_negative_type_m3_radius_name_2.5_depth_15_7.5_21.1_pos_0_0_0_rot_laser_mode_bottom_zz_left_clearance_-0.9819131203004252_extra_clearance_false_hole_false_overhang
+  - oobb_hole_shape_negative_type_m3_radius_name_5.6_depth_15_7.5_-0.1_pos
+  - oobb_hole_shape_negative_type_m3_radius_name_5.6_depth_15_7.5_19.5_pos
+  depth: 25
+  description: default core 0x0x0
+  description_extra: 25_depth
+  description_main: 3_diameter
+  diameter: 3
+  directory: parts/oobb_part_organize_ribbon_reel_core_3_diameter_25_depth
+  id: oobb_part_organize_ribbon_reel_core_3_diameter_25_depth
+  id_no_class: oobb_part_organize_ribbon_reel_core_3_diameter_25_depth
+  id_no_size: oobb_part_organize_ribbon_reel_core_3_diameter_25_depth
+  id_no_type: oobb_part_organize_ribbon_reel_core_3_diameter_25_depth
+  kwargs:
+    depth: 25
+    diameter: 3
+    filter: ''
+    modes:
+    - 3dpr
+    navigation: true
+    oomp_mode: project
+    oomp_run: true
+    overwrite: true
+    save_type: all
+    taxonomy_1: oobb
+    taxonomy_2: part
+    taxonomy_3: organize
+    taxonomy_4: ribbon
+    taxonomy_5: reel
+    taxonomy_6: core
+    taxonomy_7: 3_diameter
+    taxonomy_8: 25_depth
+    typ: all
+    wait_for_completion: true
+  link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_organize_ribbon_reel_core_3_diameter_25_depth
+  link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_organize_ribbon_reel_core_3_diameter_25_depth
+  link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_organize_ribbon_reel_core_3_diameter_25_depth
+  manufacturer: ''
+  md5: bebafe16ec3c8d835618f61ad3c9d88e
+  md5_10: bebafe16ec
+  md5_10_upper: BEBAFE16EC
+  md5_5: bebaf
+  md5_5_upper: BEBAF
+  md5_6: bebafe
+  md5_6_alpha: 7fwu6
+  md5_6_alpha_upper: 7FWU6
+  md5_6_upper: BEBAFE
+  name: Oobb Part Organize Ribbon Reel Core 3 Diameter 25 Depth
+  name_no_class: Oobb Part Organize Ribbon Reel Core 3 Diameter 25 Depth
+  name_no_size: Oobb Part Organize Ribbon Reel Core 3 Diameter 25 Depth
+  name_no_type: Oobb Part Organize Ribbon Reel Core 3 Diameter 25 Depth
+  name_proper: Oobb Part Organize Ribbon Reel Core 3 Diameter 25 Depth
+  name_short: Default Core 3x25 Depth
+  name_space: oobb part organize ribbon reel core 3 diameter 25 depth
+  name_text: Oobb Part Default Core 3 Diameter 25 Depth
+  name_upper: OOBB PART ORGANIZE RIBBON REEL CORE 3 DIAMETER 25 DEPTH
+  oobb_details:
+    depth: 25
+    diameter: 3
+    oobb_type: core
+    run_scad: true
+    run_solidcraft: false
+    taxonomy_1: oobb
+    taxonomy_2: part
+    taxonomy_3: organize
+    taxonomy_4: ribbon
+    taxonomy_5: reel
+    taxonomy_6: core
+    taxonomy_7: 3_diameter
+    taxonomy_8: 25_depth
+  oobb_name: core
+  oobb_type: core
+  oomlout_ai_roboclick_1:
+    action_name: step_0_jinja_template_label_oomp.svg
+    actions:
+    - command: text_jinja_template
+      convert_to_pdf: false
+      convert_to_png: false
+      dict_data:
+        depth: 25
+        diameter: 3
+        directory: parts\oobb_part_organize_ribbon_reel_core_3_diameter_25_depth
+        name: oobb_part_organize_ribbon_reel_core_3_diameter_25_depth
+        name_proper: Oobb Part Organize Ribbon Reel Core 3 Diameter 25 Depth
+        name_space: oobb part organize ribbon reel core 3 diameter 25 depth
+        name_upper: OOBB PART ORGANIZE RIBBON REEL CORE 3 DIAMETER 25 DEPTH
+        oobb_details:
+          depth: 25
+          diameter: 3
+          oobb_type: core
+          run_scad: true
+          run_solidcraft: false
+          taxonomy_1: oobb
+          taxonomy_2: part
+          taxonomy_3: organize
+          taxonomy_4: ribbon
+          taxonomy_5: reel
+          taxonomy_6: core
+          taxonomy_7: 3_diameter
+          taxonomy_8: 25_depth
+        oobb_type: core
+        taxonomy_1: oobb
+        taxonomy_10: ''
+        taxonomy_11: ''
+        taxonomy_12: ''
+        taxonomy_13: ''
+        taxonomy_14: ''
+        taxonomy_15: ''
+        taxonomy_2: part
+        taxonomy_3: organize
+        taxonomy_4: ribbon
+        taxonomy_5: reel
+        taxonomy_6: core
+        taxonomy_7: 3_diameter
+        taxonomy_8: 25_depth
+        taxonomy_9: ''
+        url_chat: ''
+      dict_data_files: {}
+      dict_data_files_exists: {}
+      file_output: label_oomp.svg
+      file_template: C:\gh\oomlout_oobb_part_organize_ribbon_reel\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+      search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+  oomp_key: oomp_oobb_part_organize_ribbon_reel_core_3_diameter_25_depth
+  part_number: ''
+  short_name: ''
+  size: default_core
+  taxonomy_1: oobb
+  taxonomy_10: ''
+  taxonomy_11: ''
+  taxonomy_12: ''
+  taxonomy_13: ''
+  taxonomy_14: ''
+  taxonomy_15: ''
+  taxonomy_1_capital: Oobb
+  taxonomy_1_first_letter: o
+  taxonomy_1_first_letter_upper: O
+  taxonomy_1_length_1: o
+  taxonomy_1_length_2: oo
+  taxonomy_1_length_3: oob
+  taxonomy_1_length_4: oobb
+  taxonomy_1_length_5: oobb
+  taxonomy_1_upper: OOBB
+  taxonomy_1_upper_length_1: O
+  taxonomy_1_upper_length_2: OO
+  taxonomy_1_upper_length_3: OOB
+  taxonomy_1_upper_length_4: OOBB
+  taxonomy_1_upper_length_5: OOBB
+  taxonomy_2: part
+  taxonomy_2_capital: Part
+  taxonomy_2_first_letter: p
+  taxonomy_2_first_letter_upper: P
+  taxonomy_2_length_1: p
+  taxonomy_2_length_2: pa
+  taxonomy_2_length_3: par
+  taxonomy_2_length_4: part
+  taxonomy_2_length_5: part
+  taxonomy_2_upper: PART
+  taxonomy_2_upper_length_1: P
+  taxonomy_2_upper_length_2: PA
+  taxonomy_2_upper_length_3: PAR
+  taxonomy_2_upper_length_4: PART
+  taxonomy_2_upper_length_5: PART
+  taxonomy_3: organize
+  taxonomy_3_capital: Organize
+  taxonomy_3_first_letter: o
+  taxonomy_3_first_letter_upper: O
+  taxonomy_3_length_1: o
+  taxonomy_3_length_2: or
+  taxonomy_3_length_3: org
+  taxonomy_3_length_4: orga
+  taxonomy_3_length_5: organ
+  taxonomy_3_upper: ORGANIZE
+  taxonomy_3_upper_length_1: O
+  taxonomy_3_upper_length_2: OR
+  taxonomy_3_upper_length_3: ORG
+  taxonomy_3_upper_length_4: ORGA
+  taxonomy_3_upper_length_5: ORGAN
+  taxonomy_4: ribbon
+  taxonomy_4_capital: Ribbon
+  taxonomy_4_first_letter: r
+  taxonomy_4_first_letter_upper: R
+  taxonomy_4_length_1: r
+  taxonomy_4_length_2: ri
+  taxonomy_4_length_3: rib
+  taxonomy_4_length_4: ribb
+  taxonomy_4_length_5: ribbo
+  taxonomy_4_upper: RIBBON
+  taxonomy_4_upper_length_1: R
+  taxonomy_4_upper_length_2: RI
+  taxonomy_4_upper_length_3: RIB
+  taxonomy_4_upper_length_4: RIBB
+  taxonomy_4_upper_length_5: RIBBO
+  taxonomy_5: reel
+  taxonomy_5_capital: Reel
+  taxonomy_5_first_letter: r
+  taxonomy_5_first_letter_upper: R
+  taxonomy_5_length_1: r
+  taxonomy_5_length_2: re
+  taxonomy_5_length_3: ree
+  taxonomy_5_length_4: reel
+  taxonomy_5_length_5: reel
+  taxonomy_5_upper: REEL
+  taxonomy_5_upper_length_1: R
+  taxonomy_5_upper_length_2: RE
+  taxonomy_5_upper_length_3: REE
+  taxonomy_5_upper_length_4: REEL
+  taxonomy_5_upper_length_5: REEL
+  taxonomy_6: core
+  taxonomy_6_capital: Core
+  taxonomy_6_first_letter: c
+  taxonomy_6_first_letter_upper: C
+  taxonomy_6_length_1: c
+  taxonomy_6_length_2: co
+  taxonomy_6_length_3: cor
+  taxonomy_6_length_4: core
+  taxonomy_6_length_5: core
+  taxonomy_6_upper: CORE
+  taxonomy_6_upper_length_1: C
+  taxonomy_6_upper_length_2: CO
+  taxonomy_6_upper_length_3: COR
+  taxonomy_6_upper_length_4: CORE
+  taxonomy_6_upper_length_5: CORE
+  taxonomy_7: 3_diameter
+  taxonomy_7_capital: 3 Diameter
+  taxonomy_7_first_letter: '3'
+  taxonomy_7_first_letter_upper: '3'
+  taxonomy_7_length_1: '3'
+  taxonomy_7_length_2: '3_'
+  taxonomy_7_length_3: 3_d
+  taxonomy_7_length_4: 3_di
+  taxonomy_7_length_5: 3_dia
+  taxonomy_7_upper: 3_DIAMETER
+  taxonomy_7_upper_length_1: '3'
+  taxonomy_7_upper_length_2: '3_'
+  taxonomy_7_upper_length_3: 3_D
+  taxonomy_7_upper_length_4: 3_DI
+  taxonomy_7_upper_length_5: 3_DIA
+  taxonomy_8: 25_depth
+  taxonomy_8_capital: 25 Depth
+  taxonomy_8_first_letter: '2'
+  taxonomy_8_first_letter_upper: '2'
+  taxonomy_8_length_1: '2'
+  taxonomy_8_length_2: '25'
+  taxonomy_8_length_3: '25_'
+  taxonomy_8_length_4: 25_d
+  taxonomy_8_length_5: 25_de
+  taxonomy_8_upper: 25_DEPTH
+  taxonomy_8_upper_length_1: '2'
+  taxonomy_8_upper_length_2: '25'
+  taxonomy_8_upper_length_3: '25_'
+  taxonomy_8_upper_length_4: 25_D
+  taxonomy_8_upper_length_5: 25_DE
+  taxonomy_9: ''
+  type: part
+  url_chat: ''
+url_chat: ''

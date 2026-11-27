@@ -1,0 +1,35 @@
+depth: 3
+height: 7
+oobb_details:
+  depth: 3
+  height: 7
+  oobb_type: end_cap
+  run_scad: true
+  run_solidcraft: false
+  taxonomy_1: oobb
+  taxonomy_2: part
+  taxonomy_3: organize
+  taxonomy_4: ribbon
+  taxonomy_5: reel
+  taxonomy_6: end_cap
+  taxonomy_7: 7_width
+  taxonomy_8: 7_height
+  taxonomy_9: 3_depth
+  width: 7
+oobb_type: end_cap
+taxonomy_1: oobb
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: part
+taxonomy_3: organize
+taxonomy_4: ribbon
+taxonomy_5: reel
+taxonomy_6: end_cap
+taxonomy_7: 7_width
+taxonomy_8: 7_height
+taxonomy_9: 3_depth
+width: 7

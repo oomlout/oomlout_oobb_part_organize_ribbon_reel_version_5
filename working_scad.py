@@ -292,7 +292,7 @@ def get_plate(thing, **kwargs):
 
 def _screw_stations():
     pitch = oobb.gv("osp")
-    return [(x * pitch, y * pitch / 2) for x in (-1, 1) for y in (-1, 1)]
+    return [(pitch, pitch / 2), (-pitch / 2, pitch), (-pitch, -pitch / 2), (pitch / 2, -pitch)]
 
 
 def get_core(thing, **kwargs):
@@ -300,8 +300,10 @@ def get_core(thing, **kwargs):
 
     depth = float(kwargs["depth"])
     radius = (float(kwargs["diameter"]) * oobb.gv("osp") - oobb.gv("osp_minus")) / 2
-    if depth < 13.6:
-        raise ValueError("Core depth must be at least 13.6 mm")
+    nut_offset = 5.5
+    boss_land = 9.9
+    if depth < 2 * boss_land:
+        raise ValueError("Core depth must be at least 19.8 mm for the nut pockets")
     origin = kwargs.get("pos", [0, 0, 0])
     inner = radius - 1.6
 
@@ -329,30 +331,33 @@ def get_core(thing, **kwargs):
     for x, y in _screw_stations():
         cylinder(body, "positive", 0, depth, 5.2, x=x, y=y)
     middle = depth / 2
-    transition = min(middle - 5.8, inner - 11.8)
+    transition = min(middle - boss_land, inner - 11.8)
     relief = 11.6 + transition
-    cylinder(body, "negative", -0.1, 5.9, 11.6)
-    cylinder(body, "negative", 5.8, transition, 11.6, relief)
-    if depth - 2 * (5.8 + transition) > 0:
-        cylinder(body, "negative", 5.8 + transition, depth - 2 * (5.8 + transition), relief)
-    cylinder(body, "negative", depth - 5.8 - transition, transition, relief, 11.6)
-    cylinder(body, "negative", depth - 5.8, 5.9, 11.6)
+    cylinder(body, "negative", -0.1, boss_land + 0.11, 11.6)
+    cylinder(body, "negative", boss_land, transition, 11.6, relief)
+    if depth - 2 * (boss_land + transition) > 0:
+        cylinder(body, "negative", boss_land + transition, depth - 2 * (boss_land + transition), relief)
+    cylinder(body, "negative", depth - boss_land - transition, transition, relief, 11.6)
+    cylinder(body, "negative", depth - boss_land - 0.01, boss_land + 0.11, 11.6)
     thing["components"].append({"type": "rotation", "typetype": "positive", "pos": [0, 0, 0],
                                 "rot": [0, 0, 0], "objects": body["components"]})
 
     for x, y in _screw_stations():
+        angle = math.degrees(math.atan2(y, x)) + 30
         for mode in ("3dpr", "true", "laser"):
-            nut_radius = oobb.gv("nut_radius_m3", mode)
             nut_depth = oobb.gv("nut_depth_m3", mode)
-            adjustment = (math.sqrt(3) - 2) * nut_radius / 0.866
-            for z in (1.4, depth - 1.4 - nut_depth):
+            nut_radius = oobb.gv("nut_radius_m3", mode)
+            slot_adjustment = (math.sqrt(3) - 2) * nut_radius / 0.866
+            for z in (nut_offset, depth - nut_offset - nut_depth):
                 oobb.append_full(thing, type="negative", shape="oobb_nut",
-                    pos=[origin[0]+x, origin[1]+y, origin[2]+z], rot=[0, 0, 0 if x > 0 else 180],
-                    radius_name="m3", mode=mode, depth=nut_depth, zz="bottom",
-                    clearance="left", extra_clearance=adjustment, hole=False, overhang=False)
-        for z in (-0.1, depth - 5.5):
-            oobb.append_full(thing, type="negative", shape="oobb_hole",
-                pos=[origin[0]+x, origin[1]+y, origin[2]+z], radius_name="m3", depth=5.6)
+                    pos=[origin[0] + x, origin[1] + y, origin[2] + z],
+                    rot=[0, 0, angle], radius_name="m3", mode=mode,
+                    depth=nut_depth, zz="bottom", clearance="left",
+                    extra_clearance=slot_adjustment, hole=False, overhang=True)
+        oobb.append_full(thing, type="negative", shape="oobb_hole",
+            pos=[origin[0] + x, origin[1] + y, origin[2] - 0.1],
+            radius_name="m3", depth=depth + 0.2)
+
 
 
 def get_end_cap(thing, **kwargs):
@@ -362,9 +367,28 @@ def get_end_cap(thing, **kwargs):
     origin = kwargs.get("pos", [0, 0, 0])
     oobb.append_full(thing, type="positive", shape="oobb_plate", pos=list(origin),
                      width=width, height=height, depth=depth)
-    oobb.append_full(thing, type="negative", shape="oobb_holes", pos=list(origin),
+    # Keep the normal grid, omitting holes on the ribbon entry line.
+    holes = {"components": [], "components_objects": [], "components_string": []}
+    oobb.append_full(holes, type="negative", shape="oobb_holes", pos=list(origin),
                      width=width, height=height, depth=depth, holes="all", both_holes=True, radius_name="m6")
-    for x, y in _screw_stations():
+    core_radius = (3 * oobb.gv("osp") - oobb.gv("osp_minus")) / 2
+    pending = list(holes["components"])
+    while pending:
+        item = pending.pop()
+        if isinstance(item, list):
+            pending.extend(item)
+        elif not (abs(item["pos"][1] - origin[1]) < 0.001
+                  and item["pos"][0] - origin[0] >= core_radius):
+            thing["components"].append(item)
+
+    edge = (width * oobb.gv("osp") - oobb.gv("osp_minus")) / 2
+    slot_length = edge - core_radius + 1
+    oobb.append_full(thing, type="negative", shape="oobb_cube_center",
+                     pos=[origin[0] + core_radius + slot_length / 2, origin[1], origin[2] - 0.1],
+                     size=[slot_length, 1.5, depth + 0.2])
+    stations = _screw_stations()
+    stations += [(x, -y) for x, y in stations]
+    for x, y in stations:
         oobb.append_full(thing, type="negative", shape="oobb_screw_countersunk",
             pos=[origin[0]+x, origin[1]+y, origin[2]+depth], radius_name="m3",
             depth=depth, zz="top", hole=True, nut_include=False, overhang=False)

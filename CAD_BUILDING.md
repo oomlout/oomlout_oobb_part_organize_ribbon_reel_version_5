@@ -260,3 +260,19 @@ For cylinder print layouts, a covering Z slice is expressed directly through
 the cylinder depths when it is provably equivalent. This avoids a final large
 Boolean cut through an already perforated model.
 
+
+## Ribbon reel release
+
+Run `python action_make_all.py` in this checkout for the complete catalogue. Population and OOMP materialization precede the OpenSCAD production exports. The full, unfiltered 3dpr build then checks the exported meshes, creates the fit stages, renders the catalogue, rebuilds the assembly guides and navigation, and packages and slices all twelve complete reel configurations. Filtered builds leave the complete profiles alone. The reel catalogue uses the project's existing OpenSCAD route.
+
+The release uses Python 3.12, the OOBB and OOMP libraries used above, OpenSCAD, Blender, Bambu Studio, PyYAML, NumPy, trimesh, manifold3d, Pillow, ReportLab, svglib and PyMuPDF. For studio sheets keep the `oomlout_oobb_version_5` checkout beside this project. Blender and OpenSCAD must be on PATH. Set `BAMBU_STUDIO` to the executable path when using a custom installation.
+
+- `python working_fit.py` regenerates the printable gauges, inspectable design stages and fit reports.
+- `python working_reel_presentation.py` renders the final meshes in the OOBB studio style and builds three illustrated, four-panel landscape A4 guides. The offline HTML viewers use the exact PDF pages.
+- `python working_reel_release.py` runs the complete release pipeline using current production STLs.
+- `python working_project_summary.py` builds and slices the two editable MakerWorld profile files from the current ten production parts. `plates.yaml` records plate names, source STLs and listing copy. `slice_report.json` records archive hashes, warnings and the G-code size per plate. Category and publication license are publisher selections.
+- `python -m unittest discover -s tests -v` runs the project tests.
+
+The P1S preset comes from the OOBB tool holder project's main set. Reel profiles disable skirts and brims to fit two 125.5 mm plates on the bed, use a diagonal arrangement outside the purge exclusion, and assign four independently selectable objects to each plate. The standard OOBB summary and editable-object writers are vendored under `components/print_profiles`, with a reel-specific layout fallback. The booklet and viewer follow the OOBB wave-drive implementation and shared assembly viewer. The 42 mm profiles follow [willtree8’s Gridfinity design reference](https://gridfinity.xyz/specification/).
+
+[Project summary](output/project_summary/) · [Fit trials](design_stages/) · [OOBB render style](https://github.com/oomlout/oomlout_oobb_version_5/blob/main/RENDER_STYLE.md)

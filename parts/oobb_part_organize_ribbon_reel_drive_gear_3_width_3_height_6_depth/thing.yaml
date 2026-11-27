@@ -1,0 +1,2930 @@
+bip_39_2_word_array:
+- utility
+- bronze
+bip_39_2_word_no_space: utilitybronze
+bip_39_2_word_space: utility bronze
+bip_39_2_word_underscore: utility_bronze
+bip_39_3_word_array:
+- utility
+- bronze
+- excite
+bip_39_3_word_no_space: utilitybronzeexcite
+bip_39_3_word_space: utility bronze excite
+bip_39_3_word_underscore: utility_bronze_excite
+bip_39_full_array:
+- utility
+- bronze
+- excite
+- tuna
+- wheel
+- acquire
+- clever
+- hire
+- curious
+- trouble
+- glass
+- option
+bip_39_full_no_space: utilitybronzeexcitetunawheelacquirecleverhirecurioustroubleglassoption
+bip_39_full_space: utility bronze excite tuna wheel acquire clever hire curious trouble
+  glass option
+bip_39_full_underscore: utility_bronze_excite_tuna_wheel_acquire_clever_hire_curious_trouble_glass_option
+depth: 6
+directory: parts/oobb_part_organize_ribbon_reel_drive_gear_3_width_3_height_6_depth
+height: 3
+id: oobb_part_organize_ribbon_reel_drive_gear_3_width_3_height_6_depth
+id_no_class: oobb_part_organize_ribbon_reel_drive_gear_3_width_3_height_6_depth
+id_no_size: oobb_part_organize_ribbon_reel_drive_gear_3_width_3_height_6_depth
+id_no_type: oobb_part_organize_ribbon_reel_drive_gear_3_width_3_height_6_depth
+id_oobb: oobb_part_organize_ribbon_reel_drive_gear_3_width_3_height_6_depth
+kwargs:
+  depth: 6
+  filter: ''
+  height: 3
+  modes:
+  - 3dpr
+  navigation: false
+  oomp_mode: project
+  oomp_run: true
+  overwrite: true
+  shaft_diameter: 15
+  shaft_length: 30
+  taxonomy_1: oobb
+  taxonomy_2: part
+  taxonomy_3: organize
+  taxonomy_4: ribbon
+  taxonomy_5: reel
+  taxonomy_6: drive_gear
+  taxonomy_7: 3_width
+  taxonomy_8: 3_height
+  taxonomy_9: 6_depth
+  typ: all
+  width: 3
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_organize_ribbon_reel_drive_gear_3_width_3_height_6_depth
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_organize_ribbon_reel_drive_gear_3_width_3_height_6_depth
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_organize_ribbon_reel_drive_gear_3_width_3_height_6_depth
+md5: f043953b753fa0044aa36035fd218bcd
+md5_10: f043953b75
+md5_10_upper: F043953B75
+md5_5: f0439
+md5_5_upper: F0439
+md5_6: f04395
+md5_6_alpha: 9dhn9
+md5_6_alpha_upper: 9DHN9
+md5_6_upper: F04395
+name: Oobb Part Organize Ribbon Reel Drive Gear 3 Width 3 Height 6 Depth
+name_no_class: Oobb Part Organize Ribbon Reel Drive Gear 3 Width 3 Height 6 Depth
+name_no_size: Oobb Part Organize Ribbon Reel Drive Gear 3 Width 3 Height 6 Depth
+name_no_type: Oobb Part Organize Ribbon Reel Drive Gear 3 Width 3 Height 6 Depth
+name_proper: Oobb Part Organize Ribbon Reel Drive Gear 3 Width 3 Height 6 Depth
+name_space: oobb part organize ribbon reel drive gear 3 width 3 height 6 depth
+name_upper: OOBB PART ORGANIZE RIBBON REEL DRIVE GEAR 3 WIDTH 3 HEIGHT 6 DEPTH
+oobb_details:
+  depth: 6
+  height: 3
+  oobb_type: drive_gear
+  run_scad: true
+  run_solidcraft: false
+  shaft_diameter: 15
+  shaft_length: 30
+  taxonomy_1: oobb
+  taxonomy_2: part
+  taxonomy_3: organize
+  taxonomy_4: ribbon
+  taxonomy_5: reel
+  taxonomy_6: drive_gear
+  taxonomy_7: 3_width
+  taxonomy_8: 3_height
+  taxonomy_9: 6_depth
+  width: 3
+oobb_name: drive_gear
+oobb_type: drive_gear
+oomlout_ai_roboclick_1:
+  action_name: step_0_jinja_template_label_oomp.svg
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      depth: 6
+      directory: parts\oobb_part_organize_ribbon_reel_drive_gear_3_width_3_height_6_depth
+      height: 3
+      name: oobb_part_organize_ribbon_reel_drive_gear_3_width_3_height_6_depth
+      name_proper: Oobb Part Organize Ribbon Reel Drive Gear 3 Width 3 Height 6 Depth
+      name_space: oobb part organize ribbon reel drive gear 3 width 3 height 6 depth
+      name_upper: OOBB PART ORGANIZE RIBBON REEL DRIVE GEAR 3 WIDTH 3 HEIGHT 6 DEPTH
+      oobb_details:
+        depth: 6
+        height: 3
+        oobb_type: drive_gear
+        run_scad: true
+        run_solidcraft: false
+        shaft_diameter: 15
+        shaft_length: 30
+        taxonomy_1: oobb
+        taxonomy_2: part
+        taxonomy_3: organize
+        taxonomy_4: ribbon
+        taxonomy_5: reel
+        taxonomy_6: drive_gear
+        taxonomy_7: 3_width
+        taxonomy_8: 3_height
+        taxonomy_9: 6_depth
+        width: 3
+      oobb_type: drive_gear
+      shaft_diameter: 15
+      shaft_length: 30
+      taxonomy_1: oobb
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: part
+      taxonomy_3: organize
+      taxonomy_4: ribbon
+      taxonomy_5: reel
+      taxonomy_6: drive_gear
+      taxonomy_7: 3_width
+      taxonomy_8: 3_height
+      taxonomy_9: 6_depth
+      url_chat: ''
+      width: 3
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_oomp.svg
+    file_template: C:\gh\oomlout_oobb_part_organize_ribbon_reel_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_oomp.pdf
+  retries_until_complete: 0
+oomp_key: oomp_oobb_part_organize_ribbon_reel_drive_gear_3_width_3_height_6_depth
+project_name: C:\gh\oomlout_oobb_part_organize_ribbon_reel_version_5
+shaft_diameter: 15
+shaft_length: 30
+taxonomy_1: oobb
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Oobb
+taxonomy_1_first_letter: o
+taxonomy_1_first_letter_upper: O
+taxonomy_1_length_1: o
+taxonomy_1_length_2: oo
+taxonomy_1_length_3: oob
+taxonomy_1_length_4: oobb
+taxonomy_1_length_5: oobb
+taxonomy_1_upper: OOBB
+taxonomy_1_upper_length_1: O
+taxonomy_1_upper_length_2: OO
+taxonomy_1_upper_length_3: OOB
+taxonomy_1_upper_length_4: OOBB
+taxonomy_1_upper_length_5: OOBB
+taxonomy_2: part
+taxonomy_2_capital: Part
+taxonomy_2_first_letter: p
+taxonomy_2_first_letter_upper: P
+taxonomy_2_length_1: p
+taxonomy_2_length_2: pa
+taxonomy_2_length_3: par
+taxonomy_2_length_4: part
+taxonomy_2_length_5: part
+taxonomy_2_upper: PART
+taxonomy_2_upper_length_1: P
+taxonomy_2_upper_length_2: PA
+taxonomy_2_upper_length_3: PAR
+taxonomy_2_upper_length_4: PART
+taxonomy_2_upper_length_5: PART
+taxonomy_3: organize
+taxonomy_3_capital: Organize
+taxonomy_3_first_letter: o
+taxonomy_3_first_letter_upper: O
+taxonomy_3_length_1: o
+taxonomy_3_length_2: or
+taxonomy_3_length_3: org
+taxonomy_3_length_4: orga
+taxonomy_3_length_5: organ
+taxonomy_3_upper: ORGANIZE
+taxonomy_3_upper_length_1: O
+taxonomy_3_upper_length_2: OR
+taxonomy_3_upper_length_3: ORG
+taxonomy_3_upper_length_4: ORGA
+taxonomy_3_upper_length_5: ORGAN
+taxonomy_4: ribbon
+taxonomy_4_capital: Ribbon
+taxonomy_4_first_letter: r
+taxonomy_4_first_letter_upper: R
+taxonomy_4_length_1: r
+taxonomy_4_length_2: ri
+taxonomy_4_length_3: rib
+taxonomy_4_length_4: ribb
+taxonomy_4_length_5: ribbo
+taxonomy_4_upper: RIBBON
+taxonomy_4_upper_length_1: R
+taxonomy_4_upper_length_2: RI
+taxonomy_4_upper_length_3: RIB
+taxonomy_4_upper_length_4: RIBB
+taxonomy_4_upper_length_5: RIBBO
+taxonomy_5: reel
+taxonomy_5_capital: Reel
+taxonomy_5_first_letter: r
+taxonomy_5_first_letter_upper: R
+taxonomy_5_length_1: r
+taxonomy_5_length_2: re
+taxonomy_5_length_3: ree
+taxonomy_5_length_4: reel
+taxonomy_5_length_5: reel
+taxonomy_5_upper: REEL
+taxonomy_5_upper_length_1: R
+taxonomy_5_upper_length_2: RE
+taxonomy_5_upper_length_3: REE
+taxonomy_5_upper_length_4: REEL
+taxonomy_5_upper_length_5: REEL
+taxonomy_6: drive_gear
+taxonomy_6_capital: Drive Gear
+taxonomy_6_first_letter: d
+taxonomy_6_first_letter_upper: D
+taxonomy_6_length_1: d
+taxonomy_6_length_2: dr
+taxonomy_6_length_3: dri
+taxonomy_6_length_4: driv
+taxonomy_6_length_5: drive
+taxonomy_6_upper: DRIVE_GEAR
+taxonomy_6_upper_length_1: D
+taxonomy_6_upper_length_2: DR
+taxonomy_6_upper_length_3: DRI
+taxonomy_6_upper_length_4: DRIV
+taxonomy_6_upper_length_5: DRIVE
+taxonomy_7: 3_width
+taxonomy_7_capital: 3 Width
+taxonomy_7_first_letter: '3'
+taxonomy_7_first_letter_upper: '3'
+taxonomy_7_length_1: '3'
+taxonomy_7_length_2: '3_'
+taxonomy_7_length_3: 3_w
+taxonomy_7_length_4: 3_wi
+taxonomy_7_length_5: 3_wid
+taxonomy_7_upper: 3_WIDTH
+taxonomy_7_upper_length_1: '3'
+taxonomy_7_upper_length_2: '3_'
+taxonomy_7_upper_length_3: 3_W
+taxonomy_7_upper_length_4: 3_WI
+taxonomy_7_upper_length_5: 3_WID
+taxonomy_8: 3_height
+taxonomy_8_capital: 3 Height
+taxonomy_8_first_letter: '3'
+taxonomy_8_first_letter_upper: '3'
+taxonomy_8_length_1: '3'
+taxonomy_8_length_2: '3_'
+taxonomy_8_length_3: 3_h
+taxonomy_8_length_4: 3_he
+taxonomy_8_length_5: 3_hei
+taxonomy_8_upper: 3_HEIGHT
+taxonomy_8_upper_length_1: '3'
+taxonomy_8_upper_length_2: '3_'
+taxonomy_8_upper_length_3: 3_H
+taxonomy_8_upper_length_4: 3_HE
+taxonomy_8_upper_length_5: 3_HEI
+taxonomy_9: 6_depth
+taxonomy_9_capital: 6 Depth
+taxonomy_9_first_letter: '6'
+taxonomy_9_first_letter_upper: '6'
+taxonomy_9_length_1: '6'
+taxonomy_9_length_2: '6_'
+taxonomy_9_length_3: 6_d
+taxonomy_9_length_4: 6_de
+taxonomy_9_length_5: 6_dep
+taxonomy_9_upper: 6_DEPTH
+taxonomy_9_upper_length_1: '6'
+taxonomy_9_upper_length_2: '6_'
+taxonomy_9_upper_length_3: 6_D
+taxonomy_9_upper_length_4: 6_DE
+taxonomy_9_upper_length_5: 6_DEP
+thing:
+  bip_39_2_word_array:
+  - utility
+  - bronze
+  bip_39_2_word_no_space: utilitybronze
+  bip_39_2_word_space: utility bronze
+  bip_39_2_word_underscore: utility_bronze
+  bip_39_3_word_array:
+  - utility
+  - bronze
+  - excite
+  bip_39_3_word_no_space: utilitybronzeexcite
+  bip_39_3_word_space: utility bronze excite
+  bip_39_3_word_underscore: utility_bronze_excite
+  bip_39_full_array:
+  - utility
+  - bronze
+  - excite
+  - tuna
+  - wheel
+  - acquire
+  - clever
+  - hire
+  - curious
+  - trouble
+  - glass
+  - option
+  bip_39_full_no_space: utilitybronzeexcitetunawheelacquirecleverhirecurioustroubleglassoption
+  bip_39_full_space: utility bronze excite tuna wheel acquire clever hire curious
+    trouble glass option
+  bip_39_full_underscore: utility_bronze_excite_tuna_wheel_acquire_clever_hire_curious_trouble_glass_option
+  classification: oobb
+  color: ''
+  components:
+  - - depth: 30
+      h: 30
+      inclusion: laser
+      pos: &id001
+      - 0
+      - 0
+      - 6.0
+      r: 7.5
+      radius: 7.5
+      shape: cylinder
+      type: positive
+    - depth: 30
+      h: 30
+      inclusion: 3dpr
+      pos: *id001
+      r: 7.5
+      shape: cylinder
+      type: positive
+    - depth: 30
+      h: 30
+      inclusion: 'true'
+      pos: *id001
+      r: 7.5
+      radius: 7.5
+      shape: cylinder
+      type: positive
+  - - depth: 6
+      height: 3
+      pos:
+      - 0
+      - 0
+      - 0
+      r: 7
+      shape: rounded_rectangle
+      size:
+      - 44
+      - 44
+      - 6
+      type: positive
+      width: 3
+  - - depth: 1.5
+      h: 1.5
+      inclusion: laser
+      pos: &id002
+      - -15
+      - -15
+      - 6.0
+      r: 2.75
+      radius: 2.75
+      shape: cylinder
+      type: positive
+    - depth: 1.5
+      h: 1.5
+      inclusion: 3dpr
+      pos: *id002
+      r: 2.75
+      shape: cylinder
+      type: positive
+    - depth: 1.5
+      h: 1.5
+      inclusion: 'true'
+      pos: *id002
+      r: 2.75
+      radius: 2.75
+      shape: cylinder
+      type: positive
+  - - depth: 1.5
+      h: 1.5
+      inclusion: laser
+      pos: &id003
+      - -15
+      - -15
+      - 7.5
+      r1: 2.75
+      r2: 1.25
+      radius_1: 2.75
+      radius_2: 1.25
+      shape: cylinder
+      type: positive
+    - depth: 1.5
+      h: 1.5
+      inclusion: 3dpr
+      pos: *id003
+      r1: 2.75
+      r2: 1.25
+      radius_1: 2.75
+      radius_2: 1.25
+      shape: cylinder
+      type: positive
+    - depth: 1.5
+      h: 1.5
+      inclusion: 'true'
+      pos: *id003
+      r1: 2.75
+      r2: 1.25
+      radius_1: 2.75
+      radius_2: 1.25
+      shape: cylinder
+      type: positive
+  - - depth: 1.5
+      h: 1.5
+      inclusion: laser
+      pos: &id004
+      - -15
+      - 15
+      - 6.0
+      r: 2.75
+      radius: 2.75
+      shape: cylinder
+      type: positive
+    - depth: 1.5
+      h: 1.5
+      inclusion: 3dpr
+      pos: *id004
+      r: 2.75
+      shape: cylinder
+      type: positive
+    - depth: 1.5
+      h: 1.5
+      inclusion: 'true'
+      pos: *id004
+      r: 2.75
+      radius: 2.75
+      shape: cylinder
+      type: positive
+  - - depth: 1.5
+      h: 1.5
+      inclusion: laser
+      pos: &id005
+      - -15
+      - 15
+      - 7.5
+      r1: 2.75
+      r2: 1.25
+      radius_1: 2.75
+      radius_2: 1.25
+      shape: cylinder
+      type: positive
+    - depth: 1.5
+      h: 1.5
+      inclusion: 3dpr
+      pos: *id005
+      r1: 2.75
+      r2: 1.25
+      radius_1: 2.75
+      radius_2: 1.25
+      shape: cylinder
+      type: positive
+    - depth: 1.5
+      h: 1.5
+      inclusion: 'true'
+      pos: *id005
+      r1: 2.75
+      r2: 1.25
+      radius_1: 2.75
+      radius_2: 1.25
+      shape: cylinder
+      type: positive
+  - - depth: 1.5
+      h: 1.5
+      inclusion: laser
+      pos: &id006
+      - 15
+      - -15
+      - 6.0
+      r: 2.75
+      radius: 2.75
+      shape: cylinder
+      type: positive
+    - depth: 1.5
+      h: 1.5
+      inclusion: 3dpr
+      pos: *id006
+      r: 2.75
+      shape: cylinder
+      type: positive
+    - depth: 1.5
+      h: 1.5
+      inclusion: 'true'
+      pos: *id006
+      r: 2.75
+      radius: 2.75
+      shape: cylinder
+      type: positive
+  - - depth: 1.5
+      h: 1.5
+      inclusion: laser
+      pos: &id007
+      - 15
+      - -15
+      - 7.5
+      r1: 2.75
+      r2: 1.25
+      radius_1: 2.75
+      radius_2: 1.25
+      shape: cylinder
+      type: positive
+    - depth: 1.5
+      h: 1.5
+      inclusion: 3dpr
+      pos: *id007
+      r1: 2.75
+      r2: 1.25
+      radius_1: 2.75
+      radius_2: 1.25
+      shape: cylinder
+      type: positive
+    - depth: 1.5
+      h: 1.5
+      inclusion: 'true'
+      pos: *id007
+      r1: 2.75
+      r2: 1.25
+      radius_1: 2.75
+      radius_2: 1.25
+      shape: cylinder
+      type: positive
+  - - depth: 1.5
+      h: 1.5
+      inclusion: laser
+      pos: &id008
+      - 15
+      - 15
+      - 6.0
+      r: 2.75
+      radius: 2.75
+      shape: cylinder
+      type: positive
+    - depth: 1.5
+      h: 1.5
+      inclusion: 3dpr
+      pos: *id008
+      r: 2.75
+      shape: cylinder
+      type: positive
+    - depth: 1.5
+      h: 1.5
+      inclusion: 'true'
+      pos: *id008
+      r: 2.75
+      radius: 2.75
+      shape: cylinder
+      type: positive
+  - - depth: 1.5
+      h: 1.5
+      inclusion: laser
+      pos: &id009
+      - 15
+      - 15
+      - 7.5
+      r1: 2.75
+      r2: 1.25
+      radius_1: 2.75
+      radius_2: 1.25
+      shape: cylinder
+      type: positive
+    - depth: 1.5
+      h: 1.5
+      inclusion: 3dpr
+      pos: *id009
+      r1: 2.75
+      r2: 1.25
+      radius_1: 2.75
+      radius_2: 1.25
+      shape: cylinder
+      type: positive
+    - depth: 1.5
+      h: 1.5
+      inclusion: 'true'
+      pos: *id009
+      r1: 2.75
+      r2: 1.25
+      radius_1: 2.75
+      radius_2: 1.25
+      shape: cylinder
+      type: positive
+  - - depth: 6.2
+      h: 6.2
+      inclusion: laser
+      pos:
+      - 15
+      - 0
+      - -0.1
+      r: 3.0
+      shape: cylinder
+      type: negative
+    - depth: 6.2
+      h: 6.2
+      inclusion: 3dpr
+      pos:
+      - 15
+      - 0
+      - -0.1
+      r: 3.25
+      shape: cylinder
+      type: negative
+    - depth: 6.2
+      h: 6.2
+      inclusion: 'true'
+      pos:
+      - 15
+      - 0
+      - -0.1
+      r: 3.0
+      shape: cylinder
+      type: negative
+  - - depth: 6.2
+      h: 6.2
+      inclusion: laser
+      pos:
+      - -15
+      - 0
+      - -0.1
+      r: 3.0
+      shape: cylinder
+      type: negative
+    - depth: 6.2
+      h: 6.2
+      inclusion: 3dpr
+      pos:
+      - -15
+      - 0
+      - -0.1
+      r: 3.25
+      shape: cylinder
+      type: negative
+    - depth: 6.2
+      h: 6.2
+      inclusion: 'true'
+      pos:
+      - -15
+      - 0
+      - -0.1
+      r: 3.0
+      shape: cylinder
+      type: negative
+  - - depth: 6.2
+      h: 6.2
+      inclusion: laser
+      pos:
+      - 0
+      - 15
+      - -0.1
+      r: 3.0
+      shape: cylinder
+      type: negative
+    - depth: 6.2
+      h: 6.2
+      inclusion: 3dpr
+      pos:
+      - 0
+      - 15
+      - -0.1
+      r: 3.25
+      shape: cylinder
+      type: negative
+    - depth: 6.2
+      h: 6.2
+      inclusion: 'true'
+      pos:
+      - 0
+      - 15
+      - -0.1
+      r: 3.0
+      shape: cylinder
+      type: negative
+  - - depth: 6.2
+      h: 6.2
+      inclusion: laser
+      pos:
+      - 0
+      - -15
+      - -0.1
+      r: 3.0
+      shape: cylinder
+      type: negative
+    - depth: 6.2
+      h: 6.2
+      inclusion: 3dpr
+      pos:
+      - 0
+      - -15
+      - -0.1
+      r: 3.25
+      shape: cylinder
+      type: negative
+    - depth: 6.2
+      h: 6.2
+      inclusion: 'true'
+      pos:
+      - 0
+      - -15
+      - -0.1
+      r: 3.0
+      shape: cylinder
+      type: negative
+  - - objects:
+      - - depth: 6
+          h: 1.7
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.4
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 6
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 1.9
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -1.9
+          r1: 1.8
+          r2: 3.6
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 6
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.8
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 1.7
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.9
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 6
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+      pos:
+      - -15
+      - -7.5
+      - 6
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - objects:
+      - - depth: 6
+          h: 1.7
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.4
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 6
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 1.9
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -1.9
+          r1: 1.8
+          r2: 3.6
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 6
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.8
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 1.7
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.9
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 6
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+      pos:
+      - -7.5
+      - -15
+      - 6
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - objects:
+      - - depth: 6
+          h: 1.7
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.4
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 6
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 1.9
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -1.9
+          r1: 1.8
+          r2: 3.6
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 6
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.8
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 1.7
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.9
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 6
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+      pos:
+      - -15
+      - 7.5
+      - 6
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - objects:
+      - - depth: 6
+          h: 1.7
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.4
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 6
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 1.9
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -1.9
+          r1: 1.8
+          r2: 3.6
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 6
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.8
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 1.7
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.9
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 6
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+      pos:
+      - 7.5
+      - -15
+      - 6
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - objects:
+      - - depth: 6
+          h: 1.7
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.4
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 6
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 1.9
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -1.9
+          r1: 1.8
+          r2: 3.6
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 6
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.8
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 1.7
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.9
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 6
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+      pos:
+      - 15
+      - -7.5
+      - 6
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - objects:
+      - - depth: 6
+          h: 1.7
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.4
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 6
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 1.9
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -1.9
+          r1: 1.8
+          r2: 3.6
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 6
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.8
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 1.7
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.9
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 6
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+      pos:
+      - -7.5
+      - 15
+      - 6
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - objects:
+      - - depth: 6
+          h: 1.7
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.4
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 6
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 1.9
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -1.9
+          r1: 1.8
+          r2: 3.6
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 6
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.8
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 1.7
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.9
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 6
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+      pos:
+      - 15
+      - 7.5
+      - 6
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - objects:
+      - - depth: 6
+          h: 1.7
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.4
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 6
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 1.9
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -1.9
+          r1: 1.8
+          r2: 3.6
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 6
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.8
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 1.7
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.9
+          shape: cylinder
+          type: positive
+      - - depth: 6
+          h: 6
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 6
+          h: 6
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -6.0
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+      pos:
+      - 7.5
+      - 15
+      - 6
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - depth: 36.2
+      h: 36.2
+      inclusion: laser
+      pos:
+      - 0
+      - 0
+      - -0.1
+      r: 3.0
+      shape: cylinder
+      type: negative
+    - depth: 36.2
+      h: 36.2
+      inclusion: 3dpr
+      pos:
+      - 0
+      - 0
+      - -0.1
+      r: 3.25
+      shape: cylinder
+      type: negative
+    - depth: 36.2
+      h: 36.2
+      inclusion: 'true'
+      pos:
+      - 0
+      - 0
+      - -0.1
+      r: 3.0
+      shape: cylinder
+      type: negative
+  - - objects:
+      - height: 5
+        inclusion: laser
+        pos:
+        - 0
+        - 0
+        - -5
+        r: 5.77
+        shape: polyg
+        sides: 6
+        type: positive
+      - - - - - - inclusion: 3dpr
+                  pos:
+                  - -2.875
+                  - -5.0
+                  - -5.3
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 10
+                  - 0.3
+                  type: positive
+          - - - - inclusion: 3dpr
+                  pos:
+                  - -2.875
+                  - -2.875
+                  - -5.6
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 5.75
+                  - 0.3
+                  type: positive
+      - - - - - - inclusion: 3dpr
+                  pos:
+                  - -2.875
+                  - -5.0
+                  - 0
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 10
+                  - 0.3
+                  type: positive
+          - - - - inclusion: 3dpr
+                  pos:
+                  - -2.875
+                  - -2.875
+                  - 0.3
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 5.75
+                  - 0.3
+                  type: positive
+      - height: 5
+        inclusion: 3dpr
+        pos:
+        - 0
+        - 0
+        - -5
+        r: 5.914249999999999
+        shape: polyg
+        sides: 6
+        type: positive
+      - - - - - - inclusion: 3dpr
+                  pos:
+                  - -2.875
+                  - -5.0
+                  - -5.3
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 10
+                  - 0.3
+                  type: positive
+          - - - - inclusion: 3dpr
+                  pos:
+                  - -2.875
+                  - -2.875
+                  - -5.6
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 5.75
+                  - 0.3
+                  type: positive
+      - - - - - - inclusion: 3dpr
+                  pos:
+                  - -2.875
+                  - -5.0
+                  - 0
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 10
+                  - 0.3
+                  type: positive
+          - - - - inclusion: 3dpr
+                  pos:
+                  - -2.875
+                  - -2.875
+                  - 0.3
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 5.75
+                  - 0.3
+                  type: positive
+      - height: 5
+        inclusion: 'true'
+        pos:
+        - 0
+        - 0
+        - -5
+        r: 5.77
+        shape: polyg
+        sides: 6
+        type: positive
+      - - - - - - inclusion: 3dpr
+                  pos:
+                  - -2.875
+                  - -5.0
+                  - -5.3
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 10
+                  - 0.3
+                  type: positive
+          - - - - inclusion: 3dpr
+                  pos:
+                  - -2.875
+                  - -2.875
+                  - -5.6
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 5.75
+                  - 0.3
+                  type: positive
+      - - - - - - inclusion: 3dpr
+                  pos:
+                  - -2.875
+                  - -5.0
+                  - 0
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 10
+                  - 0.3
+                  type: positive
+          - - - - inclusion: 3dpr
+                  pos:
+                  - -2.875
+                  - -2.875
+                  - 0.3
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 5.75
+                  - 0.3
+                  type: positive
+      pos:
+      - 0
+      - 0
+      - 36
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - objects:
+      - depth: 5.5
+        height: 5.5
+        inclusion: 3dpr
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 5.914249999999999
+        shape: polyg
+        sides: 6
+        type: positive
+      - - - - - - depth: 5.5
+                  inclusion: 3dpr
+                  pos:
+                  - -2.875
+                  - -5.0
+                  - -0.3
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 10
+                  - 0.3
+                  type: positive
+          - - - - depth: 5.5
+                  inclusion: 3dpr
+                  pos:
+                  - -2.875
+                  - -2.875
+                  - -0.6
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 5.75
+                  - 0.3
+                  type: positive
+      - - - - - - depth: 5.5
+                  inclusion: 3dpr
+                  pos:
+                  - -2.875
+                  - -5.0
+                  - 5.5
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 10
+                  - 0.3
+                  type: positive
+          - - - - depth: 5.5
+                  inclusion: 3dpr
+                  pos:
+                  - -2.875
+                  - -2.875
+                  - 5.8
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 5.75
+                  - 0.3
+                  type: positive
+      pos:
+      - 0
+      - 0
+      - 0
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - objects:
+      - depth: 5
+        height: 5
+        inclusion: 'true'
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 5.77
+        shape: polyg
+        sides: 6
+        type: positive
+      - - - - - - depth: 5
+                  inclusion: 3dpr
+                  pos:
+                  - -2.875
+                  - -5.0
+                  - -0.3
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 10
+                  - 0.3
+                  type: positive
+          - - - - depth: 5
+                  inclusion: 3dpr
+                  pos:
+                  - -2.875
+                  - -2.875
+                  - -0.6
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 5.75
+                  - 0.3
+                  type: positive
+      - - - - - - depth: 5
+                  inclusion: 3dpr
+                  pos:
+                  - -2.875
+                  - -5.0
+                  - 5
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 10
+                  - 0.3
+                  type: positive
+          - - - - depth: 5
+                  inclusion: 3dpr
+                  pos:
+                  - -2.875
+                  - -2.875
+                  - 5.3
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 5.75
+                  - 0.3
+                  type: positive
+      pos:
+      - 0
+      - 0
+      - 0
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - objects:
+      - depth: 5
+        height: 5
+        inclusion: laser
+        pos:
+        - 0
+        - 0
+        - 0
+        r: 5.77
+        shape: polyg
+        sides: 6
+        type: positive
+      - - - - - - depth: 5
+                  inclusion: 3dpr
+                  pos:
+                  - -2.875
+                  - -5.0
+                  - -0.3
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 10
+                  - 0.3
+                  type: positive
+          - - - - depth: 5
+                  inclusion: 3dpr
+                  pos:
+                  - -2.875
+                  - -2.875
+                  - -0.6
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 5.75
+                  - 0.3
+                  type: positive
+      - - - - - - depth: 5
+                  inclusion: 3dpr
+                  pos:
+                  - -2.875
+                  - -5.0
+                  - 5
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 10
+                  - 0.3
+                  type: positive
+          - - - - depth: 5
+                  inclusion: 3dpr
+                  pos:
+                  - -2.875
+                  - -2.875
+                  - 5.3
+                  rotX: 0
+                  rotY: 0
+                  rotZ: 0
+                  shape: cube
+                  size:
+                  - 5.75
+                  - 5.75
+                  - 0.3
+                  type: positive
+      pos:
+      - 0
+      - 0
+      - 0
+      rot:
+      - 0
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  components_objects:
+  - depth: 30
+    pos:
+    - 0
+    - 0
+    - 6
+    radius: 7.5
+    shape: oobb_cylinder
+    type: positive
+    zz: bottom
+  - depth: 6
+    height: 3
+    pos:
+    - 0
+    - 0
+    - 0
+    shape: oobb_plate
+    type: positive
+    width: 3
+  - depth: 1.5
+    pos:
+    - -15
+    - -15
+    - 6
+    radius: 2.75
+    shape: oobb_cylinder
+    type: positive
+    zz: bottom
+  - depth: 1.5
+    pos:
+    - -15
+    - -15
+    - 7.5
+    radius_1: 2.75
+    radius_2: 1.25
+    shape: oobb_cylinder
+    type: positive
+    zz: bottom
+  - depth: 1.5
+    pos:
+    - -15
+    - 15
+    - 6
+    radius: 2.75
+    shape: oobb_cylinder
+    type: positive
+    zz: bottom
+  - depth: 1.5
+    pos:
+    - -15
+    - 15
+    - 7.5
+    radius_1: 2.75
+    radius_2: 1.25
+    shape: oobb_cylinder
+    type: positive
+    zz: bottom
+  - depth: 1.5
+    pos:
+    - 15
+    - -15
+    - 6
+    radius: 2.75
+    shape: oobb_cylinder
+    type: positive
+    zz: bottom
+  - depth: 1.5
+    pos:
+    - 15
+    - -15
+    - 7.5
+    radius_1: 2.75
+    radius_2: 1.25
+    shape: oobb_cylinder
+    type: positive
+    zz: bottom
+  - depth: 1.5
+    pos:
+    - 15
+    - 15
+    - 6
+    radius: 2.75
+    shape: oobb_cylinder
+    type: positive
+    zz: bottom
+  - depth: 1.5
+    pos:
+    - 15
+    - 15
+    - 7.5
+    radius_1: 2.75
+    radius_2: 1.25
+    shape: oobb_cylinder
+    type: positive
+    zz: bottom
+  - depth: 6.2
+    pos:
+    - 15
+    - 0
+    - -0.1
+    radius_name: m6
+    shape: oobb_hole
+    type: negative
+  - depth: 6.2
+    pos:
+    - -15
+    - 0
+    - -0.1
+    radius_name: m6
+    shape: oobb_hole
+    type: negative
+  - depth: 6.2
+    pos:
+    - 0
+    - 15
+    - -0.1
+    radius_name: m6
+    shape: oobb_hole
+    type: negative
+  - depth: 6.2
+    pos:
+    - 0
+    - -15
+    - -0.1
+    radius_name: m6
+    shape: oobb_hole
+    type: negative
+  - depth: 6
+    hole: true
+    nut_include: false
+    overhang: false
+    pos:
+    - -15
+    - -7.5
+    - 6
+    radius_name: m3
+    shape: oobb_screw_countersunk
+    type: negative
+    zz: top
+  - depth: 6
+    hole: true
+    nut_include: false
+    overhang: false
+    pos:
+    - -7.5
+    - -15
+    - 6
+    radius_name: m3
+    shape: oobb_screw_countersunk
+    type: negative
+    zz: top
+  - depth: 6
+    hole: true
+    nut_include: false
+    overhang: false
+    pos:
+    - -15
+    - 7.5
+    - 6
+    radius_name: m3
+    shape: oobb_screw_countersunk
+    type: negative
+    zz: top
+  - depth: 6
+    hole: true
+    nut_include: false
+    overhang: false
+    pos:
+    - 7.5
+    - -15
+    - 6
+    radius_name: m3
+    shape: oobb_screw_countersunk
+    type: negative
+    zz: top
+  - depth: 6
+    hole: true
+    nut_include: false
+    overhang: false
+    pos:
+    - 15
+    - -7.5
+    - 6
+    radius_name: m3
+    shape: oobb_screw_countersunk
+    type: negative
+    zz: top
+  - depth: 6
+    hole: true
+    nut_include: false
+    overhang: false
+    pos:
+    - -7.5
+    - 15
+    - 6
+    radius_name: m3
+    shape: oobb_screw_countersunk
+    type: negative
+    zz: top
+  - depth: 6
+    hole: true
+    nut_include: false
+    overhang: false
+    pos:
+    - 15
+    - 7.5
+    - 6
+    radius_name: m3
+    shape: oobb_screw_countersunk
+    type: negative
+    zz: top
+  - depth: 6
+    hole: true
+    nut_include: false
+    overhang: false
+    pos:
+    - 7.5
+    - 15
+    - 6
+    radius_name: m3
+    shape: oobb_screw_countersunk
+    type: negative
+    zz: top
+  - depth: 36.2
+    pos:
+    - 0
+    - 0
+    - -0.1
+    radius_name: m6
+    shape: oobb_hole
+    type: negative
+  - overhang: true
+    pos:
+    - 0
+    - 0
+    - 36
+    radius_name: m6
+    shape: oobb_nut
+    type: negative
+    zz: top
+  - depth: 5.5
+    mode: 3dpr
+    overhang: true
+    pos:
+    - 0
+    - 0
+    - 0
+    radius_name: m6
+    shape: oobb_nut
+    type: negative
+    zz: bottom
+  - depth: 5
+    mode: 'true'
+    overhang: true
+    pos:
+    - 0
+    - 0
+    - 0
+    radius_name: m6
+    shape: oobb_nut
+    type: negative
+    zz: bottom
+  - depth: 5
+    mode: laser
+    overhang: true
+    pos:
+    - 0
+    - 0
+    - 0
+    radius_name: m6
+    shape: oobb_nut
+    type: negative
+    zz: bottom
+  components_string:
+  - oobb_cylinder_shape_positive_type_30_depth_0_0_6_pos_bottom_zz_7.5_radius
+  - oobb_plate_shape_positive_type_6_depth_3_width_3_height
+  - oobb_cylinder_shape_positive_type_1.5_depth_-15_-15_6_pos_bottom_zz_2.75_radius
+  - oobb_cylinder_shape_positive_type_1.5_depth_-15_-15_7.5_pos_bottom_zz_2.75_radius_1_1.25_radius_2
+  - oobb_cylinder_shape_positive_type_1.5_depth_-15_15_6_pos_bottom_zz_2.75_radius
+  - oobb_cylinder_shape_positive_type_1.5_depth_-15_15_7.5_pos_bottom_zz_2.75_radius_1_1.25_radius_2
+  - oobb_cylinder_shape_positive_type_1.5_depth_15_-15_6_pos_bottom_zz_2.75_radius
+  - oobb_cylinder_shape_positive_type_1.5_depth_15_-15_7.5_pos_bottom_zz_2.75_radius_1_1.25_radius_2
+  - oobb_cylinder_shape_positive_type_1.5_depth_15_15_6_pos_bottom_zz_2.75_radius
+  - oobb_cylinder_shape_positive_type_1.5_depth_15_15_7.5_pos_bottom_zz_2.75_radius_1_1.25_radius_2
+  - oobb_hole_shape_negative_type_m6_radius_name_6.2_depth_15_0_-0.1_pos
+  - oobb_hole_shape_negative_type_m6_radius_name_6.2_depth_-15_0_-0.1_pos
+  - oobb_hole_shape_negative_type_m6_radius_name_6.2_depth_0_15_-0.1_pos
+  - oobb_hole_shape_negative_type_m6_radius_name_6.2_depth_0_-15_-0.1_pos
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_6_depth_-15_-7.5_6_pos_top_zz_true_hole_false_nut_include_false_overhang
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_6_depth_-7.5_-15_6_pos_top_zz_true_hole_false_nut_include_false_overhang
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_6_depth_-15_7.5_6_pos_top_zz_true_hole_false_nut_include_false_overhang
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_6_depth_7.5_-15_6_pos_top_zz_true_hole_false_nut_include_false_overhang
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_6_depth_15_-7.5_6_pos_top_zz_true_hole_false_nut_include_false_overhang
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_6_depth_-7.5_15_6_pos_top_zz_true_hole_false_nut_include_false_overhang
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_6_depth_15_7.5_6_pos_top_zz_true_hole_false_nut_include_false_overhang
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_6_depth_7.5_15_6_pos_top_zz_true_hole_false_nut_include_false_overhang
+  - oobb_hole_shape_negative_type_m6_radius_name_36.2_depth_0_0_-0.1_pos
+  - oobb_nut_shape_negative_type_m6_radius_name_0_0_36_pos_top_zz_true_overhang
+  - oobb_nut_shape_negative_type_m6_radius_name_5.5_depth_bottom_zz_3dpr_mode_true_overhang
+  - oobb_nut_shape_negative_type_m6_radius_name_5_depth_bottom_zz_true_mode_true_overhang
+  - oobb_nut_shape_negative_type_m6_radius_name_5_depth_bottom_zz_laser_mode_true_overhang
+  depth: 6
+  description: default drive gear 3x3x0
+  description_extra: 6_depth
+  description_main: 3_width_3_height
+  directory: parts/oobb_part_organize_ribbon_reel_drive_gear_3_width_3_height_6_depth
+  height: 3
+  height_mm: 44
+  id: oobb_part_organize_ribbon_reel_drive_gear_3_width_3_height_6_depth
+  id_no_class: oobb_part_organize_ribbon_reel_drive_gear_3_width_3_height_6_depth
+  id_no_size: oobb_part_organize_ribbon_reel_drive_gear_3_width_3_height_6_depth
+  id_no_type: oobb_part_organize_ribbon_reel_drive_gear_3_width_3_height_6_depth
+  kwargs:
+    depth: 6
+    filter: ''
+    height: 3
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_mode: project
+    oomp_run: true
+    overwrite: true
+    save_type: all
+    shaft_diameter: 15
+    shaft_length: 30
+    taxonomy_1: oobb
+    taxonomy_2: part
+    taxonomy_3: organize
+    taxonomy_4: ribbon
+    taxonomy_5: reel
+    taxonomy_6: drive_gear
+    taxonomy_7: 3_width
+    taxonomy_8: 3_height
+    taxonomy_9: 6_depth
+    typ: all
+    width: 3
+  link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_organize_ribbon_reel_drive_gear_3_width_3_height_6_depth
+  link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_organize_ribbon_reel_drive_gear_3_width_3_height_6_depth
+  link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_organize_ribbon_reel_drive_gear_3_width_3_height_6_depth
+  manufacturer: ''
+  md5: f043953b753fa0044aa36035fd218bcd
+  md5_10: f043953b75
+  md5_10_upper: F043953B75
+  md5_5: f0439
+  md5_5_upper: F0439
+  md5_6: f04395
+  md5_6_alpha: 9dhn9
+  md5_6_alpha_upper: 9DHN9
+  md5_6_upper: F04395
+  name: Oobb Part Organize Ribbon Reel Drive Gear 3 Width 3 Height 6 Depth
+  name_no_class: Oobb Part Organize Ribbon Reel Drive Gear 3 Width 3 Height 6 Depth
+  name_no_size: Oobb Part Organize Ribbon Reel Drive Gear 3 Width 3 Height 6 Depth
+  name_no_type: Oobb Part Organize Ribbon Reel Drive Gear 3 Width 3 Height 6 Depth
+  name_proper: Oobb Part Organize Ribbon Reel Drive Gear 3 Width 3 Height 6 Depth
+  name_short: Default Drive Gear 3x3x6 Depth
+  name_space: oobb part organize ribbon reel drive gear 3 width 3 height 6 depth
+  name_text: Oobb Part Default Drive Gear 3 Width 3 Height 6 Depth
+  name_upper: OOBB PART ORGANIZE RIBBON REEL DRIVE GEAR 3 WIDTH 3 HEIGHT 6 DEPTH
+  oobb_details:
+    depth: 6
+    height: 3
+    oobb_type: drive_gear
+    run_scad: true
+    run_solidcraft: false
+    shaft_diameter: 15
+    shaft_length: 30
+    taxonomy_1: oobb
+    taxonomy_2: part
+    taxonomy_3: organize
+    taxonomy_4: ribbon
+    taxonomy_5: reel
+    taxonomy_6: drive_gear
+    taxonomy_7: 3_width
+    taxonomy_8: 3_height
+    taxonomy_9: 6_depth
+    width: 3
+  oobb_name: drive_gear
+  oobb_type: drive_gear
+  oomlout_ai_roboclick_1:
+    action_name: step_0_jinja_template_label_oomp.svg
+    actions:
+    - command: text_jinja_template
+      convert_to_pdf: false
+      convert_to_png: false
+      dict_data:
+        depth: 6
+        directory: parts\oobb_part_organize_ribbon_reel_drive_gear_3_width_3_height_6_depth
+        height: 3
+        name: oobb_part_organize_ribbon_reel_drive_gear_3_width_3_height_6_depth
+        name_proper: Oobb Part Organize Ribbon Reel Drive Gear 3 Width 3 Height 6
+          Depth
+        name_space: oobb part organize ribbon reel drive gear 3 width 3 height 6 depth
+        name_upper: OOBB PART ORGANIZE RIBBON REEL DRIVE GEAR 3 WIDTH 3 HEIGHT 6 DEPTH
+        oobb_details:
+          depth: 6
+          height: 3
+          oobb_type: drive_gear
+          run_scad: true
+          run_solidcraft: false
+          shaft_diameter: 15
+          shaft_length: 30
+          taxonomy_1: oobb
+          taxonomy_2: part
+          taxonomy_3: organize
+          taxonomy_4: ribbon
+          taxonomy_5: reel
+          taxonomy_6: drive_gear
+          taxonomy_7: 3_width
+          taxonomy_8: 3_height
+          taxonomy_9: 6_depth
+          width: 3
+        oobb_type: drive_gear
+        shaft_diameter: 15
+        shaft_length: 30
+        taxonomy_1: oobb
+        taxonomy_10: ''
+        taxonomy_11: ''
+        taxonomy_12: ''
+        taxonomy_13: ''
+        taxonomy_14: ''
+        taxonomy_15: ''
+        taxonomy_2: part
+        taxonomy_3: organize
+        taxonomy_4: ribbon
+        taxonomy_5: reel
+        taxonomy_6: drive_gear
+        taxonomy_7: 3_width
+        taxonomy_8: 3_height
+        taxonomy_9: 6_depth
+        url_chat: ''
+        width: 3
+      dict_data_files: {}
+      dict_data_files_exists: {}
+      file_output: label_oomp.svg
+      file_template: C:\gh\oomlout_oobb_part_organize_ribbon_reel_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+      search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+  oomp_key: oomp_oobb_part_organize_ribbon_reel_drive_gear_3_width_3_height_6_depth
+  part_number: ''
+  shaft_diameter: 15
+  shaft_length: 30
+  short_name: ''
+  size: default_drive_gear
+  taxonomy_1: oobb
+  taxonomy_10: ''
+  taxonomy_11: ''
+  taxonomy_12: ''
+  taxonomy_13: ''
+  taxonomy_14: ''
+  taxonomy_15: ''
+  taxonomy_1_capital: Oobb
+  taxonomy_1_first_letter: o
+  taxonomy_1_first_letter_upper: O
+  taxonomy_1_length_1: o
+  taxonomy_1_length_2: oo
+  taxonomy_1_length_3: oob
+  taxonomy_1_length_4: oobb
+  taxonomy_1_length_5: oobb
+  taxonomy_1_upper: OOBB
+  taxonomy_1_upper_length_1: O
+  taxonomy_1_upper_length_2: OO
+  taxonomy_1_upper_length_3: OOB
+  taxonomy_1_upper_length_4: OOBB
+  taxonomy_1_upper_length_5: OOBB
+  taxonomy_2: part
+  taxonomy_2_capital: Part
+  taxonomy_2_first_letter: p
+  taxonomy_2_first_letter_upper: P
+  taxonomy_2_length_1: p
+  taxonomy_2_length_2: pa
+  taxonomy_2_length_3: par
+  taxonomy_2_length_4: part
+  taxonomy_2_length_5: part
+  taxonomy_2_upper: PART
+  taxonomy_2_upper_length_1: P
+  taxonomy_2_upper_length_2: PA
+  taxonomy_2_upper_length_3: PAR
+  taxonomy_2_upper_length_4: PART
+  taxonomy_2_upper_length_5: PART
+  taxonomy_3: organize
+  taxonomy_3_capital: Organize
+  taxonomy_3_first_letter: o
+  taxonomy_3_first_letter_upper: O
+  taxonomy_3_length_1: o
+  taxonomy_3_length_2: or
+  taxonomy_3_length_3: org
+  taxonomy_3_length_4: orga
+  taxonomy_3_length_5: organ
+  taxonomy_3_upper: ORGANIZE
+  taxonomy_3_upper_length_1: O
+  taxonomy_3_upper_length_2: OR
+  taxonomy_3_upper_length_3: ORG
+  taxonomy_3_upper_length_4: ORGA
+  taxonomy_3_upper_length_5: ORGAN
+  taxonomy_4: ribbon
+  taxonomy_4_capital: Ribbon
+  taxonomy_4_first_letter: r
+  taxonomy_4_first_letter_upper: R
+  taxonomy_4_length_1: r
+  taxonomy_4_length_2: ri
+  taxonomy_4_length_3: rib
+  taxonomy_4_length_4: ribb
+  taxonomy_4_length_5: ribbo
+  taxonomy_4_upper: RIBBON
+  taxonomy_4_upper_length_1: R
+  taxonomy_4_upper_length_2: RI
+  taxonomy_4_upper_length_3: RIB
+  taxonomy_4_upper_length_4: RIBB
+  taxonomy_4_upper_length_5: RIBBO
+  taxonomy_5: reel
+  taxonomy_5_capital: Reel
+  taxonomy_5_first_letter: r
+  taxonomy_5_first_letter_upper: R
+  taxonomy_5_length_1: r
+  taxonomy_5_length_2: re
+  taxonomy_5_length_3: ree
+  taxonomy_5_length_4: reel
+  taxonomy_5_length_5: reel
+  taxonomy_5_upper: REEL
+  taxonomy_5_upper_length_1: R
+  taxonomy_5_upper_length_2: RE
+  taxonomy_5_upper_length_3: REE
+  taxonomy_5_upper_length_4: REEL
+  taxonomy_5_upper_length_5: REEL
+  taxonomy_6: drive_gear
+  taxonomy_6_capital: Drive Gear
+  taxonomy_6_first_letter: d
+  taxonomy_6_first_letter_upper: D
+  taxonomy_6_length_1: d
+  taxonomy_6_length_2: dr
+  taxonomy_6_length_3: dri
+  taxonomy_6_length_4: driv
+  taxonomy_6_length_5: drive
+  taxonomy_6_upper: DRIVE_GEAR
+  taxonomy_6_upper_length_1: D
+  taxonomy_6_upper_length_2: DR
+  taxonomy_6_upper_length_3: DRI
+  taxonomy_6_upper_length_4: DRIV
+  taxonomy_6_upper_length_5: DRIVE
+  taxonomy_7: 3_width
+  taxonomy_7_capital: 3 Width
+  taxonomy_7_first_letter: '3'
+  taxonomy_7_first_letter_upper: '3'
+  taxonomy_7_length_1: '3'
+  taxonomy_7_length_2: '3_'
+  taxonomy_7_length_3: 3_w
+  taxonomy_7_length_4: 3_wi
+  taxonomy_7_length_5: 3_wid
+  taxonomy_7_upper: 3_WIDTH
+  taxonomy_7_upper_length_1: '3'
+  taxonomy_7_upper_length_2: '3_'
+  taxonomy_7_upper_length_3: 3_W
+  taxonomy_7_upper_length_4: 3_WI
+  taxonomy_7_upper_length_5: 3_WID
+  taxonomy_8: 3_height
+  taxonomy_8_capital: 3 Height
+  taxonomy_8_first_letter: '3'
+  taxonomy_8_first_letter_upper: '3'
+  taxonomy_8_length_1: '3'
+  taxonomy_8_length_2: '3_'
+  taxonomy_8_length_3: 3_h
+  taxonomy_8_length_4: 3_he
+  taxonomy_8_length_5: 3_hei
+  taxonomy_8_upper: 3_HEIGHT
+  taxonomy_8_upper_length_1: '3'
+  taxonomy_8_upper_length_2: '3_'
+  taxonomy_8_upper_length_3: 3_H
+  taxonomy_8_upper_length_4: 3_HE
+  taxonomy_8_upper_length_5: 3_HEI
+  taxonomy_9: 6_depth
+  taxonomy_9_capital: 6 Depth
+  taxonomy_9_first_letter: '6'
+  taxonomy_9_first_letter_upper: '6'
+  taxonomy_9_length_1: '6'
+  taxonomy_9_length_2: '6_'
+  taxonomy_9_length_3: 6_d
+  taxonomy_9_length_4: 6_de
+  taxonomy_9_length_5: 6_dep
+  taxonomy_9_upper: 6_DEPTH
+  taxonomy_9_upper_length_1: '6'
+  taxonomy_9_upper_length_2: '6_'
+  taxonomy_9_upper_length_3: 6_D
+  taxonomy_9_upper_length_4: 6_DE
+  taxonomy_9_upper_length_5: 6_DEP
+  type: part
+  url_chat: ''
+  width: 3
+  width_mm: 44
+url_chat: ''
+width: 3

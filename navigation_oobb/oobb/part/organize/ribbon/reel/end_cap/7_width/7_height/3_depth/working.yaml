@@ -26,7 +26,7 @@ bip_39_full_array:
 - upper
 bip_39_full_no_space: areaschemegravityensuresouthcitizenfaintwhisperkituncoverattackupper
 bip_39_full_space: area scheme gravity ensure south citizen faint whisper kit uncover
-  attack upper
+    attack upper
 bip_39_full_underscore: area_scheme_gravity_ensure_south_citizen_faint_whisper_kit_uncover_attack_upper
 depth: 3
 directory: parts/oobb_part_organize_ribbon_reel_end_cap_7_width_7_height_3_depth
@@ -35,29 +35,6 @@ id: oobb_part_organize_ribbon_reel_end_cap_7_width_7_height_3_depth
 id_no_class: oobb_part_organize_ribbon_reel_end_cap_7_width_7_height_3_depth
 id_no_size: oobb_part_organize_ribbon_reel_end_cap_7_width_7_height_3_depth
 id_no_type: oobb_part_organize_ribbon_reel_end_cap_7_width_7_height_3_depth
-id_oobb: oobb_part_organize_ribbon_reel_end_cap_7_width_7_height_3_depth
-kwargs:
-  depth: 3
-  filter: ''
-  height: 7
-  modes:
-  - 3dpr
-  navigation: true
-  oomp_mode: project
-  oomp_run: true
-  overwrite: true
-  taxonomy_1: oobb
-  taxonomy_2: part
-  taxonomy_3: organize
-  taxonomy_4: ribbon
-  taxonomy_5: reel
-  taxonomy_6: end_cap
-  taxonomy_7: 7_width
-  taxonomy_8: 7_height
-  taxonomy_9: 3_depth
-  typ: all
-  wait_for_completion: true
-  width: 7
 link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_organize_ribbon_reel_end_cap_7_width_7_height_3_depth
 link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_organize_ribbon_reel_end_cap_7_width_7_height_3_depth
 link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_organize_ribbon_reel_end_cap_7_width_7_height_3_depth
@@ -78,80 +55,81 @@ name_proper: Oobb Part Organize Ribbon Reel End Cap 7 Width 7 Height 3 Depth
 name_space: oobb part organize ribbon reel end cap 7 width 7 height 3 depth
 name_upper: OOBB PART ORGANIZE RIBBON REEL END CAP 7 WIDTH 7 HEIGHT 3 DEPTH
 oobb_details:
-  depth: 3
-  height: 7
-  oobb_type: end_cap
-  run_scad: true
-  run_solidcraft: false
-  taxonomy_1: oobb
-  taxonomy_2: part
-  taxonomy_3: organize
-  taxonomy_4: ribbon
-  taxonomy_5: reel
-  taxonomy_6: end_cap
-  taxonomy_7: 7_width
-  taxonomy_8: 7_height
-  taxonomy_9: 3_depth
-  width: 7
-oobb_name: end_cap
+    depth: 3
+    height: 7
+    oobb_type: end_cap
+    run_scad: true
+    run_solidcraft: false
+    taxonomy_1: oobb
+    taxonomy_2: part
+    taxonomy_3: organize
+    taxonomy_4: ribbon
+    taxonomy_5: reel
+    taxonomy_6: end_cap
+    taxonomy_7: 7_width
+    taxonomy_8: 7_height
+    taxonomy_9: 3_depth
+    width: 7
 oobb_type: end_cap
 oomlout_ai_roboclick_1:
-  action_name: step_0_jinja_template_label_oomp.svg
-  actions:
-  - command: text_jinja_template
-    convert_to_pdf: false
-    convert_to_png: false
-    dict_data:
-      depth: 3
-      directory: parts\oobb_part_organize_ribbon_reel_end_cap_7_width_7_height_3_depth
-      height: 7
-      name: oobb_part_organize_ribbon_reel_end_cap_7_width_7_height_3_depth
-      name_proper: Oobb Part Organize Ribbon Reel End Cap 7 Width 7 Height 3 Depth
-      name_space: oobb part organize ribbon reel end cap 7 width 7 height 3 depth
-      name_upper: OOBB PART ORGANIZE RIBBON REEL END CAP 7 WIDTH 7 HEIGHT 3 DEPTH
-      oobb_details:
-        depth: 3
-        height: 7
-        oobb_type: end_cap
-        run_scad: true
-        run_solidcraft: false
-        taxonomy_1: oobb
-        taxonomy_2: part
-        taxonomy_3: organize
-        taxonomy_4: ribbon
-        taxonomy_5: reel
-        taxonomy_6: end_cap
-        taxonomy_7: 7_width
-        taxonomy_8: 7_height
-        taxonomy_9: 3_depth
-        width: 7
-      oobb_type: end_cap
-      taxonomy_1: oobb
-      taxonomy_10: ''
-      taxonomy_11: ''
-      taxonomy_12: ''
-      taxonomy_13: ''
-      taxonomy_14: ''
-      taxonomy_15: ''
-      taxonomy_2: part
-      taxonomy_3: organize
-      taxonomy_4: ribbon
-      taxonomy_5: reel
-      taxonomy_6: end_cap
-      taxonomy_7: 7_width
-      taxonomy_8: 7_height
-      taxonomy_9: 3_depth
-      url_chat: ''
-      width: 7
-    dict_data_files: {}
-    dict_data_files_exists: {}
-    file_output: label_oomp.svg
-    file_template: C:\gh\oomlout_oobb_part_organize_ribbon_reel_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
-    search_and_replace: []
-  file_test: label_oomp.pdf
-  retries_until_complete: 0
+    action_name: step_0_jinja_template_label_oomp.svg
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            depth: 3
+            directory: parts\oobb_part_organize_ribbon_reel_end_cap_7_width_7_height_3_depth
+            height: 7
+            name: oobb_part_organize_ribbon_reel_end_cap_7_width_7_height_3_depth
+            name_proper: Oobb Part Organize Ribbon Reel End Cap 7 Width 7 Height 3
+                Depth
+            name_space: oobb part organize ribbon reel end cap 7 width 7 height 3
+                depth
+            name_upper: OOBB PART ORGANIZE RIBBON REEL END CAP 7 WIDTH 7 HEIGHT 3
+                DEPTH
+            oobb_details:
+                depth: 3
+                height: 7
+                oobb_type: end_cap
+                run_scad: true
+                run_solidcraft: false
+                taxonomy_1: oobb
+                taxonomy_2: part
+                taxonomy_3: organize
+                taxonomy_4: ribbon
+                taxonomy_5: reel
+                taxonomy_6: end_cap
+                taxonomy_7: 7_width
+                taxonomy_8: 7_height
+                taxonomy_9: 3_depth
+                width: 7
+            oobb_type: end_cap
+            taxonomy_1: oobb
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: part
+            taxonomy_3: organize
+            taxonomy_4: ribbon
+            taxonomy_5: reel
+            taxonomy_6: end_cap
+            taxonomy_7: 7_width
+            taxonomy_8: 7_height
+            taxonomy_9: 3_depth
+            url_chat: ''
+            width: 7
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: C:\gh\oomlout_oobb_part_organize_ribbon_reel_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
 oomp_key: oomp_oobb_part_organize_ribbon_reel_end_cap_7_width_7_height_3_depth
-project_name: C:\gh\oomlout_oobb_part_organize_ribbon_reel_version_5
 taxonomy_1: oobb
 taxonomy_10: ''
 taxonomy_11: ''

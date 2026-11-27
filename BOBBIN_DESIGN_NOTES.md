@@ -1,5 +1,7 @@
 # Ribbon bobbin design notes
 
+**Historical first-print proposal.** The production core has rotationally spaced screw stations and nut pockets 5.5 mm inboard. Use eight M3 × 12 countersunk screws. The current [reel catalogue](README.md) and [fit trials](design_stages/) document the released dimensions and hardware.
+
 One bobbin uses **one core, two copies of the same end cap, eight M3 hex nuts and eight M3 countersunk screws**. Print the core upright and both caps flat with their countersinks facing up. In assembly, both countersunk faces point away from the ribbon.
 
 ## First two catalogue entries

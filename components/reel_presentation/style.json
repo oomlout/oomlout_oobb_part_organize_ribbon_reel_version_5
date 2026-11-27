@@ -1,0 +1,41 @@
+{
+  "page_mm": [
+    297,
+    210
+  ],
+  "columns": 2,
+  "rows": 2,
+  "margin_mm": 6,
+  "gutter_mm": 4,
+  "border_radius_mm": 3,
+  "border_width_pt": 3.0,
+  "component_border_width_pt": 1.1,
+  "thumbnail_height_mm": 8.5,
+  "quantity_shift_mm": 1.0,
+  "paper": "FFFFFF",
+  "ink": "000000",
+  "accent": "000000",
+  "border": "000000",
+  "image_size": [
+    1500,
+    1100
+  ],
+  "samples": 24,
+  "eye": [
+    1.2,
+    -1.6,
+    1.35
+  ],
+  "underside_eye": [
+    1.2,
+    -1.6,
+    -1.5
+  ],
+  "font_body_pt": 7,
+  "font_code_pt": 6.4,
+  "font_url_prefix_pt": 4.8,
+  "quantity_pt": 5.8,
+  "explosion_scale": 1.35,
+  "draw_arrows": false,
+  "revision": "4"
+}

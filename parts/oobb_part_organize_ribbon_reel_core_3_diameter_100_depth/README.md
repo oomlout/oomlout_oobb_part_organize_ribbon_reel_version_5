@@ -1,0 +1,282 @@
+<!-- reel-catalogue:start -->
+# 100 mm ribbon core
+
+> AI-generated CAD images and instructions. Errors possible.
+
+## Summary
+
+A 44 mm diameter winding drum with 100 mm between end plates. Print upright.
+
+[![Generated studio views](3dpr_presentation.png)](./)
+
+## Details
+
+[Printable STL](3dpr.stl) · [OpenSCAD source](3dpr.scad) · [Part folder](./) · [OOBB navigation](../../navigation_oobb/oobb/part/organize/ribbon/reel/core/3_diameter/100_depth/)
+
+## Parts
+
+`oobb_part_organize_ribbon_reel_core_3_diameter_100_depth`
+
+<details><summary>Catalogue metadata</summary>
+
+```yaml
+bip_39_2_word_array:
+- mention
+- laugh
+bip_39_2_word_no_space: mentionlaugh
+bip_39_2_word_space: mention laugh
+bip_39_2_word_underscore: mention_laugh
+bip_39_3_word_array:
+- mention
+- laugh
+- awesome
+bip_39_3_word_no_space: mentionlaughawesome
+bip_39_3_word_space: mention laugh awesome
+bip_39_3_word_underscore: mention_laugh_awesome
+bip_39_full_array:
+- mention
+- laugh
+- awesome
+- onion
+- umbrella
+- cruel
+- private
+- jar
+- output
+- badge
+- knock
+- ill
+bip_39_full_no_space: mentionlaughawesomeonionumbrellacruelprivatejaroutputbadgeknockill
+bip_39_full_space: mention laugh awesome onion umbrella cruel private jar output badge
+  knock ill
+bip_39_full_underscore: mention_laugh_awesome_onion_umbrella_cruel_private_jar_output_badge_knock_ill
+depth: 100
+diameter: 3
+directory: parts/oobb_part_organize_ribbon_reel_core_3_diameter_100_depth
+id: oobb_part_organize_ribbon_reel_core_3_diameter_100_depth
+id_no_class: oobb_part_organize_ribbon_reel_core_3_diameter_100_depth
+id_no_size: oobb_part_organize_ribbon_reel_core_3_diameter_100_depth
+id_no_type: oobb_part_organize_ribbon_reel_core_3_diameter_100_depth
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_organize_ribbon_reel_core_3_diameter_100_depth
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_organize_ribbon_reel_core_3_diameter_100_depth
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_organize_ribbon_reel_core_3_diameter_100_depth
+md5: 8b0fb0424d6ec2692acbba9d622def38
+md5_10: 8b0fb0424d
+md5_10_upper: 8B0FB0424D
+md5_5: 8b0fb
+md5_5_upper: 8B0FB
+md5_6: 8b0fb0
+md5_6_alpha: 5fc1c
+md5_6_alpha_upper: 5FC1C
+md5_6_upper: 8B0FB0
+name: Oobb Part Organize Ribbon Reel Core 3 Diameter 100 Depth
+name_no_class: Oobb Part Organize Ribbon Reel Core 3 Diameter 100 Depth
+name_no_size: Oobb Part Organize Ribbon Reel Core 3 Diameter 100 Depth
+name_no_type: Oobb Part Organize Ribbon Reel Core 3 Diameter 100 Depth
+name_proper: Oobb Part Organize Ribbon Reel Core 3 Diameter 100 Depth
+name_space: oobb part organize ribbon reel core 3 diameter 100 depth
+name_upper: OOBB PART ORGANIZE RIBBON REEL CORE 3 DIAMETER 100 DEPTH
+oobb_details:
+  depth: 100
+  diameter: 3
+  oobb_type: core
+  run_scad: true
+  run_solidcraft: false
+  taxonomy_1: oobb
+  taxonomy_2: part
+  taxonomy_3: organize
+  taxonomy_4: ribbon
+  taxonomy_5: reel
+  taxonomy_6: core
+  taxonomy_7: 3_diameter
+  taxonomy_8: 100_depth
+oobb_type: core
+oomlout_ai_roboclick_1:
+  action_name: step_0_jinja_template_label_oomp.svg
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      depth: 100
+      diameter: 3
+      directory: parts\oobb_part_organize_ribbon_reel_core_3_diameter_100_depth
+      name: oobb_part_organize_ribbon_reel_core_3_diameter_100_depth
+      name_proper: Oobb Part Organize Ribbon Reel Core 3 Diameter 100 Depth
+      name_space: oobb part organize ribbon reel core 3 diameter 100 depth
+      name_upper: OOBB PART ORGANIZE RIBBON REEL CORE 3 DIAMETER 100 DEPTH
+      oobb_details:
+        depth: 100
+        diameter: 3
+        oobb_type: core
+        run_scad: true
+        run_solidcraft: false
+        taxonomy_1: oobb
+        taxonomy_2: part
+        taxonomy_3: organize
+        taxonomy_4: ribbon
+        taxonomy_5: reel
+        taxonomy_6: core
+        taxonomy_7: 3_diameter
+        taxonomy_8: 100_depth
+      oobb_type: core
+      taxonomy_1: oobb
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: part
+      taxonomy_3: organize
+      taxonomy_4: ribbon
+      taxonomy_5: reel
+      taxonomy_6: core
+      taxonomy_7: 3_diameter
+      taxonomy_8: 100_depth
+      taxonomy_9: ''
+      url_chat: ''
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_oomp.svg
+    file_template: C:\gh\oomlout_oobb_part_organize_ribbon_reel_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_oomp.pdf
+  retries_until_complete: 0
+oomp_key: oomp_oobb_part_organize_ribbon_reel_core_3_diameter_100_depth
+taxonomy_1: oobb
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Oobb
+taxonomy_1_first_letter: o
+taxonomy_1_first_letter_upper: O
+taxonomy_1_length_1: o
+taxonomy_1_length_2: oo
+taxonomy_1_length_3: oob
+taxonomy_1_length_4: oobb
+taxonomy_1_length_5: oobb
+taxonomy_1_upper: OOBB
+taxonomy_1_upper_length_1: O
+taxonomy_1_upper_length_2: OO
+taxonomy_1_upper_length_3: OOB
+taxonomy_1_upper_length_4: OOBB
+taxonomy_1_upper_length_5: OOBB
+taxonomy_2: part
+taxonomy_2_capital: Part
+taxonomy_2_first_letter: p
+taxonomy_2_first_letter_upper: P
+taxonomy_2_length_1: p
+taxonomy_2_length_2: pa
+taxonomy_2_length_3: par
+taxonomy_2_length_4: part
+taxonomy_2_length_5: part
+taxonomy_2_upper: PART
+taxonomy_2_upper_length_1: P
+taxonomy_2_upper_length_2: PA
+taxonomy_2_upper_length_3: PAR
+taxonomy_2_upper_length_4: PART
+taxonomy_2_upper_length_5: PART
+taxonomy_3: organize
+taxonomy_3_capital: Organize
+taxonomy_3_first_letter: o
+taxonomy_3_first_letter_upper: O
+taxonomy_3_length_1: o
+taxonomy_3_length_2: or
+taxonomy_3_length_3: org
+taxonomy_3_length_4: orga
+taxonomy_3_length_5: organ
+taxonomy_3_upper: ORGANIZE
+taxonomy_3_upper_length_1: O
+taxonomy_3_upper_length_2: OR
+taxonomy_3_upper_length_3: ORG
+taxonomy_3_upper_length_4: ORGA
+taxonomy_3_upper_length_5: ORGAN
+taxonomy_4: ribbon
+taxonomy_4_capital: Ribbon
+taxonomy_4_first_letter: r
+taxonomy_4_first_letter_upper: R
+taxonomy_4_length_1: r
+taxonomy_4_length_2: ri
+taxonomy_4_length_3: rib
+taxonomy_4_length_4: ribb
+taxonomy_4_length_5: ribbo
+taxonomy_4_upper: RIBBON
+taxonomy_4_upper_length_1: R
+taxonomy_4_upper_length_2: RI
+taxonomy_4_upper_length_3: RIB
+taxonomy_4_upper_length_4: RIBB
+taxonomy_4_upper_length_5: RIBBO
+taxonomy_5: reel
+taxonomy_5_capital: Reel
+taxonomy_5_first_letter: r
+taxonomy_5_first_letter_upper: R
+taxonomy_5_length_1: r
+taxonomy_5_length_2: re
+taxonomy_5_length_3: ree
+taxonomy_5_length_4: reel
+taxonomy_5_length_5: reel
+taxonomy_5_upper: REEL
+taxonomy_5_upper_length_1: R
+taxonomy_5_upper_length_2: RE
+taxonomy_5_upper_length_3: REE
+taxonomy_5_upper_length_4: REEL
+taxonomy_5_upper_length_5: REEL
+taxonomy_6: core
+taxonomy_6_capital: Core
+taxonomy_6_first_letter: c
+taxonomy_6_first_letter_upper: C
+taxonomy_6_length_1: c
+taxonomy_6_length_2: co
+taxonomy_6_length_3: cor
+taxonomy_6_length_4: core
+taxonomy_6_length_5: core
+taxonomy_6_upper: CORE
+taxonomy_6_upper_length_1: C
+taxonomy_6_upper_length_2: CO
+taxonomy_6_upper_length_3: COR
+taxonomy_6_upper_length_4: CORE
+taxonomy_6_upper_length_5: CORE
+taxonomy_7: 3_diameter
+taxonomy_7_capital: 3 Diameter
+taxonomy_7_first_letter: '3'
+taxonomy_7_first_letter_upper: '3'
+taxonomy_7_length_1: '3'
+taxonomy_7_length_2: '3_'
+taxonomy_7_length_3: 3_d
+taxonomy_7_length_4: 3_di
+taxonomy_7_length_5: 3_dia
+taxonomy_7_upper: 3_DIAMETER
+taxonomy_7_upper_length_1: '3'
+taxonomy_7_upper_length_2: '3_'
+taxonomy_7_upper_length_3: 3_D
+taxonomy_7_upper_length_4: 3_DI
+taxonomy_7_upper_length_5: 3_DIA
+taxonomy_8: 100_depth
+taxonomy_8_capital: 100 Depth
+taxonomy_8_first_letter: '1'
+taxonomy_8_first_letter_upper: '1'
+taxonomy_8_length_1: '1'
+taxonomy_8_length_2: '10'
+taxonomy_8_length_3: '100'
+taxonomy_8_length_4: '100_'
+taxonomy_8_length_5: 100_d
+taxonomy_8_upper: 100_DEPTH
+taxonomy_8_upper_length_1: '1'
+taxonomy_8_upper_length_2: '10'
+taxonomy_8_upper_length_3: '100'
+taxonomy_8_upper_length_4: '100_'
+taxonomy_8_upper_length_5: 100_D
+taxonomy_9: ''
+url_chat: ''
+```
+
+</details>
+
+## Assembly
+
+[Open the reel assembly guide](../oobb_part_organize_ribbon_reel_end_cap_7_width_7_height_3_depth/#assembly).
+<!-- reel-catalogue:end -->

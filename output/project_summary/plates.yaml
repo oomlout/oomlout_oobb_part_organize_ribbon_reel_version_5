@@ -1,0 +1,218 @@
+project: OOBB ribbon reels and Gridfinity stacking plates
+source_paths_relative_to: repository root
+max_plates_per_file: 9
+total_plates: 12
+files:
+- file: working.3mf
+  plates:
+  - plate: 1
+    catalogue_plate: 1
+    part_id: reel_7x7_25mm
+    name: OOBB 7x7 - 25 mm ribbon space
+    source_stls:
+    - parts/oobb_part_organize_ribbon_reel_end_cap_7_width_7_height_3_depth/3dpr.stl
+    - parts/oobb_part_organize_ribbon_reel_end_cap_7_width_7_height_3_depth/3dpr.stl
+    - parts/oobb_part_organize_ribbon_reel_core_3_diameter_25_depth/3dpr.stl
+    - parts/oobb_part_organize_ribbon_reel_drive_gear_3_width_3_height_6_depth/3dpr.stl
+    printed_pieces: 4
+    notes: Print flat ribbon faces down, core and drive shaft upright. Add eight M3
+      nuts and eight M3 x 12 countersunk screws.
+  - plate: 2
+    catalogue_plate: 2
+    part_id: reel_7x7_50mm
+    name: OOBB 7x7 - 50 mm ribbon space
+    source_stls:
+    - parts/oobb_part_organize_ribbon_reel_end_cap_7_width_7_height_3_depth/3dpr.stl
+    - parts/oobb_part_organize_ribbon_reel_end_cap_7_width_7_height_3_depth/3dpr.stl
+    - parts/oobb_part_organize_ribbon_reel_core_3_diameter_50_depth/3dpr.stl
+    - parts/oobb_part_organize_ribbon_reel_drive_gear_3_width_3_height_6_depth/3dpr.stl
+    printed_pieces: 4
+    notes: Print flat ribbon faces down, core and drive shaft upright. Add eight M3
+      nuts and eight M3 x 12 countersunk screws.
+  - plate: 3
+    catalogue_plate: 3
+    part_id: reel_7x7_75mm
+    name: OOBB 7x7 - 75 mm ribbon space
+    source_stls:
+    - parts/oobb_part_organize_ribbon_reel_end_cap_7_width_7_height_3_depth/3dpr.stl
+    - parts/oobb_part_organize_ribbon_reel_end_cap_7_width_7_height_3_depth/3dpr.stl
+    - parts/oobb_part_organize_ribbon_reel_core_3_diameter_75_depth/3dpr.stl
+    - parts/oobb_part_organize_ribbon_reel_drive_gear_3_width_3_height_6_depth/3dpr.stl
+    printed_pieces: 4
+    notes: Print flat ribbon faces down, core and drive shaft upright. Add eight M3
+      nuts and eight M3 x 12 countersunk screws.
+  - plate: 4
+    catalogue_plate: 4
+    part_id: reel_7x7_100mm
+    name: OOBB 7x7 - 100 mm ribbon space
+    source_stls:
+    - parts/oobb_part_organize_ribbon_reel_end_cap_7_width_7_height_3_depth/3dpr.stl
+    - parts/oobb_part_organize_ribbon_reel_end_cap_7_width_7_height_3_depth/3dpr.stl
+    - parts/oobb_part_organize_ribbon_reel_core_3_diameter_100_depth/3dpr.stl
+    - parts/oobb_part_organize_ribbon_reel_drive_gear_3_width_3_height_6_depth/3dpr.stl
+    printed_pieces: 4
+    notes: Print flat ribbon faces down, core and drive shaft upright. Add eight M3
+      nuts and eight M3 x 12 countersunk screws.
+  - plate: 5
+    catalogue_plate: 5
+    part_id: reel_2x2_25mm
+    name: Gridfinity 2x2 - 25 mm ribbon space
+    source_stls:
+    - parts/oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug/3dpr.stl
+    - parts/oobb_part_organize_ribbon_reel_gridfinity_end_2x2_socket/3dpr.stl
+    - parts/oobb_part_organize_ribbon_reel_core_3_diameter_25_depth/3dpr.stl
+    - parts/oobb_part_organize_ribbon_reel_drive_gear_3_width_3_height_6_depth/3dpr.stl
+    printed_pieces: 4
+    notes: Print flat ribbon faces down, core and drive shaft upright. Add eight M3
+      nuts and eight M3 x 12 countersunk screws.
+  - plate: 6
+    catalogue_plate: 6
+    part_id: reel_2x2_50mm
+    name: Gridfinity 2x2 - 50 mm ribbon space
+    source_stls:
+    - parts/oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug/3dpr.stl
+    - parts/oobb_part_organize_ribbon_reel_gridfinity_end_2x2_socket/3dpr.stl
+    - parts/oobb_part_organize_ribbon_reel_core_3_diameter_50_depth/3dpr.stl
+    - parts/oobb_part_organize_ribbon_reel_drive_gear_3_width_3_height_6_depth/3dpr.stl
+    printed_pieces: 4
+    notes: Print flat ribbon faces down, core and drive shaft upright. Add eight M3
+      nuts and eight M3 x 12 countersunk screws.
+  - plate: 7
+    catalogue_plate: 7
+    part_id: reel_2x2_75mm
+    name: Gridfinity 2x2 - 75 mm ribbon space
+    source_stls:
+    - parts/oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug/3dpr.stl
+    - parts/oobb_part_organize_ribbon_reel_gridfinity_end_2x2_socket/3dpr.stl
+    - parts/oobb_part_organize_ribbon_reel_core_3_diameter_75_depth/3dpr.stl
+    - parts/oobb_part_organize_ribbon_reel_drive_gear_3_width_3_height_6_depth/3dpr.stl
+    printed_pieces: 4
+    notes: Print flat ribbon faces down, core and drive shaft upright. Add eight M3
+      nuts and eight M3 x 12 countersunk screws.
+  - plate: 8
+    catalogue_plate: 8
+    part_id: reel_2x2_100mm
+    name: Gridfinity 2x2 - 100 mm ribbon space
+    source_stls:
+    - parts/oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug/3dpr.stl
+    - parts/oobb_part_organize_ribbon_reel_gridfinity_end_2x2_socket/3dpr.stl
+    - parts/oobb_part_organize_ribbon_reel_core_3_diameter_100_depth/3dpr.stl
+    - parts/oobb_part_organize_ribbon_reel_drive_gear_3_width_3_height_6_depth/3dpr.stl
+    printed_pieces: 4
+    notes: Print flat ribbon faces down, core and drive shaft upright. Add eight M3
+      nuts and eight M3 x 12 countersunk screws.
+  - plate: 9
+    catalogue_plate: 9
+    part_id: reel_3x3_25mm
+    name: Gridfinity 3x3 - 25 mm ribbon space
+    source_stls:
+    - parts/oobb_part_organize_ribbon_reel_gridfinity_end_3x3_plug/3dpr.stl
+    - parts/oobb_part_organize_ribbon_reel_gridfinity_end_3x3_socket/3dpr.stl
+    - parts/oobb_part_organize_ribbon_reel_core_3_diameter_25_depth/3dpr.stl
+    - parts/oobb_part_organize_ribbon_reel_drive_gear_3_width_3_height_6_depth/3dpr.stl
+    printed_pieces: 4
+    notes: Print flat ribbon faces down, core and drive shaft upright. Add eight M3
+      nuts and eight M3 x 12 countersunk screws.
+- file: working_2.3mf
+  plates:
+  - plate: 1
+    catalogue_plate: 10
+    part_id: reel_3x3_50mm
+    name: Gridfinity 3x3 - 50 mm ribbon space
+    source_stls:
+    - parts/oobb_part_organize_ribbon_reel_gridfinity_end_3x3_plug/3dpr.stl
+    - parts/oobb_part_organize_ribbon_reel_gridfinity_end_3x3_socket/3dpr.stl
+    - parts/oobb_part_organize_ribbon_reel_core_3_diameter_50_depth/3dpr.stl
+    - parts/oobb_part_organize_ribbon_reel_drive_gear_3_width_3_height_6_depth/3dpr.stl
+    printed_pieces: 4
+    notes: Print flat ribbon faces down, core and drive shaft upright. Add eight M3
+      nuts and eight M3 x 12 countersunk screws.
+  - plate: 2
+    catalogue_plate: 11
+    part_id: reel_3x3_75mm
+    name: Gridfinity 3x3 - 75 mm ribbon space
+    source_stls:
+    - parts/oobb_part_organize_ribbon_reel_gridfinity_end_3x3_plug/3dpr.stl
+    - parts/oobb_part_organize_ribbon_reel_gridfinity_end_3x3_socket/3dpr.stl
+    - parts/oobb_part_organize_ribbon_reel_core_3_diameter_75_depth/3dpr.stl
+    - parts/oobb_part_organize_ribbon_reel_drive_gear_3_width_3_height_6_depth/3dpr.stl
+    printed_pieces: 4
+    notes: Print flat ribbon faces down, core and drive shaft upright. Add eight M3
+      nuts and eight M3 x 12 countersunk screws.
+  - plate: 3
+    catalogue_plate: 12
+    part_id: reel_3x3_100mm
+    name: Gridfinity 3x3 - 100 mm ribbon space
+    source_stls:
+    - parts/oobb_part_organize_ribbon_reel_gridfinity_end_3x3_plug/3dpr.stl
+    - parts/oobb_part_organize_ribbon_reel_gridfinity_end_3x3_socket/3dpr.stl
+    - parts/oobb_part_organize_ribbon_reel_core_3_diameter_100_depth/3dpr.stl
+    - parts/oobb_part_organize_ribbon_reel_drive_gear_3_width_3_height_6_depth/3dpr.stl
+    printed_pieces: 4
+    notes: Print flat ribbon faces down, core and drive shaft upright. Add eight M3
+      nuts and eight M3 x 12 countersunk screws.
+makerworld:
+  category: null
+  license: null
+  design_type: Original
+  design_credits: OOBB by oomlout. Gridfinity by Zack Freedman, with dimensions from
+    willtree8's Gridfinity Design Reference at https://gridfinity.xyz/specification/.
+  original_model_url: null
+  assembly: Load four M3 nuts into each end of the core. Attach both end plates using
+    the matching four countersinks per face. Fit the removable drive on one side.
+    Remove the drive from the mating faces. Place Gridfinity reels plug-side down
+    and align the socket of the reel below.
+  hardware: Eight M3 hex nuts and eight M3 x 12 mm countersunk screws per reel.
+  description: Printable ribbon reels with 25, 50, 75 or 100 mm winding space. Choose
+    the original OOBB cap or matching 2x2 and 3x3 Gridfinity end plates. Each named
+    build plate makes one reel and its removable four-peg drive. The 1 mm ribbon web
+    carries standard feet or a shallow perimeter rim. A 5 mm diamond mouth guides
+    ribbon into the slit. Fit has been checked in CAD. Print the corner and gear-seat
+    gauges to check your machine.
+  cover_image: output/project_summary/cover.png
+  additional_images:
+  - parts/oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug/3dpr_presentation.png
+  - parts/oobb_part_organize_ribbon_reel_gridfinity_end_3x3_socket/3dpr_presentation.png
+  - design_stages/2x2/corner_fit.png
+  assembly_guides:
+  - parts/oobb_part_organize_ribbon_reel_gridfinity_end_2x2_socket/assembly/assembly_instructions.pdf
+  - parts/oobb_part_organize_ribbon_reel_gridfinity_end_3x3_socket/assembly/assembly_instructions.pdf
+  category_browser_url: https://makerworld.com/en/3d-models
+  category_list_url: https://github.com/iamdjem/modelprep/blob/main/deploy/src/data/makerworld-categories.json
+  field_inputs:
+    category: single_category_choice
+    license: license_permission_choices
+    design_type: upload_type_choice
+    design_credits: description_text
+    original_model_url: source_link_for_remix
+    printer: 3mf_profile
+    nozzle_diameter_mm: 3mf_profile
+    material: 3mf_profile
+    print_settings: 3mf_profile
+    profile_name: text
+    profile_description: text
+    assembly: description_text
+    hardware: description_text
+  model_name: OOBB ribbon reels and Gridfinity stacking plates
+  printer: Bambu Lab P1S
+  nozzle_diameter_mm: 0.4
+  material: PLA
+  filament_preset: Bambu PLA Basic @BBL P1S 0.4 nozzle
+  filament_colour: '#00B1B7'
+  print_settings:
+    process: 0.20mm Standard @BBL X1C
+    build_plate: Textured PEI Plate
+    layer_height_mm: 0.2
+    wall_loops: 2
+    infill_density: 15%
+    infill_pattern: grid
+    supports_enabled: true
+    support_type: tree(auto)
+  print_profiles:
+  - file: working.3mf
+    name: OOBB ribbon reels and Gridfinity stacking plates · 1–9
+    description: Catalogue plates 1–9. PLA, 0.2 mm layers, 2 walls and 15% grid infill.
+  - file: working_2.3mf
+    name: OOBB ribbon reels and Gridfinity stacking plates · 10–12
+    description: Catalogue plates 10–12. PLA, 0.2 mm layers, 2 walls and 15% grid
+      infill.

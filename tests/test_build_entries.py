@@ -4,7 +4,7 @@ from pathlib import Path
 import sys
 from types import SimpleNamespace
 import unittest
-from unittest.mock import patch
+from unittest.mock import Mock, patch
 
 PROJECT = Path(__file__).resolve().parents[1]
 BACKENDS = (
@@ -20,11 +20,12 @@ def load(filename):
     return module
 
 
-def run_entry(filename, **kwargs):
+def run_entry(filename, release=None, **kwargs):
     calls = []
     def record(name):
         return SimpleNamespace(main=lambda **options: calls.append((name, options)))
     modules = {name: record(name) for name in BACKENDS}
+    modules["working_reel_release"] = SimpleNamespace(main=release if release is not None else Mock())
     modules["working"] = load("working.py")
     with patch.dict(sys.modules, modules):
         load(filename).main(**kwargs)
@@ -32,6 +33,14 @@ def run_entry(filename, **kwargs):
 
 
 class BuildEntryTests(unittest.TestCase):
+    def test_release_only_follows_a_complete_print_build(self):
+        release = Mock()
+        run_entry("action_make_all.py", release=release, filter="drive_gear")
+        run_entry("action_make_all.py", release=release, modes=["true"])
+        release.assert_not_called()
+        run_entry("action_make_all.py", release=release)
+        release.assert_called_once_with()
+
     def test_make_all_runs_both_backends_after_population(self):
         calls = run_entry("action_make_all.py")
         self.assertEqual([name for name, _ in calls], list(BACKENDS))

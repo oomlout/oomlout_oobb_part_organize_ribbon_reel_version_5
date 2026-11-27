@@ -42,7 +42,7 @@ kwargs:
   height: 7
   modes:
   - 3dpr
-  navigation: true
+  navigation: false
   oomp_mode: project
   oomp_run: true
   overwrite: true
@@ -56,7 +56,6 @@ kwargs:
   taxonomy_8: 7_height
   taxonomy_9: 3_depth
   typ: all
-  wait_for_completion: true
   width: 7
 link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_organize_ribbon_reel_end_cap_7_width_7_height_3_depth
 link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_organize_ribbon_reel_end_cap_7_width_7_height_3_depth

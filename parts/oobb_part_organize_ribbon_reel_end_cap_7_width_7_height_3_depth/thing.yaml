@@ -42,7 +42,7 @@ kwargs:
   height: 7
   modes:
   - 3dpr
-  navigation: true
+  navigation: false
   oomp_mode: project
   oomp_run: true
   overwrite: true
@@ -56,7 +56,6 @@ kwargs:
   taxonomy_8: 7_height
   taxonomy_9: 3_depth
   typ: all
-  wait_for_completion: true
   width: 7
 link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_organize_ribbon_reel_end_cap_7_width_7_height_3_depth
 link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_organize_ribbon_reel_end_cap_7_width_7_height_3_depth
@@ -352,46 +351,6 @@ thing:
   - inclusion: 'true'
     pos:
     - 45.0
-    - 37.5
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: 'true'
-    pos:
-    - 45.0
-    - 30.0
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: 'true'
-    pos:
-    - 45.0
-    - 22.5
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: 'true'
-    pos:
-    - 45.0
-    - 15.0
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: 'true'
-    pos:
-    - 45.0
-    - 7.5
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: 'true'
-    pos:
-    - 45.0
     - -7.5
     - 0
     r: 1.5
@@ -440,54 +399,6 @@ thing:
   - inclusion: 'true'
     pos:
     - 37.5
-    - 45.0
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: 'true'
-    pos:
-    - 37.5
-    - 37.5
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: 'true'
-    pos:
-    - 37.5
-    - 30.0
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: 'true'
-    pos:
-    - 37.5
-    - 22.5
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: 'true'
-    pos:
-    - 37.5
-    - 15.0
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: 'true'
-    pos:
-    - 37.5
-    - 7.5
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: 'true'
-    pos:
-    - 37.5
     - -7.5
     - 0
     r: 1.5
@@ -529,54 +440,6 @@ thing:
     pos:
     - 37.5
     - -45.0
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: 'true'
-    pos:
-    - 30.0
-    - 45.0
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: 'true'
-    pos:
-    - 30.0
-    - 37.5
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: 'true'
-    pos:
-    - 30.0
-    - 30.0
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: 'true'
-    pos:
-    - 30.0
-    - 22.5
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: 'true'
-    pos:
-    - 30.0
-    - 15.0
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: 'true'
-    pos:
-    - 30.0
-    - 7.5
     - 0
     r: 1.5
     shape: hole
@@ -880,14 +743,6 @@ thing:
   - inclusion: 'true'
     pos:
     - 7.5
-    - 0.0
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: 'true'
-    pos:
-    - 7.5
     - -7.5
     - 0
     r: 1.5
@@ -976,30 +831,6 @@ thing:
   - inclusion: 'true'
     pos:
     - 0.0
-    - 7.5
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: 'true'
-    pos:
-    - 0.0
-    - 0.0
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: 'true'
-    pos:
-    - 0.0
-    - -7.5
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: 'true'
-    pos:
-    - 0.0
     - -15.0
     - 0
     r: 1.5
@@ -1081,14 +912,6 @@ thing:
     pos:
     - -7.5
     - 7.5
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: 'true'
-    pos:
-    - -7.5
-    - 0.0
     - 0
     r: 1.5
     shape: hole
@@ -1672,46 +1495,6 @@ thing:
   - inclusion: 3dpr
     pos:
     - 45.0
-    - 37.5
-    - 0
-    r: 1.8
-    shape: hole
-    type: negative
-  - inclusion: 3dpr
-    pos:
-    - 45.0
-    - 30.0
-    - 0
-    r: 1.8
-    shape: hole
-    type: negative
-  - inclusion: 3dpr
-    pos:
-    - 45.0
-    - 22.5
-    - 0
-    r: 1.8
-    shape: hole
-    type: negative
-  - inclusion: 3dpr
-    pos:
-    - 45.0
-    - 15.0
-    - 0
-    r: 1.8
-    shape: hole
-    type: negative
-  - inclusion: 3dpr
-    pos:
-    - 45.0
-    - 7.5
-    - 0
-    r: 1.8
-    shape: hole
-    type: negative
-  - inclusion: 3dpr
-    pos:
-    - 45.0
     - -7.5
     - 0
     r: 1.8
@@ -1760,54 +1543,6 @@ thing:
   - inclusion: 3dpr
     pos:
     - 37.5
-    - 45.0
-    - 0
-    r: 1.8
-    shape: hole
-    type: negative
-  - inclusion: 3dpr
-    pos:
-    - 37.5
-    - 37.5
-    - 0
-    r: 1.8
-    shape: hole
-    type: negative
-  - inclusion: 3dpr
-    pos:
-    - 37.5
-    - 30.0
-    - 0
-    r: 1.8
-    shape: hole
-    type: negative
-  - inclusion: 3dpr
-    pos:
-    - 37.5
-    - 22.5
-    - 0
-    r: 1.8
-    shape: hole
-    type: negative
-  - inclusion: 3dpr
-    pos:
-    - 37.5
-    - 15.0
-    - 0
-    r: 1.8
-    shape: hole
-    type: negative
-  - inclusion: 3dpr
-    pos:
-    - 37.5
-    - 7.5
-    - 0
-    r: 1.8
-    shape: hole
-    type: negative
-  - inclusion: 3dpr
-    pos:
-    - 37.5
     - -7.5
     - 0
     r: 1.8
@@ -1849,54 +1584,6 @@ thing:
     pos:
     - 37.5
     - -45.0
-    - 0
-    r: 1.8
-    shape: hole
-    type: negative
-  - inclusion: 3dpr
-    pos:
-    - 30.0
-    - 45.0
-    - 0
-    r: 1.8
-    shape: hole
-    type: negative
-  - inclusion: 3dpr
-    pos:
-    - 30.0
-    - 37.5
-    - 0
-    r: 1.8
-    shape: hole
-    type: negative
-  - inclusion: 3dpr
-    pos:
-    - 30.0
-    - 30.0
-    - 0
-    r: 1.8
-    shape: hole
-    type: negative
-  - inclusion: 3dpr
-    pos:
-    - 30.0
-    - 22.5
-    - 0
-    r: 1.8
-    shape: hole
-    type: negative
-  - inclusion: 3dpr
-    pos:
-    - 30.0
-    - 15.0
-    - 0
-    r: 1.8
-    shape: hole
-    type: negative
-  - inclusion: 3dpr
-    pos:
-    - 30.0
-    - 7.5
     - 0
     r: 1.8
     shape: hole
@@ -2200,14 +1887,6 @@ thing:
   - inclusion: 3dpr
     pos:
     - 7.5
-    - 0.0
-    - 0
-    r: 1.8
-    shape: hole
-    type: negative
-  - inclusion: 3dpr
-    pos:
-    - 7.5
     - -7.5
     - 0
     r: 1.8
@@ -2296,30 +1975,6 @@ thing:
   - inclusion: 3dpr
     pos:
     - 0.0
-    - 7.5
-    - 0
-    r: 1.8
-    shape: hole
-    type: negative
-  - inclusion: 3dpr
-    pos:
-    - 0.0
-    - 0.0
-    - 0
-    r: 1.8
-    shape: hole
-    type: negative
-  - inclusion: 3dpr
-    pos:
-    - 0.0
-    - -7.5
-    - 0
-    r: 1.8
-    shape: hole
-    type: negative
-  - inclusion: 3dpr
-    pos:
-    - 0.0
     - -15.0
     - 0
     r: 1.8
@@ -2401,14 +2056,6 @@ thing:
     pos:
     - -7.5
     - 7.5
-    - 0
-    r: 1.8
-    shape: hole
-    type: negative
-  - inclusion: 3dpr
-    pos:
-    - -7.5
-    - 0.0
     - 0
     r: 1.8
     shape: hole
@@ -2992,46 +2639,6 @@ thing:
   - inclusion: laser
     pos:
     - 45.0
-    - 37.5
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: laser
-    pos:
-    - 45.0
-    - 30.0
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: laser
-    pos:
-    - 45.0
-    - 22.5
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: laser
-    pos:
-    - 45.0
-    - 15.0
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: laser
-    pos:
-    - 45.0
-    - 7.5
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: laser
-    pos:
-    - 45.0
     - -7.5
     - 0
     r: 1.5
@@ -3080,54 +2687,6 @@ thing:
   - inclusion: laser
     pos:
     - 37.5
-    - 45.0
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: laser
-    pos:
-    - 37.5
-    - 37.5
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: laser
-    pos:
-    - 37.5
-    - 30.0
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: laser
-    pos:
-    - 37.5
-    - 22.5
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: laser
-    pos:
-    - 37.5
-    - 15.0
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: laser
-    pos:
-    - 37.5
-    - 7.5
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: laser
-    pos:
-    - 37.5
     - -7.5
     - 0
     r: 1.5
@@ -3169,54 +2728,6 @@ thing:
     pos:
     - 37.5
     - -45.0
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: laser
-    pos:
-    - 30.0
-    - 45.0
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: laser
-    pos:
-    - 30.0
-    - 37.5
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: laser
-    pos:
-    - 30.0
-    - 30.0
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: laser
-    pos:
-    - 30.0
-    - 22.5
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: laser
-    pos:
-    - 30.0
-    - 15.0
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: laser
-    pos:
-    - 30.0
-    - 7.5
     - 0
     r: 1.5
     shape: hole
@@ -3520,14 +3031,6 @@ thing:
   - inclusion: laser
     pos:
     - 7.5
-    - 0.0
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: laser
-    pos:
-    - 7.5
     - -7.5
     - 0
     r: 1.5
@@ -3616,30 +3119,6 @@ thing:
   - inclusion: laser
     pos:
     - 0.0
-    - 7.5
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: laser
-    pos:
-    - 0.0
-    - 0.0
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: laser
-    pos:
-    - 0.0
-    - -7.5
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: laser
-    pos:
-    - 0.0
     - -15.0
     - 0
     r: 1.5
@@ -3721,14 +3200,6 @@ thing:
     pos:
     - -7.5
     - 7.5
-    - 0
-    r: 1.5
-    shape: hole
-    type: negative
-  - inclusion: laser
-    pos:
-    - -7.5
-    - 0.0
     - 0
     r: 1.5
     shape: hole
@@ -4312,22 +3783,6 @@ thing:
   - inclusion: 'true'
     pos:
     - 45.0
-    - 30.0
-    - 0
-    r: 3.0
-    shape: hole
-    type: negative
-  - inclusion: 'true'
-    pos:
-    - 45.0
-    - 15.0
-    - 0
-    r: 3.0
-    shape: hole
-    type: negative
-  - inclusion: 'true'
-    pos:
-    - 45.0
     - -15.0
     - 0
     r: 3.0
@@ -4345,30 +3800,6 @@ thing:
     pos:
     - 45.0
     - -45.0
-    - 0
-    r: 3.0
-    shape: hole
-    type: negative
-  - inclusion: 'true'
-    pos:
-    - 30.0
-    - 45.0
-    - 0
-    r: 3.0
-    shape: hole
-    type: negative
-  - inclusion: 'true'
-    pos:
-    - 30.0
-    - 30.0
-    - 0
-    r: 3.0
-    shape: hole
-    type: negative
-  - inclusion: 'true'
-    pos:
-    - 30.0
-    - 15.0
     - 0
     r: 3.0
     shape: hole
@@ -4473,14 +3904,6 @@ thing:
     pos:
     - 0.0
     - 15.0
-    - 0
-    r: 3.0
-    shape: hole
-    type: negative
-  - inclusion: 'true'
-    pos:
-    - 0.0
-    - 0.0
     - 0
     r: 3.0
     shape: hole
@@ -4688,22 +4111,6 @@ thing:
   - inclusion: 3dpr
     pos:
     - 45.0
-    - 30.0
-    - 0
-    r: 3.25
-    shape: hole
-    type: negative
-  - inclusion: 3dpr
-    pos:
-    - 45.0
-    - 15.0
-    - 0
-    r: 3.25
-    shape: hole
-    type: negative
-  - inclusion: 3dpr
-    pos:
-    - 45.0
     - -15.0
     - 0
     r: 3.25
@@ -4721,30 +4128,6 @@ thing:
     pos:
     - 45.0
     - -45.0
-    - 0
-    r: 3.25
-    shape: hole
-    type: negative
-  - inclusion: 3dpr
-    pos:
-    - 30.0
-    - 45.0
-    - 0
-    r: 3.25
-    shape: hole
-    type: negative
-  - inclusion: 3dpr
-    pos:
-    - 30.0
-    - 30.0
-    - 0
-    r: 3.25
-    shape: hole
-    type: negative
-  - inclusion: 3dpr
-    pos:
-    - 30.0
-    - 15.0
     - 0
     r: 3.25
     shape: hole
@@ -4849,14 +4232,6 @@ thing:
     pos:
     - 0.0
     - 15.0
-    - 0
-    r: 3.25
-    shape: hole
-    type: negative
-  - inclusion: 3dpr
-    pos:
-    - 0.0
-    - 0.0
     - 0
     r: 3.25
     shape: hole
@@ -5064,22 +4439,6 @@ thing:
   - inclusion: laser
     pos:
     - 45.0
-    - 30.0
-    - 0
-    r: 3.0
-    shape: hole
-    type: negative
-  - inclusion: laser
-    pos:
-    - 45.0
-    - 15.0
-    - 0
-    r: 3.0
-    shape: hole
-    type: negative
-  - inclusion: laser
-    pos:
-    - 45.0
     - -15.0
     - 0
     r: 3.0
@@ -5097,30 +4456,6 @@ thing:
     pos:
     - 45.0
     - -45.0
-    - 0
-    r: 3.0
-    shape: hole
-    type: negative
-  - inclusion: laser
-    pos:
-    - 30.0
-    - 45.0
-    - 0
-    r: 3.0
-    shape: hole
-    type: negative
-  - inclusion: laser
-    pos:
-    - 30.0
-    - 30.0
-    - 0
-    r: 3.0
-    shape: hole
-    type: negative
-  - inclusion: laser
-    pos:
-    - 30.0
-    - 15.0
     - 0
     r: 3.0
     shape: hole
@@ -5225,14 +4560,6 @@ thing:
     pos:
     - 0.0
     - 15.0
-    - 0
-    r: 3.0
-    shape: hole
-    type: negative
-  - inclusion: laser
-    pos:
-    - 0.0
-    - 0.0
     - 0
     r: 3.0
     shape: hole
@@ -5429,6 +4756,32 @@ thing:
     r: 3.0
     shape: hole
     type: negative
+  - - depth: 3.2
+      h: 3.2
+      inclusion: laser
+      pos: &id001
+      - 0
+      - 0
+      - -0.10000000000000009
+      r: 8.5
+      radius: 8.5
+      shape: cylinder
+      type: negative
+    - depth: 3.2
+      h: 3.2
+      inclusion: 3dpr
+      pos: *id001
+      r: 8.5
+      shape: cylinder
+      type: negative
+    - depth: 3.2
+      h: 3.2
+      inclusion: 'true'
+      pos: *id001
+      r: 8.5
+      radius: 8.5
+      shape: cylinder
+      type: negative
   - - - pos:
         - 22.0
         - -0.75
@@ -5437,6 +4790,48 @@ thing:
         size:
         - 31.0
         - 1.5
+        - 3.2
+        type: negative
+  - - height: 3.2
+      points:
+      - - -2.5
+        - 0
+      - - 0
+        - -2.5
+      - - 2.5
+        - 0
+      - - 0
+        - 2.5
+      pos:
+      - 37.0
+      - 0
+      - -0.1
+      shape: polygon
+      type: negative
+  - - height: 3.2
+      points:
+      - - -2.5
+        - 0
+      - - 0
+        - -2.5
+      - - 2.5
+        - 0
+      - - 0
+        - 2.5
+      pos:
+      - 52.0
+      - 0
+      - -0.1
+      shape: polygon
+      type: negative
+  - - - pos:
+        - 36.25
+        - 0.0
+        - -0.1
+        shape: cube
+        size:
+        - 1.5
+        - 30
         - 3.2
         type: negative
   - - objects:
@@ -6569,6 +5964,15 @@ thing:
     shape: oobb_plate
     type: positive
     width: 7
+  - depth: 3.2
+    pos:
+    - 0
+    - 0
+    - -0.1
+    radius: 8.5
+    shape: oobb_cylinder
+    type: negative
+    zz: bottom
   - pos:
     - 37.5
     - 0
@@ -6577,6 +5981,48 @@ thing:
     size:
     - 31.0
     - 1.5
+    - 3.2
+    type: negative
+  - height: 3.2
+    points:
+    - - -2.5
+      - 0
+    - - 0
+      - -2.5
+    - - 2.5
+      - 0
+    - - 0
+      - 2.5
+    pos:
+    - 37.0
+    - 0
+    - -0.1
+    shape: polygon
+    type: negative
+  - height: 3.2
+    points:
+    - - -2.5
+      - 0
+    - - 0
+      - -2.5
+    - - 2.5
+      - 0
+    - - 0
+      - 2.5
+    pos:
+    - 52.0
+    - 0
+    - -0.1
+    shape: polygon
+    type: negative
+  - pos:
+    - 37.0
+    - 15.0
+    - -0.1
+    shape: oobb_cube_center
+    size:
+    - 1.5
+    - 30
     - 3.2
     type: negative
   - depth: 3
@@ -6677,7 +6123,11 @@ thing:
     zz: top
   components_string:
   - oobb_plate_shape_positive_type_3_depth_7_width_7_height
+  - oobb_cylinder_shape_negative_type_3.2_depth_0_0_-0.1_pos_bottom_zz_8.5_radius
   - oobb_cube_center_shape_negative_type_37.5_0_-0.1_pos_31.0_1.5_3.2_size
+  - polygon_shape_negative_type_37.0_0_-0.1_pos_-2.5_0_0_-2.5_2.5_0_0_2.5_points_3.2_height
+  - polygon_shape_negative_type_52.0_0_-0.1_pos_-2.5_0_0_-2.5_2.5_0_0_2.5_points_3.2_height
+  - oobb_cube_center_shape_negative_type_37.0_15.0_-0.1_pos_1.5_30_3.2_size
   - oobb_screw_countersunk_shape_negative_type_m3_radius_name_3_depth_15_7.5_3_pos_top_zz_true_hole_false_nut_include_false_overhang
   - oobb_screw_countersunk_shape_negative_type_m3_radius_name_3_depth_-7.5_15_3_pos_top_zz_true_hole_false_nut_include_false_overhang
   - oobb_screw_countersunk_shape_negative_type_m3_radius_name_3_depth_-15_-7.5_3_pos_top_zz_true_hole_false_nut_include_false_overhang
@@ -6703,7 +6153,7 @@ thing:
     height: 7
     modes:
     - 3dpr
-    navigation: true
+    navigation: false
     oomp_mode: project
     oomp_run: true
     overwrite: true
@@ -6718,7 +6168,6 @@ thing:
     taxonomy_8: 7_height
     taxonomy_9: 3_depth
     typ: all
-    wait_for_completion: true
     width: 7
   link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_organize_ribbon_reel_end_cap_7_width_7_height_3_depth
   link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_organize_ribbon_reel_end_cap_7_width_7_height_3_depth

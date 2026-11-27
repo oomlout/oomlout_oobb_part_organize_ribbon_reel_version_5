@@ -1,0 +1,771 @@
+bip_39_2_word_array:
+- useful
+- veteran
+bip_39_2_word_no_space: usefulveteran
+bip_39_2_word_space: useful veteran
+bip_39_2_word_underscore: useful_veteran
+bip_39_3_word_array:
+- useful
+- veteran
+- stove
+bip_39_3_word_no_space: usefulveteranstove
+bip_39_3_word_space: useful veteran stove
+bip_39_3_word_underscore: useful_veteran_stove
+bip_39_full_array:
+- useful
+- veteran
+- stove
+- figure
+- drip
+- unable
+- lucky
+- autumn
+- mass
+- exile
+- ostrich
+- idea
+bip_39_full_no_space: usefulveteranstovefiguredripunableluckyautumnmassexileostrichidea
+bip_39_full_space: useful veteran stove figure drip unable lucky autumn mass exile
+  ostrich idea
+bip_39_full_underscore: useful_veteran_stove_figure_drip_unable_lucky_autumn_mass_exile_ostrich_idea
+cells: 2
+directory: parts/oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug
+id: oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug
+id_no_class: oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug
+id_no_size: oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug
+id_no_type: oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug
+id_oobb: oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug
+kwargs:
+  cells: 2
+  filter: ''
+  modes:
+  - 3dpr
+  navigation: false
+  oomp_mode: project
+  oomp_run: true
+  overwrite: true
+  side: plug
+  taxonomy_1: oobb
+  taxonomy_2: part
+  taxonomy_3: organize
+  taxonomy_4: ribbon
+  taxonomy_5: reel
+  taxonomy_6: gridfinity_end
+  taxonomy_7: 2x2
+  taxonomy_8: plug
+  typ: all
+  web: 1.0
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug
+md5: effe675aab0433d8a1287d8889f673b8
+md5_10: effe675aab
+md5_10_upper: EFFE675AAB
+md5_5: effe6
+md5_5_upper: EFFE6
+md5_6: effe67
+md5_6_alpha: 9d3zb
+md5_6_alpha_upper: 9D3ZB
+md5_6_upper: EFFE67
+name: Oobb Part Organize Ribbon Reel Gridfinity End 2X2 Plug
+name_no_class: Oobb Part Organize Ribbon Reel Gridfinity End 2X2 Plug
+name_no_size: Oobb Part Organize Ribbon Reel Gridfinity End 2X2 Plug
+name_no_type: Oobb Part Organize Ribbon Reel Gridfinity End 2X2 Plug
+name_proper: Oobb Part Organize Ribbon Reel Gridfinity End 2X2 Plug
+name_space: oobb part organize ribbon reel gridfinity end 2x2 plug
+name_upper: OOBB PART ORGANIZE RIBBON REEL GRIDFINITY END 2X2 PLUG
+oobb_details:
+  cells: 2
+  oobb_type: gridfinity_end
+  run_scad: true
+  run_solidcraft: false
+  side: plug
+  taxonomy_1: oobb
+  taxonomy_2: part
+  taxonomy_3: organize
+  taxonomy_4: ribbon
+  taxonomy_5: reel
+  taxonomy_6: gridfinity_end
+  taxonomy_7: 2x2
+  taxonomy_8: plug
+  web: 1.0
+oobb_name: gridfinity_end
+oobb_type: gridfinity_end
+oomlout_ai_roboclick_1:
+  action_name: step_0_jinja_template_label_oomp.svg
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      cells: 2
+      directory: parts\oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug
+      name: oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug
+      name_proper: Oobb Part Organize Ribbon Reel Gridfinity End 2X2 Plug
+      name_space: oobb part organize ribbon reel gridfinity end 2x2 plug
+      name_upper: OOBB PART ORGANIZE RIBBON REEL GRIDFINITY END 2X2 PLUG
+      oobb_details:
+        cells: 2
+        oobb_type: gridfinity_end
+        run_scad: true
+        run_solidcraft: false
+        side: plug
+        taxonomy_1: oobb
+        taxonomy_2: part
+        taxonomy_3: organize
+        taxonomy_4: ribbon
+        taxonomy_5: reel
+        taxonomy_6: gridfinity_end
+        taxonomy_7: 2x2
+        taxonomy_8: plug
+        web: 1.0
+      oobb_type: gridfinity_end
+      side: plug
+      taxonomy_1: oobb
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: part
+      taxonomy_3: organize
+      taxonomy_4: ribbon
+      taxonomy_5: reel
+      taxonomy_6: gridfinity_end
+      taxonomy_7: 2x2
+      taxonomy_8: plug
+      taxonomy_9: ''
+      url_chat: ''
+      web: 1.0
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_oomp.svg
+    file_template: C:\gh\oomlout_oobb_part_organize_ribbon_reel_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_oomp.pdf
+  retries_until_complete: 0
+oomp_key: oomp_oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug
+project_name: C:\gh\oomlout_oobb_part_organize_ribbon_reel_version_5
+side: plug
+taxonomy_1: oobb
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Oobb
+taxonomy_1_first_letter: o
+taxonomy_1_first_letter_upper: O
+taxonomy_1_length_1: o
+taxonomy_1_length_2: oo
+taxonomy_1_length_3: oob
+taxonomy_1_length_4: oobb
+taxonomy_1_length_5: oobb
+taxonomy_1_upper: OOBB
+taxonomy_1_upper_length_1: O
+taxonomy_1_upper_length_2: OO
+taxonomy_1_upper_length_3: OOB
+taxonomy_1_upper_length_4: OOBB
+taxonomy_1_upper_length_5: OOBB
+taxonomy_2: part
+taxonomy_2_capital: Part
+taxonomy_2_first_letter: p
+taxonomy_2_first_letter_upper: P
+taxonomy_2_length_1: p
+taxonomy_2_length_2: pa
+taxonomy_2_length_3: par
+taxonomy_2_length_4: part
+taxonomy_2_length_5: part
+taxonomy_2_upper: PART
+taxonomy_2_upper_length_1: P
+taxonomy_2_upper_length_2: PA
+taxonomy_2_upper_length_3: PAR
+taxonomy_2_upper_length_4: PART
+taxonomy_2_upper_length_5: PART
+taxonomy_3: organize
+taxonomy_3_capital: Organize
+taxonomy_3_first_letter: o
+taxonomy_3_first_letter_upper: O
+taxonomy_3_length_1: o
+taxonomy_3_length_2: or
+taxonomy_3_length_3: org
+taxonomy_3_length_4: orga
+taxonomy_3_length_5: organ
+taxonomy_3_upper: ORGANIZE
+taxonomy_3_upper_length_1: O
+taxonomy_3_upper_length_2: OR
+taxonomy_3_upper_length_3: ORG
+taxonomy_3_upper_length_4: ORGA
+taxonomy_3_upper_length_5: ORGAN
+taxonomy_4: ribbon
+taxonomy_4_capital: Ribbon
+taxonomy_4_first_letter: r
+taxonomy_4_first_letter_upper: R
+taxonomy_4_length_1: r
+taxonomy_4_length_2: ri
+taxonomy_4_length_3: rib
+taxonomy_4_length_4: ribb
+taxonomy_4_length_5: ribbo
+taxonomy_4_upper: RIBBON
+taxonomy_4_upper_length_1: R
+taxonomy_4_upper_length_2: RI
+taxonomy_4_upper_length_3: RIB
+taxonomy_4_upper_length_4: RIBB
+taxonomy_4_upper_length_5: RIBBO
+taxonomy_5: reel
+taxonomy_5_capital: Reel
+taxonomy_5_first_letter: r
+taxonomy_5_first_letter_upper: R
+taxonomy_5_length_1: r
+taxonomy_5_length_2: re
+taxonomy_5_length_3: ree
+taxonomy_5_length_4: reel
+taxonomy_5_length_5: reel
+taxonomy_5_upper: REEL
+taxonomy_5_upper_length_1: R
+taxonomy_5_upper_length_2: RE
+taxonomy_5_upper_length_3: REE
+taxonomy_5_upper_length_4: REEL
+taxonomy_5_upper_length_5: REEL
+taxonomy_6: gridfinity_end
+taxonomy_6_capital: Gridfinity End
+taxonomy_6_first_letter: g
+taxonomy_6_first_letter_upper: G
+taxonomy_6_length_1: g
+taxonomy_6_length_2: gr
+taxonomy_6_length_3: gri
+taxonomy_6_length_4: grid
+taxonomy_6_length_5: gridf
+taxonomy_6_upper: GRIDFINITY_END
+taxonomy_6_upper_length_1: G
+taxonomy_6_upper_length_2: GR
+taxonomy_6_upper_length_3: GRI
+taxonomy_6_upper_length_4: GRID
+taxonomy_6_upper_length_5: GRIDF
+taxonomy_7: 2x2
+taxonomy_7_capital: 2X2
+taxonomy_7_first_letter: '2'
+taxonomy_7_first_letter_upper: '2'
+taxonomy_7_length_1: '2'
+taxonomy_7_length_2: 2x
+taxonomy_7_length_3: 2x2
+taxonomy_7_length_4: 2x2
+taxonomy_7_length_5: 2x2
+taxonomy_7_upper: 2X2
+taxonomy_7_upper_length_1: '2'
+taxonomy_7_upper_length_2: 2X
+taxonomy_7_upper_length_3: 2X2
+taxonomy_7_upper_length_4: 2X2
+taxonomy_7_upper_length_5: 2X2
+taxonomy_8: plug
+taxonomy_8_capital: Plug
+taxonomy_8_first_letter: p
+taxonomy_8_first_letter_upper: P
+taxonomy_8_length_1: p
+taxonomy_8_length_2: pl
+taxonomy_8_length_3: plu
+taxonomy_8_length_4: plug
+taxonomy_8_length_5: plug
+taxonomy_8_upper: PLUG
+taxonomy_8_upper_length_1: P
+taxonomy_8_upper_length_2: PL
+taxonomy_8_upper_length_3: PLU
+taxonomy_8_upper_length_4: PLUG
+taxonomy_8_upper_length_5: PLUG
+taxonomy_9: ''
+thing:
+  bip_39_2_word_array:
+  - useful
+  - veteran
+  bip_39_2_word_no_space: usefulveteran
+  bip_39_2_word_space: useful veteran
+  bip_39_2_word_underscore: useful_veteran
+  bip_39_3_word_array:
+  - useful
+  - veteran
+  - stove
+  bip_39_3_word_no_space: usefulveteranstove
+  bip_39_3_word_space: useful veteran stove
+  bip_39_3_word_underscore: useful_veteran_stove
+  bip_39_full_array:
+  - useful
+  - veteran
+  - stove
+  - figure
+  - drip
+  - unable
+  - lucky
+  - autumn
+  - mass
+  - exile
+  - ostrich
+  - idea
+  bip_39_full_no_space: usefulveteranstovefiguredripunableluckyautumnmassexileostrichidea
+  bip_39_full_space: useful veteran stove figure drip unable lucky autumn mass exile
+    ostrich idea
+  bip_39_full_underscore: useful_veteran_stove_figure_drip_unable_lucky_autumn_mass_exile_ostrich_idea
+  cells: 2
+  classification: oobb
+  color: ''
+  components:
+  - - module: gridfinity_end
+      module_kwargs:
+        n: 2
+        side: plug
+        web: 1.0
+      pos:
+      - 0
+      - 0
+      - 0
+      shape: raw_scad
+      source: "// Print with the ribbon face on Z=0. All dimensions in millimetres.\n\
+        module square_section(w, r) {\n    offset(r=r, $fn=48) square([w-2*r,w-2*r],center=true);\n\
+        }\nmodule slab(w,r,z,h) {\n    translate([0,0,z]) linear_extrude(h) square_section(w,r);\n\
+        }\n// Constant corner centres give true 45-degree flanks.\nmodule taper(w1,r1,w2,r2,z,h)\
+        \ {\n    hull() {\n        slab(w1,r1,z,0.001);\n        slab(w2,r2,z+h-0.001,0.001);\n\
+        \    }\n}\n// The feet are the standard three-stage male profile, measured\
+        \ from the web.\nmodule plug_foot(web) {\n    taper(41.5,3.75,37.2,1.6,web,2.15);\n\
+        \    slab(37.2,1.6,web+2.15,1.8);\n    taper(37.2,1.6,35.6,0.8,web+3.95,0.8);\n\
+        }\n// A single perimeter lip captures only the tip of the mating feet.\nmodule\
+        \ top_rim(n,web) {\n    w=n*42-0.5;\n    difference() {\n        slab(w,3.75,web,1.6);\n\
+        \        taper(n*42-5.7,1.15,n*42-4.3,1.85,web,0.7);\n        slab(n*42-4.3,1.85,web+0.7,1);\n\
+        \    }\n}\nmodule gridfinity_end(n=2,side=\"plug\",web=1) {\n    assert(n==2\
+        \ || n==3);\n    assert(side==\"plug\" || side==\"socket\");\n    w=n*42-0.5;\n\
+        \    cut=web+5;\n    difference() {\n        union() {\n            slab(w,3.75,0,web);\n\
+        \            if (side==\"plug\")\n                for (i=[0:n-1],j=[0:n-1])\n\
+        \                    translate([42*(i-(n-1)/2),42*(j-(n-1)/2),0]) plug_foot(web);\n\
+        \            else top_rim(n,web);\n        }\n        translate([0,0,-0.1])\
+        \ cylinder(d=17,h=cut+0.2,$fn=80);\n        for(x=[-15,15],y=[-15,15]) translate([x,y,-0.1])\n\
+        \            cylinder(d=6.5,h=cut+0.2,$fn=64);\n        // Seat screws flush\
+        \ with the web on either face of the core.\n        for(a=[0:90:270],s=[-1,1])\
+        \ rotate([0,0,a]) translate([15,s*7.5,0]) {\n            translate([0,0,-0.1])\
+        \ cylinder(d=3.4,h=cut+0.2,$fn=48);\n            translate([0,0,web-1.6])\
+        \ cylinder(d1=3.2,d2=6.4,h=1.6,$fn=48);\n            translate([0,0,web])\
+        \ cylinder(d=6.4,h=5,$fn=48);\n        }\n        j=w/2-12;\n        translate([22,-0.75,-0.1])\
+        \ cube([w/2-21,1.5,cut+0.2]);\n        // Half of this diamond opens to the\
+        \ edge, making a 5 mm lead-in.\n        for(x=[j,w/2]) translate([x,0,-0.1])\
+        \ linear_extrude(cut+0.2)\n            polygon([[-2.5,0],[0,-2.5],[2.5,0],[0,2.5]]);\n\
+        \        translate([j-0.75,0,-0.1]) cube([1.5,min(30,w/2-12),cut+0.2]);\n\
+        \    }\n}\n"
+      type: positive
+  components_objects:
+  - module: gridfinity_end
+    module_kwargs:
+      n: 2
+      side: plug
+      web: 1.0
+    pos:
+    - 0
+    - 0
+    - 0
+    shape: raw_scad
+    source: "// Print with the ribbon face on Z=0. All dimensions in millimetres.\n\
+      module square_section(w, r) {\n    offset(r=r, $fn=48) square([w-2*r,w-2*r],center=true);\n\
+      }\nmodule slab(w,r,z,h) {\n    translate([0,0,z]) linear_extrude(h) square_section(w,r);\n\
+      }\n// Constant corner centres give true 45-degree flanks.\nmodule taper(w1,r1,w2,r2,z,h)\
+      \ {\n    hull() {\n        slab(w1,r1,z,0.001);\n        slab(w2,r2,z+h-0.001,0.001);\n\
+      \    }\n}\n// The feet are the standard three-stage male profile, measured from\
+      \ the web.\nmodule plug_foot(web) {\n    taper(41.5,3.75,37.2,1.6,web,2.15);\n\
+      \    slab(37.2,1.6,web+2.15,1.8);\n    taper(37.2,1.6,35.6,0.8,web+3.95,0.8);\n\
+      }\n// A single perimeter lip captures only the tip of the mating feet.\nmodule\
+      \ top_rim(n,web) {\n    w=n*42-0.5;\n    difference() {\n        slab(w,3.75,web,1.6);\n\
+      \        taper(n*42-5.7,1.15,n*42-4.3,1.85,web,0.7);\n        slab(n*42-4.3,1.85,web+0.7,1);\n\
+      \    }\n}\nmodule gridfinity_end(n=2,side=\"plug\",web=1) {\n    assert(n==2\
+      \ || n==3);\n    assert(side==\"plug\" || side==\"socket\");\n    w=n*42-0.5;\n\
+      \    cut=web+5;\n    difference() {\n        union() {\n            slab(w,3.75,0,web);\n\
+      \            if (side==\"plug\")\n                for (i=[0:n-1],j=[0:n-1])\n\
+      \                    translate([42*(i-(n-1)/2),42*(j-(n-1)/2),0]) plug_foot(web);\n\
+      \            else top_rim(n,web);\n        }\n        translate([0,0,-0.1])\
+      \ cylinder(d=17,h=cut+0.2,$fn=80);\n        for(x=[-15,15],y=[-15,15]) translate([x,y,-0.1])\n\
+      \            cylinder(d=6.5,h=cut+0.2,$fn=64);\n        // Seat screws flush\
+      \ with the web on either face of the core.\n        for(a=[0:90:270],s=[-1,1])\
+      \ rotate([0,0,a]) translate([15,s*7.5,0]) {\n            translate([0,0,-0.1])\
+      \ cylinder(d=3.4,h=cut+0.2,$fn=48);\n            translate([0,0,web-1.6]) cylinder(d1=3.2,d2=6.4,h=1.6,$fn=48);\n\
+      \            translate([0,0,web]) cylinder(d=6.4,h=5,$fn=48);\n        }\n \
+      \       j=w/2-12;\n        translate([22,-0.75,-0.1]) cube([w/2-21,1.5,cut+0.2]);\n\
+      \        // Half of this diamond opens to the edge, making a 5 mm lead-in.\n\
+      \        for(x=[j,w/2]) translate([x,0,-0.1]) linear_extrude(cut+0.2)\n    \
+      \        polygon([[-2.5,0],[0,-2.5],[2.5,0],[0,2.5]]);\n        translate([j-0.75,0,-0.1])\
+      \ cube([1.5,min(30,w/2-12),cut+0.2]);\n    }\n}\n"
+    type: positive
+  components_string:
+  - 'raw_scad_shape_positive_type_//printwiththeribbonfaceonz=0.alldimensionsinmillimetres.
+
+    modulesquare_section(w_r){
+
+    offset(r=r_$fn=48)square(w-2*r_w-2*r_center=true);
+
+    }
+
+    moduleslab(w_r_z_h){
+
+    translate(0_0_z)linear_extrude(h)square_section(w_r);
+
+    }
+
+    //constantcornercentresgivetrue45-degreeflanks.
+
+    moduletaper(w1_r1_w2_r2_z_h){
+
+    hull(){
+
+    slab(w1_r1_z_0.001);
+
+    slab(w2_r2_z+h-0.001_0.001);
+
+    }
+
+    }
+
+    //thefeetarethestandardthree-stagemaleprofile_measuredfromtheweb.
+
+    moduleplug_foot(web){
+
+    taper(41.5_3.75_37.2_1.6_web_2.15);
+
+    slab(37.2_1.6_web+2.15_1.8);
+
+    taper(37.2_1.6_35.6_0.8_web+3.95_0.8);
+
+    }
+
+    //asingleperimeterlipcapturesonlythetipofthematingfeet.
+
+    moduletop_rim(n_web){
+
+    w=n*42-0.5;
+
+    difference(){
+
+    slab(w_3.75_web_1.6);
+
+    taper(n*42-5.7_1.15_n*42-4.3_1.85_web_0.7);
+
+    slab(n*42-4.3_1.85_web+0.7_1);
+
+    }
+
+    }
+
+    modulegridfinity_end(n=2_side="plug"_web=1){
+
+    assert(n==2||n==3);
+
+    assert(side=="plug"||side=="socket");
+
+    w=n*42-0.5;
+
+    cut=web+5;
+
+    difference(){
+
+    union(){
+
+    slab(w_3.75_0_web);
+
+    if(side=="plug")
+
+    for(i=0:n-1_j=0:n-1)
+
+    translate(42*(i-(n-1)/2)_42*(j-(n-1)/2)_0)plug_foot(web);
+
+    elsetop_rim(n_web);
+
+    }
+
+    translate(0_0_-0.1)cylinder(d=17_h=cut+0.2_$fn=80);
+
+    for(x=-15_15_y=-15_15)translate(x_y_-0.1)
+
+    cylinder(d=6.5_h=cut+0.2_$fn=64);
+
+    //seatscrewsflushwiththeweboneitherfaceofthecore.
+
+    for(a=0:90:270_s=-1_1)rotate(0_0_a)translate(15_s*7.5_0){
+
+    translate(0_0_-0.1)cylinder(d=3.4_h=cut+0.2_$fn=48);
+
+    translate(0_0_web-1.6)cylinder(d1=3.2_d2=6.4_h=1.6_$fn=48);
+
+    translate(0_0_web)cylinder(d=6.4_h=5_$fn=48);
+
+    }
+
+    j=w/2-12;
+
+    translate(22_-0.75_-0.1)cube(w/2-21_1.5_cut+0.2);
+
+    //halfofthisdiamondopenstotheedge_makinga5mmlead-in.
+
+    for(x=j_w/2)translate(x_0_-0.1)linear_extrude(cut+0.2)
+
+    polygon(-2.5_0_0_-2.5_2.5_0_0_2.5);
+
+    translate(j-0.75_0_-0.1)cube(1.5_min(30_w/2-12)_cut+0.2);
+
+    }
+
+    }
+
+    _source_gridfinity_end_module_{''n'':2_''side'':''plug''_''web'':1.0}_module_kwargs'
+  description: default gridfinity end 0x0x0
+  description_extra: ''
+  description_main: ''
+  directory: parts/oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug
+  id: oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug
+  id_no_class: oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug
+  id_no_size: oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug
+  id_no_type: oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug
+  kwargs:
+    cells: 2
+    filter: ''
+    modes:
+    - 3dpr
+    navigation: false
+    oomp_mode: project
+    oomp_run: true
+    overwrite: true
+    save_type: all
+    side: plug
+    taxonomy_1: oobb
+    taxonomy_2: part
+    taxonomy_3: organize
+    taxonomy_4: ribbon
+    taxonomy_5: reel
+    taxonomy_6: gridfinity_end
+    taxonomy_7: 2x2
+    taxonomy_8: plug
+    typ: all
+    web: 1.0
+  link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug
+  link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug
+  link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug
+  manufacturer: ''
+  md5: effe675aab0433d8a1287d8889f673b8
+  md5_10: effe675aab
+  md5_10_upper: EFFE675AAB
+  md5_5: effe6
+  md5_5_upper: EFFE6
+  md5_6: effe67
+  md5_6_alpha: 9d3zb
+  md5_6_alpha_upper: 9D3ZB
+  md5_6_upper: EFFE67
+  name: Oobb Part Organize Ribbon Reel Gridfinity End 2X2 Plug
+  name_no_class: Oobb Part Organize Ribbon Reel Gridfinity End 2X2 Plug
+  name_no_size: Oobb Part Organize Ribbon Reel Gridfinity End 2X2 Plug
+  name_no_type: Oobb Part Organize Ribbon Reel Gridfinity End 2X2 Plug
+  name_proper: Oobb Part Organize Ribbon Reel Gridfinity End 2X2 Plug
+  name_short: Default Gridfinity End
+  name_space: oobb part organize ribbon reel gridfinity end 2x2 plug
+  name_text: Oobb Part Default Gridfinity End
+  name_upper: OOBB PART ORGANIZE RIBBON REEL GRIDFINITY END 2X2 PLUG
+  oobb_details:
+    cells: 2
+    oobb_type: gridfinity_end
+    run_scad: true
+    run_solidcraft: false
+    side: plug
+    taxonomy_1: oobb
+    taxonomy_2: part
+    taxonomy_3: organize
+    taxonomy_4: ribbon
+    taxonomy_5: reel
+    taxonomy_6: gridfinity_end
+    taxonomy_7: 2x2
+    taxonomy_8: plug
+    web: 1.0
+  oobb_name: gridfinity_end
+  oobb_type: gridfinity_end
+  oomlout_ai_roboclick_1:
+    action_name: step_0_jinja_template_label_oomp.svg
+    actions:
+    - command: text_jinja_template
+      convert_to_pdf: false
+      convert_to_png: false
+      dict_data:
+        cells: 2
+        directory: parts\oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug
+        name: oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug
+        name_proper: Oobb Part Organize Ribbon Reel Gridfinity End 2X2 Plug
+        name_space: oobb part organize ribbon reel gridfinity end 2x2 plug
+        name_upper: OOBB PART ORGANIZE RIBBON REEL GRIDFINITY END 2X2 PLUG
+        oobb_details:
+          cells: 2
+          oobb_type: gridfinity_end
+          run_scad: true
+          run_solidcraft: false
+          side: plug
+          taxonomy_1: oobb
+          taxonomy_2: part
+          taxonomy_3: organize
+          taxonomy_4: ribbon
+          taxonomy_5: reel
+          taxonomy_6: gridfinity_end
+          taxonomy_7: 2x2
+          taxonomy_8: plug
+          web: 1.0
+        oobb_type: gridfinity_end
+        side: plug
+        taxonomy_1: oobb
+        taxonomy_10: ''
+        taxonomy_11: ''
+        taxonomy_12: ''
+        taxonomy_13: ''
+        taxonomy_14: ''
+        taxonomy_15: ''
+        taxonomy_2: part
+        taxonomy_3: organize
+        taxonomy_4: ribbon
+        taxonomy_5: reel
+        taxonomy_6: gridfinity_end
+        taxonomy_7: 2x2
+        taxonomy_8: plug
+        taxonomy_9: ''
+        url_chat: ''
+        web: 1.0
+      dict_data_files: {}
+      dict_data_files_exists: {}
+      file_output: label_oomp.svg
+      file_template: C:\gh\oomlout_oobb_part_organize_ribbon_reel_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+      search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+  oomp_key: oomp_oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug
+  part_number: ''
+  short_name: ''
+  side: plug
+  size: default_gridfinity_end
+  taxonomy_1: oobb
+  taxonomy_10: ''
+  taxonomy_11: ''
+  taxonomy_12: ''
+  taxonomy_13: ''
+  taxonomy_14: ''
+  taxonomy_15: ''
+  taxonomy_1_capital: Oobb
+  taxonomy_1_first_letter: o
+  taxonomy_1_first_letter_upper: O
+  taxonomy_1_length_1: o
+  taxonomy_1_length_2: oo
+  taxonomy_1_length_3: oob
+  taxonomy_1_length_4: oobb
+  taxonomy_1_length_5: oobb
+  taxonomy_1_upper: OOBB
+  taxonomy_1_upper_length_1: O
+  taxonomy_1_upper_length_2: OO
+  taxonomy_1_upper_length_3: OOB
+  taxonomy_1_upper_length_4: OOBB
+  taxonomy_1_upper_length_5: OOBB
+  taxonomy_2: part
+  taxonomy_2_capital: Part
+  taxonomy_2_first_letter: p
+  taxonomy_2_first_letter_upper: P
+  taxonomy_2_length_1: p
+  taxonomy_2_length_2: pa
+  taxonomy_2_length_3: par
+  taxonomy_2_length_4: part
+  taxonomy_2_length_5: part
+  taxonomy_2_upper: PART
+  taxonomy_2_upper_length_1: P
+  taxonomy_2_upper_length_2: PA
+  taxonomy_2_upper_length_3: PAR
+  taxonomy_2_upper_length_4: PART
+  taxonomy_2_upper_length_5: PART
+  taxonomy_3: organize
+  taxonomy_3_capital: Organize
+  taxonomy_3_first_letter: o
+  taxonomy_3_first_letter_upper: O
+  taxonomy_3_length_1: o
+  taxonomy_3_length_2: or
+  taxonomy_3_length_3: org
+  taxonomy_3_length_4: orga
+  taxonomy_3_length_5: organ
+  taxonomy_3_upper: ORGANIZE
+  taxonomy_3_upper_length_1: O
+  taxonomy_3_upper_length_2: OR
+  taxonomy_3_upper_length_3: ORG
+  taxonomy_3_upper_length_4: ORGA
+  taxonomy_3_upper_length_5: ORGAN
+  taxonomy_4: ribbon
+  taxonomy_4_capital: Ribbon
+  taxonomy_4_first_letter: r
+  taxonomy_4_first_letter_upper: R
+  taxonomy_4_length_1: r
+  taxonomy_4_length_2: ri
+  taxonomy_4_length_3: rib
+  taxonomy_4_length_4: ribb
+  taxonomy_4_length_5: ribbo
+  taxonomy_4_upper: RIBBON
+  taxonomy_4_upper_length_1: R
+  taxonomy_4_upper_length_2: RI
+  taxonomy_4_upper_length_3: RIB
+  taxonomy_4_upper_length_4: RIBB
+  taxonomy_4_upper_length_5: RIBBO
+  taxonomy_5: reel
+  taxonomy_5_capital: Reel
+  taxonomy_5_first_letter: r
+  taxonomy_5_first_letter_upper: R
+  taxonomy_5_length_1: r
+  taxonomy_5_length_2: re
+  taxonomy_5_length_3: ree
+  taxonomy_5_length_4: reel
+  taxonomy_5_length_5: reel
+  taxonomy_5_upper: REEL
+  taxonomy_5_upper_length_1: R
+  taxonomy_5_upper_length_2: RE
+  taxonomy_5_upper_length_3: REE
+  taxonomy_5_upper_length_4: REEL
+  taxonomy_5_upper_length_5: REEL
+  taxonomy_6: gridfinity_end
+  taxonomy_6_capital: Gridfinity End
+  taxonomy_6_first_letter: g
+  taxonomy_6_first_letter_upper: G
+  taxonomy_6_length_1: g
+  taxonomy_6_length_2: gr
+  taxonomy_6_length_3: gri
+  taxonomy_6_length_4: grid
+  taxonomy_6_length_5: gridf
+  taxonomy_6_upper: GRIDFINITY_END
+  taxonomy_6_upper_length_1: G
+  taxonomy_6_upper_length_2: GR
+  taxonomy_6_upper_length_3: GRI
+  taxonomy_6_upper_length_4: GRID
+  taxonomy_6_upper_length_5: GRIDF
+  taxonomy_7: 2x2
+  taxonomy_7_capital: 2X2
+  taxonomy_7_first_letter: '2'
+  taxonomy_7_first_letter_upper: '2'
+  taxonomy_7_length_1: '2'
+  taxonomy_7_length_2: 2x
+  taxonomy_7_length_3: 2x2
+  taxonomy_7_length_4: 2x2
+  taxonomy_7_length_5: 2x2
+  taxonomy_7_upper: 2X2
+  taxonomy_7_upper_length_1: '2'
+  taxonomy_7_upper_length_2: 2X
+  taxonomy_7_upper_length_3: 2X2
+  taxonomy_7_upper_length_4: 2X2
+  taxonomy_7_upper_length_5: 2X2
+  taxonomy_8: plug
+  taxonomy_8_capital: Plug
+  taxonomy_8_first_letter: p
+  taxonomy_8_first_letter_upper: P
+  taxonomy_8_length_1: p
+  taxonomy_8_length_2: pl
+  taxonomy_8_length_3: plu
+  taxonomy_8_length_4: plug
+  taxonomy_8_length_5: plug
+  taxonomy_8_upper: PLUG
+  taxonomy_8_upper_length_1: P
+  taxonomy_8_upper_length_2: PL
+  taxonomy_8_upper_length_3: PLU
+  taxonomy_8_upper_length_4: PLUG
+  taxonomy_8_upper_length_5: PLUG
+  taxonomy_9: ''
+  type: part
+  url_chat: ''
+  web: 1.0
+url_chat: ''
+web: 1.0

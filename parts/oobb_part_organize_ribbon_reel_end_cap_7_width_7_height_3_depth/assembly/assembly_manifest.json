@@ -1,0 +1,239 @@
+{
+  "style": {
+    "page_mm": [
+      297,
+      210
+    ],
+    "columns": 2,
+    "rows": 2,
+    "margin_mm": 6,
+    "gutter_mm": 4,
+    "border_radius_mm": 3,
+    "border_width_pt": 3.0,
+    "component_border_width_pt": 1.1,
+    "thumbnail_height_mm": 8.5,
+    "quantity_shift_mm": 1.0,
+    "paper": "FFFFFF",
+    "ink": "000000",
+    "accent": "000000",
+    "border": "000000",
+    "image_size": [
+      1500,
+      1100
+    ],
+    "samples": 24,
+    "eye": [
+      1.2,
+      -1.6,
+      1.35
+    ],
+    "underside_eye": [
+      1.2,
+      -1.6,
+      -1.5
+    ],
+    "font_body_pt": 7,
+    "font_code_pt": 6.4,
+    "font_url_prefix_pt": 4.8,
+    "quantity_pt": 5.8,
+    "explosion_scale": 1.35,
+    "draw_arrows": false,
+    "revision": "4"
+  },
+  "parts": {
+    "plug": {
+      "key": "plug",
+      "id": "oobb_part_organize_ribbon_reel_end_cap_7_width_7_height_3_depth",
+      "name": "First OOBB cap",
+      "quantity": 1
+    },
+    "socket": {
+      "key": "socket",
+      "id": "oobb_part_organize_ribbon_reel_end_cap_7_width_7_height_3_depth",
+      "name": "Second OOBB cap",
+      "quantity": 1
+    },
+    "core": {
+      "key": "core",
+      "id": "oobb_part_organize_ribbon_reel_core_3_diameter_25_depth",
+      "name": "25 mm ribbon core",
+      "quantity": 1
+    },
+    "gear": {
+      "key": "gear",
+      "id": "oobb_part_organize_ribbon_reel_drive_gear_3_width_3_height_6_depth",
+      "name": "Four-peg drive gear",
+      "quantity": 1
+    },
+    "nut": {
+      "key": "nut",
+      "id": "hardware_nut_m3",
+      "name": "M3 hex nut",
+      "quantity": 8,
+      "md5_6_alpha": "3vb5b",
+      "short_url": "https://oom.lt/a/3vb5b",
+      "short_label": "oom.lt/a/3vb5b"
+    },
+    "screw": {
+      "key": "screw",
+      "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+      "name": "M3 \u00d7 12 countersunk",
+      "quantity": 8,
+      "md5_6_alpha": "1qf1u",
+      "short_url": "https://oom.lt/a/1qf1u",
+      "short_label": "oom.lt/a/1qf1u"
+    }
+  },
+  "printed_keys": [
+    "plug",
+    "socket",
+    "core",
+    "gear"
+  ],
+  "configuration_title": "Original OOBB ribbon reel",
+  "steps": [
+    {
+      "key": "step_01",
+      "title": "Slide four M3 hex nuts into each end of the core.",
+      "action": "Slide four M3 hex nuts into each end of the core.",
+      "loose_parts": {
+        "core": 1,
+        "nut": 8
+      }
+    },
+    {
+      "key": "step_02",
+      "title": "Seat the first plate against the core. Tighten four M3 \u00d7 12 countersunk screws in the matching holes.",
+      "action": "Seat the first plate against the core. Tighten four M3 \u00d7 12 countersunk screws in the matching holes.",
+      "loose_parts": {
+        "plug": 1,
+        "screw": 4
+      }
+    },
+    {
+      "key": "step_03",
+      "title": "Turn the assembly over. Install the second plate with four screws. Keep both countersunk faces outward.",
+      "action": "Turn the assembly over. Install the second plate with four screws. Keep both countersunk faces outward.",
+      "loose_parts": {
+        "socket": 1,
+        "screw": 4
+      }
+    },
+    {
+      "key": "step_04",
+      "title": "Slide the gear shaft into the centre. Rotate to align its four pegs and press the gear face flat.",
+      "action": "Slide the gear shaft into the centre. Rotate to align its four pegs and press the gear face flat.",
+      "loose_parts": {
+        "gear": 1
+      }
+    }
+  ],
+  "physical_item_count": 20,
+  "source_sha256": {
+    "oobb_part_organize_ribbon_reel_end_cap_7_width_7_height_3_depth": "c3cb9fef782f7fcec02954578f4b51c16f709829f5214833dfccdc426f444b83",
+    "oobb_part_organize_ribbon_reel_core_3_diameter_25_depth": "57dc8aad8e8874e6c26ca47435644538fd69305ea821426f566ff866622ca867",
+    "oobb_part_organize_ribbon_reel_drive_gear_3_width_3_height_6_depth": "0f2393bc12da660d24ccf8b35c8d9f035e77c918fc1565b317d926e05f085c8b"
+  },
+  "book": {
+    "cover_title": "Ribbon reel",
+    "cover_subtitle": "Original OOBB / 25\u2013100 mm cores",
+    "logo_svg": "source_file/oomlout_logo_unshaded_original.svg",
+    "logo_symbol_subpaths": 3,
+    "project_url": "https://github.com/oomlout/oomlout_oobb_part_organize_ribbon_reel_version_5",
+    "project_name": "Original OOBB ribbon reel",
+    "details_title": "Assembly and fit",
+    "details": [
+      "The illustrations show the 25 mm core. The same assembly order applies to 50, 75 and 100 mm cores.",
+      "Slide four M3 hex nuts into each end of the core.",
+      "Seat the first plate against the core. Tighten four M3 \u00d7 12 countersunk screws in the matching holes.",
+      "Turn the assembly over. Install the second plate with four screws. Keep both countersunk faces outward.",
+      "Slide the gear shaft into the centre. Rotate to align its four pegs and press the gear face flat.",
+      "Print the flat ribbon face on the bed. Use one drive per reel.",
+      "AI-generated CAD images and instructions. Errors possible."
+    ],
+    "summary_title": "Printed parts",
+    "hardware_title": "Hardware",
+    "summary_step": true,
+    "summary_view": "book_cover",
+    "signature_pages": 4,
+    "viewer_layout": "a4-landscape-four-step",
+    "viewer_start": "page-03"
+  },
+  "summary_inventory": {
+    "printed": [
+      {
+        "key": "plug",
+        "id": "oobb_part_organize_ribbon_reel_end_cap_7_width_7_height_3_depth",
+        "name": "First OOBB cap",
+        "quantity": 1
+      },
+      {
+        "key": "socket",
+        "id": "oobb_part_organize_ribbon_reel_end_cap_7_width_7_height_3_depth",
+        "name": "Second OOBB cap",
+        "quantity": 1
+      },
+      {
+        "key": "core",
+        "id": "oobb_part_organize_ribbon_reel_core_3_diameter_25_depth",
+        "name": "25 mm ribbon core",
+        "quantity": 1
+      },
+      {
+        "key": "gear",
+        "id": "oobb_part_organize_ribbon_reel_drive_gear_3_width_3_height_6_depth",
+        "name": "Four-peg drive gear",
+        "quantity": 1
+      }
+    ],
+    "hardware": [
+      {
+        "key": "nut",
+        "id": "hardware_nut_m3",
+        "name": "M3 hex nut",
+        "quantity": 8,
+        "md5_6_alpha": "3vb5b",
+        "short_url": "https://oom.lt/a/3vb5b",
+        "short_label": "oom.lt/a/3vb5b"
+      },
+      {
+        "key": "screw",
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_12_mm_length",
+        "name": "M3 \u00d7 12 countersunk",
+        "quantity": 8,
+        "md5_6_alpha": "1qf1u",
+        "short_url": "https://oom.lt/a/1qf1u",
+        "short_label": "oom.lt/a/1qf1u"
+      }
+    ]
+  },
+  "book_pages": [
+    {
+      "kind": "cover"
+    },
+    {
+      "kind": "details"
+    },
+    {
+      "kind": "instructions",
+      "group": 0
+    },
+    {
+      "kind": "summary",
+      "number": 5
+    },
+    {
+      "kind": "spacer"
+    },
+    {
+      "kind": "spacer"
+    },
+    {
+      "kind": "parts"
+    },
+    {
+      "kind": "back"
+    }
+  ],
+  "printed_piece_count": 4
+}

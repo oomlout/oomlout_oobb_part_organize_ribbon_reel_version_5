@@ -1,0 +1,34 @@
+cells: 2
+oobb_details:
+  cells: 2
+  oobb_type: gridfinity_end
+  run_scad: true
+  run_solidcraft: false
+  side: plug
+  taxonomy_1: oobb
+  taxonomy_2: part
+  taxonomy_3: organize
+  taxonomy_4: ribbon
+  taxonomy_5: reel
+  taxonomy_6: gridfinity_end
+  taxonomy_7: 2x2
+  taxonomy_8: plug
+  web: 1.0
+oobb_type: gridfinity_end
+side: plug
+taxonomy_1: oobb
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: part
+taxonomy_3: organize
+taxonomy_4: ribbon
+taxonomy_5: reel
+taxonomy_6: gridfinity_end
+taxonomy_7: 2x2
+taxonomy_8: plug
+taxonomy_9: ''
+web: 1.0

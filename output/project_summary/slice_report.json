@@ -1,0 +1,28 @@
+{
+  "working.3mf": {
+    "sha256": "e834fc0a73340de760a195f7801abfe1f7e42a8edbfed854b14dcbc4627d6546",
+    "slicer": "bambu-studio.exe",
+    "plates": {
+      "plate_1.gcode": 13919224,
+      "plate_2.gcode": 15882468,
+      "plate_3.gcode": 17258406,
+      "plate_4.gcode": 18624186,
+      "plate_5.gcode": 9271386,
+      "plate_6.gcode": 11238149,
+      "plate_7.gcode": 12609696,
+      "plate_8.gcode": 13977225,
+      "plate_9.gcode": 12349509
+    },
+    "warnings": []
+  },
+  "working_2.3mf": {
+    "sha256": "09f28c6a8781d7cebaf7a8ec6ee4a73cdba3fee967bab0ed2f8e830498218f81",
+    "slicer": "bambu-studio.exe",
+    "plates": {
+      "plate_1.gcode": 14311593,
+      "plate_2.gcode": 15685288,
+      "plate_3.gcode": 17052970
+    },
+    "warnings": []
+  }
+}

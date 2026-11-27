@@ -28,10 +28,8 @@ def make_svg(**kwargs):
     svg_help.make_parts(**kwargs)
 
     if kwargs["navigation"]:
-        oobb_style = False
-        sort = svg_help.get_navigation_sort(oobb_style=oobb_style)
-        svg_help.generate_navigation(sort=sort)
-
+        import working_navigation
+        working_navigation.main()
 
 def get_parts(kwargs, oomp_mode):
     parts = []

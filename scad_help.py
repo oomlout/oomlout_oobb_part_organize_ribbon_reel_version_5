@@ -253,6 +253,14 @@ def make_scad_generic(part):
 
         oobb.opsc_make_object(f'{folder}/{mode}.scad', thing["components"], mode=mode, save_type=save_type, overwrite=overwrite, layers=layers, tilediff=tilediff, start=start)
         cleanup_raw_scad_artifacts(folder)
+        if part.get("oobb_details", {}).get("oobb_type") == "gridfinity_end":
+            # Keep the downloadable production SCAD self-contained.
+            from pathlib import Path
+            output = Path(folder) / f"{mode}.scad"
+            directive = "use <../scad_reference/gridfinity_end.scad>;"
+            source = (Path(__file__).parent / "source_file/gridfinity_end.scad").read_text(encoding="utf-8")
+            output.write_text(output.read_text(encoding="utf-8").replace(directive,source),encoding="utf-8")
+
         
 
 

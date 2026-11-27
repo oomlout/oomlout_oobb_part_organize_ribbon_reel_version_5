@@ -51,6 +51,12 @@ def main(**kwargs):
             oomp_kwargs["wait_for_completion"] = True
         working_oomp.main(**oomp_kwargs)
 
+    # OpenSCAD stores shared module sources alongside part directories.
+    # Only materialized catalogue entries have Roboclick actions.
+    if not any(kwargs.get(key) for key in ("filter", "filter_all", "filter_or")):
+        from pathlib import Path
+        kwargs["filter_or"] = [p.parent.name for p in Path("parts").glob("*/working.yaml")]
+
     # Run the legacy Roboclick "ai" namespace.  The name is historical: the
     # default OOMP actions in this repository are deterministic Python, image
     # resize, file-copy, and Jinja actions.  LLM actions are opt-in only.

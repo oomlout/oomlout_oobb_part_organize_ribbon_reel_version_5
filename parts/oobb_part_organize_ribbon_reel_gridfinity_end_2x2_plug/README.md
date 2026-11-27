@@ -1,0 +1,286 @@
+<!-- reel-catalogue:start -->
+# Gridfinity 2 × 2 plug plate
+
+> AI-generated CAD images and instructions. Errors possible.
+
+## Summary
+
+Gridfinity 2 × 2 plug plate for a 83.5 mm square ribbon reel on a 42 mm pitch. Print ribbon face down.
+
+[![Generated studio views](3dpr_presentation.png)](./)
+
+## Details
+
+[Printable STL](3dpr.stl) · [OpenSCAD source](3dpr.scad) · [Part folder](./) · [OOBB navigation](../../navigation_oobb/oobb/part/organize/ribbon/reel/gridfinity_end/2x2/plug/)
+
+## Parts
+
+`oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug`
+
+<details><summary>Catalogue metadata</summary>
+
+```yaml
+bip_39_2_word_array:
+- useful
+- veteran
+bip_39_2_word_no_space: usefulveteran
+bip_39_2_word_space: useful veteran
+bip_39_2_word_underscore: useful_veteran
+bip_39_3_word_array:
+- useful
+- veteran
+- stove
+bip_39_3_word_no_space: usefulveteranstove
+bip_39_3_word_space: useful veteran stove
+bip_39_3_word_underscore: useful_veteran_stove
+bip_39_full_array:
+- useful
+- veteran
+- stove
+- figure
+- drip
+- unable
+- lucky
+- autumn
+- mass
+- exile
+- ostrich
+- idea
+bip_39_full_no_space: usefulveteranstovefiguredripunableluckyautumnmassexileostrichidea
+bip_39_full_space: useful veteran stove figure drip unable lucky autumn mass exile
+  ostrich idea
+bip_39_full_underscore: useful_veteran_stove_figure_drip_unable_lucky_autumn_mass_exile_ostrich_idea
+cells: 2
+directory: parts/oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug
+id: oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug
+id_no_class: oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug
+id_no_size: oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug
+id_no_type: oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug
+md5: effe675aab0433d8a1287d8889f673b8
+md5_10: effe675aab
+md5_10_upper: EFFE675AAB
+md5_5: effe6
+md5_5_upper: EFFE6
+md5_6: effe67
+md5_6_alpha: 9d3zb
+md5_6_alpha_upper: 9D3ZB
+md5_6_upper: EFFE67
+name: Oobb Part Organize Ribbon Reel Gridfinity End 2X2 Plug
+name_no_class: Oobb Part Organize Ribbon Reel Gridfinity End 2X2 Plug
+name_no_size: Oobb Part Organize Ribbon Reel Gridfinity End 2X2 Plug
+name_no_type: Oobb Part Organize Ribbon Reel Gridfinity End 2X2 Plug
+name_proper: Oobb Part Organize Ribbon Reel Gridfinity End 2X2 Plug
+name_space: oobb part organize ribbon reel gridfinity end 2x2 plug
+name_upper: OOBB PART ORGANIZE RIBBON REEL GRIDFINITY END 2X2 PLUG
+oobb_details:
+  cells: 2
+  oobb_type: gridfinity_end
+  run_scad: true
+  run_solidcraft: false
+  side: plug
+  taxonomy_1: oobb
+  taxonomy_2: part
+  taxonomy_3: organize
+  taxonomy_4: ribbon
+  taxonomy_5: reel
+  taxonomy_6: gridfinity_end
+  taxonomy_7: 2x2
+  taxonomy_8: plug
+  web: 1.0
+oobb_type: gridfinity_end
+oomlout_ai_roboclick_1:
+  action_name: step_0_jinja_template_label_oomp.svg
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      cells: 2
+      directory: parts\oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug
+      name: oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug
+      name_proper: Oobb Part Organize Ribbon Reel Gridfinity End 2X2 Plug
+      name_space: oobb part organize ribbon reel gridfinity end 2x2 plug
+      name_upper: OOBB PART ORGANIZE RIBBON REEL GRIDFINITY END 2X2 PLUG
+      oobb_details:
+        cells: 2
+        oobb_type: gridfinity_end
+        run_scad: true
+        run_solidcraft: false
+        side: plug
+        taxonomy_1: oobb
+        taxonomy_2: part
+        taxonomy_3: organize
+        taxonomy_4: ribbon
+        taxonomy_5: reel
+        taxonomy_6: gridfinity_end
+        taxonomy_7: 2x2
+        taxonomy_8: plug
+        web: 1.0
+      oobb_type: gridfinity_end
+      side: plug
+      taxonomy_1: oobb
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: part
+      taxonomy_3: organize
+      taxonomy_4: ribbon
+      taxonomy_5: reel
+      taxonomy_6: gridfinity_end
+      taxonomy_7: 2x2
+      taxonomy_8: plug
+      taxonomy_9: ''
+      url_chat: ''
+      web: 1.0
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_oomp.svg
+    file_template: C:\gh\oomlout_oobb_part_organize_ribbon_reel_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_oomp.pdf
+  retries_until_complete: 0
+oomp_key: oomp_oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug
+side: plug
+taxonomy_1: oobb
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Oobb
+taxonomy_1_first_letter: o
+taxonomy_1_first_letter_upper: O
+taxonomy_1_length_1: o
+taxonomy_1_length_2: oo
+taxonomy_1_length_3: oob
+taxonomy_1_length_4: oobb
+taxonomy_1_length_5: oobb
+taxonomy_1_upper: OOBB
+taxonomy_1_upper_length_1: O
+taxonomy_1_upper_length_2: OO
+taxonomy_1_upper_length_3: OOB
+taxonomy_1_upper_length_4: OOBB
+taxonomy_1_upper_length_5: OOBB
+taxonomy_2: part
+taxonomy_2_capital: Part
+taxonomy_2_first_letter: p
+taxonomy_2_first_letter_upper: P
+taxonomy_2_length_1: p
+taxonomy_2_length_2: pa
+taxonomy_2_length_3: par
+taxonomy_2_length_4: part
+taxonomy_2_length_5: part
+taxonomy_2_upper: PART
+taxonomy_2_upper_length_1: P
+taxonomy_2_upper_length_2: PA
+taxonomy_2_upper_length_3: PAR
+taxonomy_2_upper_length_4: PART
+taxonomy_2_upper_length_5: PART
+taxonomy_3: organize
+taxonomy_3_capital: Organize
+taxonomy_3_first_letter: o
+taxonomy_3_first_letter_upper: O
+taxonomy_3_length_1: o
+taxonomy_3_length_2: or
+taxonomy_3_length_3: org
+taxonomy_3_length_4: orga
+taxonomy_3_length_5: organ
+taxonomy_3_upper: ORGANIZE
+taxonomy_3_upper_length_1: O
+taxonomy_3_upper_length_2: OR
+taxonomy_3_upper_length_3: ORG
+taxonomy_3_upper_length_4: ORGA
+taxonomy_3_upper_length_5: ORGAN
+taxonomy_4: ribbon
+taxonomy_4_capital: Ribbon
+taxonomy_4_first_letter: r
+taxonomy_4_first_letter_upper: R
+taxonomy_4_length_1: r
+taxonomy_4_length_2: ri
+taxonomy_4_length_3: rib
+taxonomy_4_length_4: ribb
+taxonomy_4_length_5: ribbo
+taxonomy_4_upper: RIBBON
+taxonomy_4_upper_length_1: R
+taxonomy_4_upper_length_2: RI
+taxonomy_4_upper_length_3: RIB
+taxonomy_4_upper_length_4: RIBB
+taxonomy_4_upper_length_5: RIBBO
+taxonomy_5: reel
+taxonomy_5_capital: Reel
+taxonomy_5_first_letter: r
+taxonomy_5_first_letter_upper: R
+taxonomy_5_length_1: r
+taxonomy_5_length_2: re
+taxonomy_5_length_3: ree
+taxonomy_5_length_4: reel
+taxonomy_5_length_5: reel
+taxonomy_5_upper: REEL
+taxonomy_5_upper_length_1: R
+taxonomy_5_upper_length_2: RE
+taxonomy_5_upper_length_3: REE
+taxonomy_5_upper_length_4: REEL
+taxonomy_5_upper_length_5: REEL
+taxonomy_6: gridfinity_end
+taxonomy_6_capital: Gridfinity End
+taxonomy_6_first_letter: g
+taxonomy_6_first_letter_upper: G
+taxonomy_6_length_1: g
+taxonomy_6_length_2: gr
+taxonomy_6_length_3: gri
+taxonomy_6_length_4: grid
+taxonomy_6_length_5: gridf
+taxonomy_6_upper: GRIDFINITY_END
+taxonomy_6_upper_length_1: G
+taxonomy_6_upper_length_2: GR
+taxonomy_6_upper_length_3: GRI
+taxonomy_6_upper_length_4: GRID
+taxonomy_6_upper_length_5: GRIDF
+taxonomy_7: 2x2
+taxonomy_7_capital: 2X2
+taxonomy_7_first_letter: '2'
+taxonomy_7_first_letter_upper: '2'
+taxonomy_7_length_1: '2'
+taxonomy_7_length_2: 2x
+taxonomy_7_length_3: 2x2
+taxonomy_7_length_4: 2x2
+taxonomy_7_length_5: 2x2
+taxonomy_7_upper: 2X2
+taxonomy_7_upper_length_1: '2'
+taxonomy_7_upper_length_2: 2X
+taxonomy_7_upper_length_3: 2X2
+taxonomy_7_upper_length_4: 2X2
+taxonomy_7_upper_length_5: 2X2
+taxonomy_8: plug
+taxonomy_8_capital: Plug
+taxonomy_8_first_letter: p
+taxonomy_8_first_letter_upper: P
+taxonomy_8_length_1: p
+taxonomy_8_length_2: pl
+taxonomy_8_length_3: plu
+taxonomy_8_length_4: plug
+taxonomy_8_length_5: plug
+taxonomy_8_upper: PLUG
+taxonomy_8_upper_length_1: P
+taxonomy_8_upper_length_2: PL
+taxonomy_8_upper_length_3: PLU
+taxonomy_8_upper_length_4: PLUG
+taxonomy_8_upper_length_5: PLUG
+taxonomy_9: ''
+url_chat: ''
+web: 1.0
+```
+
+</details>
+
+## Assembly
+
+[Open the reel assembly guide](../oobb_part_organize_ribbon_reel_gridfinity_end_2x2_socket/#assembly).
+<!-- reel-catalogue:end -->

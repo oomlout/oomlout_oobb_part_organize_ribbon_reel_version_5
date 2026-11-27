@@ -42,7 +42,7 @@ kwargs:
   filter: ''
   modes:
   - 3dpr
-  navigation: true
+  navigation: false
   oomp_mode: project
   oomp_run: true
   overwrite: true
@@ -55,7 +55,6 @@ kwargs:
   taxonomy_7: 3_diameter
   taxonomy_8: 25_depth
   typ: all
-  wait_for_completion: true
 link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_organize_ribbon_reel_core_3_diameter_25_depth
 link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_organize_ribbon_reel_core_3_diameter_25_depth
 link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_organize_ribbon_reel_core_3_diameter_25_depth

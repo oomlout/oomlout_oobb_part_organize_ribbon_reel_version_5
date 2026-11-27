@@ -1,0 +1,16 @@
+design_type: Original
+category: null
+license: null
+design_credits: OOBB by oomlout. Gridfinity by Zack Freedman, with dimensions from willtree8's Gridfinity Design Reference at https://gridfinity.xyz/specification/.
+assembly: Load four M3 nuts into each end of the core. Attach both end plates using the matching four countersinks per face. Fit the removable drive on one side. Remove the drive from the mating faces. Place Gridfinity reels plug-side down and align the socket of the reel below.
+hardware: Eight M3 hex nuts and eight M3 x 12 mm countersunk screws per reel.
+description: Printable ribbon reels with 25, 50, 75 or 100 mm winding space. Choose the original OOBB cap or matching 2x2 and 3x3 Gridfinity end plates. Each named build plate makes one reel and its removable four-peg drive. The 1 mm ribbon web carries standard feet or a shallow perimeter rim. A 5 mm diamond mouth guides ribbon into the slit. Fit has been checked in CAD. Print the corner and gear-seat gauges to check your machine.
+
+cover_image: output/project_summary/cover.png
+additional_images:
+  - parts/oobb_part_organize_ribbon_reel_gridfinity_end_2x2_plug/3dpr_presentation.png
+  - parts/oobb_part_organize_ribbon_reel_gridfinity_end_3x3_socket/3dpr_presentation.png
+  - design_stages/2x2/corner_fit.png
+assembly_guides:
+  - parts/oobb_part_organize_ribbon_reel_gridfinity_end_2x2_socket/assembly/assembly_instructions.pdf
+  - parts/oobb_part_organize_ribbon_reel_gridfinity_end_3x3_socket/assembly/assembly_instructions.pdf

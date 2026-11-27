@@ -28,9 +28,8 @@ def make_scad(**kwargs):
     scad_help.make_parts(**kwargs)
 
     if kwargs["navigation"]:
-        oobb_style = False  
-        sort = scad_help.get_navigation_sort(oobb_style=oobb_style)
-        scad_help.generate_navigation(sort=sort)
+        import working_navigation
+        working_navigation.main()
 
 def get_parts(kwargs, oomp_mode):
     import working_cad
@@ -319,11 +318,11 @@ def get_core(thing, **kwargs):
     # The shell and end lands have a separate bore from the local bosses.
     shell = {"components": [], "components_objects": [], "components_string": []}
     cylinder(shell, "positive", 0, depth, radius)
-    cylinder(shell, "negative", -0.1, 5.9, inner - 1)
+    cylinder(shell, "negative", -0.1, 5.91, inner - 1)
     cylinder(shell, "negative", 5.8, 1, inner - 1, inner)
-    cylinder(shell, "negative", 6.8, depth - 13.6, inner)
+    cylinder(shell, "negative", 6.79, depth - 13.58, inner)  # overlap both taper cuts
     cylinder(shell, "negative", depth - 6.8, 1, inner, inner - 1)
-    cylinder(shell, "negative", depth - 5.8, 5.9, inner - 1)
+    cylinder(shell, "negative", depth - 5.81, 5.91, inner - 1)
     thing["components"].append({"type": "rotation", "typetype": "positive", "pos": [0, 0, 0],
                                 "rot": [0, 0, 0], "objects": shell["components"]})
 
@@ -342,18 +341,32 @@ def get_core(thing, **kwargs):
     thing["components"].append({"type": "rotation", "typetype": "positive", "pos": [0, 0, 0],
                                 "rot": [0, 0, 0], "objects": body["components"]})
 
+    # The 1 mm web leaves the final 2 mm of each drive peg inside the core.
+    for x in (-15,15):
+        for y in (-15,15):
+            for z in (-0.1,depth-2.2):
+                cylinder(thing, "negative", z, 2.3, 3.25, x=x, y=y)
+
     for x, y in _screw_stations():
+        # The nose of a flush countersunk head reaches through the thin web.
+        cylinder(thing, "negative", -0.1, 0.8, 2.3, 1.75, x=x, y=y)
+        cylinder(thing, "negative", depth-0.7, 0.8, 1.75, 2.3, x=x, y=y)
         angle = math.degrees(math.atan2(y, x)) + 30
         for mode in ("3dpr", "true", "laser"):
             nut_depth = oobb.gv("nut_depth_m3", mode)
-            nut_radius = oobb.gv("nut_radius_m3", mode)
-            slot_adjustment = (math.sqrt(3) - 2) * nut_radius / 0.866
             for z in (nut_offset, depth - nut_offset - nut_depth):
                 oobb.append_full(thing, type="negative", shape="oobb_nut",
                     pos=[origin[0] + x, origin[1] + y, origin[2] + z],
                     rot=[0, 0, angle], radius_name="m3", mode=mode,
-                    depth=nut_depth, zz="bottom", clearance="left",
-                    extra_clearance=slot_adjustment, hole=False, overhang=True)
+                    depth=nut_depth, zz="bottom", clearance="",
+                    hole=False, overhang=True)
+                # A separate channel keeps the full hex seat. Adding 0.02 mm
+                # per side prevents coincident channel and hex faces on export.
+                half_width = math.sqrt(3) * oobb.gv("nut_radius_m3", mode) / 2 + 0.02
+                oobb.append_full(thing, type="negative", shape="polygon", inclusion=mode,
+                    pos=[origin[0]+x, origin[1]+y, origin[2]+z], rot=[0,0,angle],
+                    points=[[0,-half_width],[20,-half_width],[20,half_width],[0,half_width]],
+                    height=nut_depth)
         oobb.append_full(thing, type="negative", shape="oobb_hole",
             pos=[origin[0] + x, origin[1] + y, origin[2] - 0.1],
             radius_name="m3", depth=depth + 0.2)
@@ -372,26 +385,116 @@ def get_end_cap(thing, **kwargs):
     oobb.append_full(holes, type="negative", shape="oobb_holes", pos=list(origin),
                      width=width, height=height, depth=depth, holes="all", both_holes=True, radius_name="m6")
     core_radius = (3 * oobb.gv("osp") - oobb.gv("osp_minus")) / 2
+    edge = (width * oobb.gv("osp") - oobb.gv("osp_minus")) / 2
+    junction_x = edge - 15
+    branch_length = 30
+    pitch = oobb.gv("osp")
+    outer_grid = (width - 1) * pitch / 2
     pending = list(holes["components"])
     while pending:
         item = pending.pop()
         if isinstance(item, list):
             pending.extend(item)
-        elif not (abs(item["pos"][1] - origin[1]) < 0.001
-                  and item["pos"][0] - origin[0] >= core_radius):
-            thing["components"].append(item)
+        else:
+            x = item["pos"][0] - origin[0]
+            y = item["pos"][1] - origin[1]
+            on_entry = abs(y) < 0.001 and x >= core_radius
+            # Leave the branch and the two M3 positions beyond its end solid.
+            radius = item.get("r", 0)
+            nearest_y = min(max(y, 0), branch_length + 15)
+            on_branch = (x - junction_x) ** 2 + (y - nearest_y) ** 2 <= (radius + 0.75) ** 2
+            corner = abs(x - outer_grid) < 0.001 and abs(y - outer_grid) < 0.001
+            clear_quadrant_hole = x >= outer_grid - pitch - 0.001 and y >= 0 and not corner
+            overlaps_centre = x * x + y * y < (8.5 + radius) ** 2
+            if not on_entry and not on_branch and not clear_quadrant_hole and not overlaps_centre:
+                thing["components"].append(item)
 
-    edge = (width * oobb.gv("osp") - oobb.gv("osp_minus")) / 2
+    oobb.append_full(thing, type="negative", shape="oobb_cylinder",
+                     pos=[origin[0], origin[1], origin[2] - 0.1],
+                     zz="bottom", radius=8.5, depth=depth + 0.2)
+
     slot_length = edge - core_radius + 1
     oobb.append_full(thing, type="negative", shape="oobb_cube_center",
                      pos=[origin[0] + core_radius + slot_length / 2, origin[1], origin[2] - 0.1],
                      size=[slot_length, 1.5, depth + 0.2])
+    # The diamond is an enlarged junction between the entry and the side branch.
+    diamond_length = 5
+    diamond_width = 5
+    for diamond_middle in (junction_x, edge):
+        oobb.append_full(thing, type="negative", shape="polygon",
+                         pos=[origin[0] + diamond_middle, origin[1], origin[2] - 0.1],
+                         points=[[-diamond_length / 2, 0], [0, -diamond_width / 2],
+                                 [diamond_length / 2, 0], [0, diamond_width / 2]],
+                         height=depth + 0.2)
+    oobb.append_full(thing, type="negative", shape="oobb_cube_center",
+                     pos=[origin[0] + junction_x, origin[1] + branch_length / 2, origin[2] - 0.1],
+                     size=[1.5, branch_length, depth + 0.2])
     stations = _screw_stations()
     stations += [(x, -y) for x, y in stations]
     for x, y in stations:
         oobb.append_full(thing, type="negative", shape="oobb_screw_countersunk",
             pos=[origin[0]+x, origin[1]+y, origin[2]+depth], radius_name="m3",
             depth=depth, zz="top", hole=True, nut_include=False, overhang=False)
+
+
+
+def get_gridfinity_end(thing, **kwargs):
+    from working_gridfinity import ROOT
+    oobb.append_full(thing, type="positive", shape="raw_scad",
+                     source=(ROOT / "source_file/gridfinity_end.scad").read_text(encoding="utf-8"),
+                     module="gridfinity_end", pos=kwargs.get("pos", [0, 0, 0]),
+                     module_kwargs={"n": kwargs["cells"], "side": kwargs["side"], "web": kwargs["web"]})
+
+
+def get_drive_gear(thing, **kwargs):
+    origin = kwargs.get("pos", [0, 0, 0])
+    shaft_length = kwargs.get("shaft_length", 30)
+    plate_depth = kwargs.get("depth", 6)
+    plate_z = origin[2]
+    top_z = plate_z + plate_depth
+
+    oobb.append_full(thing, type="positive", shape="oobb_cylinder",
+                     pos=[origin[0], origin[1], top_z], zz="bottom", depth=shaft_length,
+                     radius=kwargs.get("shaft_diameter", 15) / 2)
+    oobb.append_full(thing, type="positive", shape="oobb_plate",
+                     pos=[origin[0], origin[1], plate_z],
+                     width=kwargs["width"], height=kwargs["height"], depth=plate_depth)
+
+    spacing = oobb.gv("osp")
+    for x in (-spacing, spacing):
+        for y in (-spacing, spacing):
+            peg_pos = [origin[0] + x, origin[1] + y, top_z]
+            oobb.append_full(thing, type="positive", shape="oobb_cylinder",
+                             pos=peg_pos, zz="bottom", depth=1.5, radius=2.75)
+            oobb.append_full(thing, type="positive", shape="oobb_cylinder",
+                             pos=[peg_pos[0], peg_pos[1], top_z + 1.5], zz="bottom",
+                             depth=1.5, radius_1=2.75, radius_2=1.25)
+
+    for x, y in ((spacing, 0), (-spacing, 0), (0, spacing), (0, -spacing)):
+        oobb.append_full(thing, type="negative", shape="oobb_hole", radius_name="m6",
+                         pos=[origin[0] + x, origin[1] + y, plate_z - 0.1],
+                         depth=plate_depth + 0.2)
+
+    half_pitch = spacing / 2
+    for x in (-spacing, spacing):
+        for y in (-half_pitch, half_pitch):
+            for dx, dy in ((x, y), (y, x)):
+                oobb.append_full(thing, type="negative", shape="oobb_screw_countersunk",
+                                 radius_name="m3", depth=plate_depth, zz="top",
+                                 pos=[origin[0] + dx, origin[1] + dy, top_z],
+                                 hole=True, nut_include=False, overhang=False)
+
+    oobb.append_full(thing, type="negative", shape="oobb_hole", radius_name="m6",
+                     pos=[origin[0], origin[1], origin[2] - 0.1],
+                     depth=shaft_length + plate_depth + 0.2)
+    # Open the nut pocket at the end of the shaft.
+    oobb.append_full(thing, type="negative", shape="oobb_nut", radius_name="m6",
+                     pos=[origin[0], origin[1], top_z + shaft_length], zz="top", overhang=True)
+    # A second nut can be inserted from the underside of the plate.
+    for mode in ("3dpr", "true", "laser"):
+        oobb.append_full(thing, type="negative", shape="oobb_nut", radius_name="m6",
+                         pos=list(origin), zz="bottom", mode=mode,
+                         depth=oobb.gv("nut_depth_m6", mode), overhang=True)
 
 
 

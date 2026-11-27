@@ -23,6 +23,9 @@ def main(**kwargs):
 
     import working
     working.run(**kwargs)
+    if not kwargs.get("filter") and "3dpr" in kwargs.get("modes", ["3dpr"]):
+        import working_reel_release
+        working_reel_release.main()
 
 if __name__ == '__main__':
     kwargs = {}
